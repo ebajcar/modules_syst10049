@@ -3,7 +3,7 @@
 ### Hypertext Markup Language (HTML)
 
 
-* [What is HTML?(pages/ch_1_1_0.html)
+* [What is HTML?](pages/ch_1_1_0.html)
 * [Grammar, Syntax, Semantics](pages/ch_1_1_1.html)
 * [Elements](pages/ch_1_1_2.html)
 * [Attributes](pages/ch_1_1_3.html)
