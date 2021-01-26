@@ -28,4 +28,30 @@
 ---
 
 ## Web Development 
+* [How the web works (URL, web server)](pages/ch_2_1_1.html)
+* [Protocols (TCP/IP, HTTP, HTTPS, FTP)](pages/ch_2_1_2.html)
+* [Standards, conventions, best practices (W3C, WHATWG, WAI)](pages/ch_2_2_1.html)
 * [x](url)
+
+
+2.2.1. 
+
+2.2.2. User agents (browsers, SEO)
+
+2.2.3. Accessibility
+
+2.2.4. Design process and Progressive Enhancement
+
+2.2.5. Semantic correctness
+
+2.3.1. Planning a simple web app (file organization, file paths, navigating directory tree
+
+2.3.2. Protecting a website (permissions)
+
+2.4.1. Planning and designing a web app 
+
+2.4.2. Writing documentation and coding
+
+2.4.3. Debugging, testing, and validating code
+
+2.5.1. Publishing your website
