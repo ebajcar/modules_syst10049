@@ -4,14 +4,14 @@
 ### What is HTML?
 
 * [Grammar, Syntax, Semantics](pages/ch_1_1_0.html)
-* [Elements](url)
-* [Attributes](url)
-* [Content (data)](url)
+* [Elements](pages/ch_1_1_1.html)
+* [Attributes](pages/ch_1_1_2.html)
+* [Content (data)](pages/ch_1_1_3.html)
 
 ### HTML Document
-* [Defining document structure](url)
-* [Minimal HTML5 document](url)
-* [Document Object Model (DOM)](url)
+* [Defining document structure](pages/ch_1_2_1.html)
+* [Minimal HTML5 document](pages/ch_1_2_2.html)
+* [Document Object Model (DOM)](pages/ch_1_2_3.html)
 
 
 ### The HEAD section
