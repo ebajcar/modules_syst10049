@@ -1,12 +1,13 @@
 # Table of Contents
 
-## Hypertext Markup Language (HTML)
-### What is HTML?
+### Hypertext Markup Language (HTML)
 
-* [Grammar, Syntax, Semantics](pages/ch_1_1_0.html)
-* [Elements](pages/ch_1_1_1.html)
-* [Attributes](pages/ch_1_1_2.html)
-* [Content (data)](pages/ch_1_1_3.html)
+
+* [What is HTML?(pages/ch_1_1_0.html)
+* [Grammar, Syntax, Semantics](pages/ch_1_1_1.html)
+* [Elements](pages/ch_1_1_2.html)
+* [Attributes](pages/ch_1_1_3.html)
+* [Content (data)](pages/ch_1_1_4.html)
 
 ### HTML Document
 * [Defining document structure](pages/ch_1_2_1.html)
