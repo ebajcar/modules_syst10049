@@ -2,15 +2,24 @@
 
 ## Hypertext Markup Language (HTML)
 ### What is HTML?
-[Grammar, Syntax, Semantics](url)
-[Elements](url)
-[Attributes](url)
-[Content (data)](url)
+
+* [Grammar, Syntax, Semantics](url)
+
+* [Elements](url)
+
+* [Attributes](url)
+
+- [Content (data)](url)
+
 
 ### HTML Document
+
 [Defining document structure](url)
+
 [Minimal HTML5 document](url)
+
 [Document Object Model (DOM)](url)
+
 
 ### The HEAD section
 [Children of the head element](url)
