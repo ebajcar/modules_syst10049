@@ -31,27 +31,18 @@
 * [How the web works (URL, web server)](pages/ch_2_1_1.html)
 * [Protocols (TCP/IP, HTTP, HTTPS, FTP)](pages/ch_2_1_2.html)
 * [Standards, conventions, best practices (W3C, WHATWG, WAI)](pages/ch_2_2_1.html)
-* [x](url)
+* [User agents (browsers, SEO)](pages/ch_2_2_2.html)
+* [Accessibility](pages/ch_2_2_3.html)
+* [Design process and Progressive Enhancement](pages/ch_2_2_4.html)
+* [Semantic correctness](pages/ch_2_2_5.html)
+
+* [Planning a simple web app (file organization, file paths, navigating directory tree](pages/ch_2_3_1.html)
+* [Protecting a website (permissions)](pages/ch_2_3_2.html)
+
+* [Planning and designing a web app](pages/ch_2_4_1.html)
+* [Writing documentation and coding](pages/ch_2_4_2.html)
+* [Debugging, testing, and validating code](pages/ch_2_4_3.html)
+
+* [Publishing your website](pages/ch_2_5_1.html)
 
 
-2.2.1. 
-
-2.2.2. User agents (browsers, SEO)
-
-2.2.3. Accessibility
-
-2.2.4. Design process and Progressive Enhancement
-
-2.2.5. Semantic correctness
-
-2.3.1. Planning a simple web app (file organization, file paths, navigating directory tree
-
-2.3.2. Protecting a website (permissions)
-
-2.4.1. Planning and designing a web app 
-
-2.4.2. Writing documentation and coding
-
-2.4.3. Debugging, testing, and validating code
-
-2.5.1. Publishing your website
