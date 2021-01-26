@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Unit 2.4.3.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
+<link href="css/short_pages.css" rel="stylesheet">  
+</head>
+<body>
+<main class="container">
+	
+	<section><!-- •••••• 2.4.3 Debugging, testing, and validating code -->	
+    <h2>Development in web environment</h2>
+	
+
+	<h4>Debugging, testing, and validating code</h4>
+  <h5>Test and observe (default) presentation.</h5>
+  <p>Use Chrome browser to test how the browser renders your HTML document (from Notepad++, select Run > Launch in Chrome. Make note of individual components of the content, their position, their characteristics, their behaviour. Is everything visible? only what you've expected? which elements are inline? which elements are block? Test with other browsers, where possible, and use Chrome's Inspect tools.</p>
+  
+  <footer class="blockquote-footer">Read further  <cite title="[ Emulate and Test Other Browsers (google) ]"><a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/testing-other-browsers" target="_blank"> Emulate and Test Other Browsers (google)</a></cite></footer>
+  <hr>  
+  
+  <p>Correct anything that needs to be changed. Test on a regular basis; do not wait until you have completed everything; add ten to twenty lines between tests. Capture all observations in comments. Use techniques like "TODO" and "TOFIX" to annotate incomplete markup or opportunities to improve it (similar to refactoring in Java). Validate, correct to remove errors, and re-test.</p>
+
+  <h5>How to validate HTML5 documents</h5>
+  <p>Testing is not enough. Most browsers will do a very good job displaying your content pretty much as you expect them to do so. Content can display properly and you still may have syntax and semantic errors in your code.</p>
+  <p>Always validate your code at validator.w3.org. Use the "Validate by Direct Input" tab for now. In the editor, press Ctr+a to select all code; followed by Ctr+c to copy selection to buffer, and then in the "Enter the Markup to validate" area page, Ctr+v to paste the buffer.</p>
+  
+   <footer class="blockquote-footer">Read further  <cite title="[ W3C Recommendation, 1.10. conformance requirements for authors ]"><a href="https://www.w3.org/TR/html52/introduction.html#conformance-requirements-for-authors" target="_blank"> W3C Recommendation, 1.10. Conformance requirements for authors;  detailing common reasons for distinguishing between a conforming document and one with errors.</a></cite></footer>
+  <hr> 
+  
+  <h5>Debugging HTML</h5>
+  <p>Writing HTML is fine, but what if something goes wrong, and you can't work out where the error in the code is? This article, <a href="" target="_blank">Debugging HTML (MDN)</a>, will introduce you to some tools that can help you find and fix errors in HTML.</p>
+  <p>The basic rules to adhere to, in addition to semantic correctness, for HTML5 specifically:</p>
+  <ol type="i">
+    <li>All elements are properly closed. <code>&lt;p> content &lt;/p></code></li>
+    <li>Empty elements are never closed. [exception] <code>&lt;br></code></li>
+    <li>All elements are properly nested. <code>&lt;p>&lt;em>&lt;mark> content &lt;/mark>&lt;/em>&lt;/p></code></li>
+    <li>All attributes have a quoted value assigned. <code>&lt;img src="image.png" alt="an image"></code></li>
+    <li>Single-valued attributes are minimized. [exception] <code>&lt;input autofocus selected></code></li>
+  </ol>
+	<hr>
+  </section>
+    
+  
+	</section>
+
+
+</main>  
+
+
+
+
+<!-- 
+  ** *******************************************
+  ** Footer
+  ** *******************************************
+-->	
+<hr>
+<footer class="container">   
+    <div class="xsmall fa fa-copyright" style="padding:1% 13%;text-align:center;">
+        <em>This work is the intellectual property of Sheridan College. Any further copying 
+        and distribution outside of class must be within the copyright law. Posting to 
+        commercial sites for profit is prohibited.</em>
+    </div>   
+    <address style="text-align:center;">SYST10049 Web Development |&nbsp;Sheridan College</address> 					
+</footer> 
+  
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/htmlbars.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/xml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/markdown.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+  'use strict'
+
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement('style')
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.head.appendChild(msViewportStyle)
+  }
+
+}())    
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Unit 3.1.2.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
+<link href="css/short_pages.css" rel="stylesheet">  
+</head>
+<body>
+<main class="container">
+	
+	<section> <!-- 1.1.4.  Content (data) -->		
+    <h2>Marking up textual content</h2>
+
+<section><!-- 3.1.2. Emphasis and importance  -->	
+	<h4>Emphasis and importance</h4>
+	<dl class="row">
+	  <dt class="col-sm-3 text-info"><samp>em</samp> element</dt>
+	  <dd class="col-sm-9">  represents stress emphasis of its contents. The level of stress that a particular piece of content has is given by its number of ancestor em elements. The placement of stress emphasis changes the meaning of the sentence. The element thus forms an integral part of the content. The precise way in which stress is used in this way depends on the language.</dd>	
+	  <dt class="col-sm-3 text-info"><samp>strong</samp> element</dt>
+	  <dd class="col-sm-9"> represents strong importance, seriousness, or urgency for its contents. <small><a href="">&mdash;MDN</a></small></dd>	
+	</dl>
+	
+<figure>
+<pre class="html"><code>
+&lt;!-- emphasizing words and phrases -->
+&lt;p>If you need to emphasize a word or a particular fact in 
+a sentence, you can use italics to stress it. That said, italics 
+and other font changes lose their impact if overused. Use it 
+sparingly and rely on strong writing and &lt;em>strategic word 
+placement&lt;/em> to get your point across.&lt;/p>
+
+&lt;p>Boldface fonts can be used sparsely to draw attention 
+to words or short phrases, and are most often seen in business 
+writing. &lt;strong>Using boldface for emphasis is not 
+appropriate for academic writing.&lt;/strong>
+&lt;/p></code></pre>
+<iframe style="width:100%;height:150px;border:1px dotted blue;" srcdoc='<p> 
+If you need to emphasize a word or a particular fact in 
+a sentence, you can use italics to stress it. That said, italics 
+and other font changes lose their impact if overused. Use it 
+sparingly and rely on strong writing and <em>strategic word 
+placement</em> to get your point across.</p>
+<p>Boldface fonts can be used sparsely to draw attention 
+to words or short phrases, and are most often seen in business 
+writing. <strong>Using boldface for emphasis is not 
+appropriate for academic writing.</strong>
+</p>'></iframe>
+<figcaption> ...</figcaption>
+</figure>
+<hr>	
+
+
+<figure>
+<pre class="html"><code>
+&lt;!-- These examples show how changing the stress emphasis changes 
+the meaning. First, a general statement of fact, with no stress: -->
+&lt;p>Cats are cute animals.&lt;/p>
+
+&lt;!-- By emphasizing the first word, the statement implies that 
+the kind of animal under discussion is in question (maybe someone 
+is asserting that dogs are cute): -->
+&lt;p>&lt;em>Cats&lt;/em> are cute animals.&lt;/p>
+
+&lt;!-- Moving the stress to the verb, one highlights that the truth 
+of the entire sentence is in question (maybe someone is saying cats 
+are not cute): -->
+&lt;p>Cats &lt;em>are&lt;/em> cute animals.&lt;/p>
+
+&lt;!-- By moving it to the adjective, the exact nature of the cats 
+is reasserted (maybe someone suggested cats were mean animals): -->
+&lt;p>Cats are &lt;em>cute&lt;/em> animals.&lt;/p>
+
+&lt;!-- Similarly, if someone asserted that cats were vegetables, 
+someone correcting this might emphasize the last word: -->
+&lt;p>Cats are cute &lt;em>animals&lt;/em>.&lt;/p>
+
+&lt;!-- By emphasizing the entire sentence, it becomes clear that 
+the speaker is fighting hard to get the point across. This kind of 
+stress emphasis also typically affects the punctuation, hence the 
+exclamation mark here. -->
+&lt;p>&lt;em>Cats are cute animals!&lt;/em>&lt;/p>
+
+&lt;!-- Anger mixed with emphasizing the cuteness could lead to 
+markup such as: -->
+&lt;p>&lt;em>Cats are &lt;em>cute&lt;/em> animals!&lt;/em>&lt;/p>
+</code></pre>
+<iframe style="width:100%;height:270px;border:1px dotted blue;" srcdoc='
+<p>Cats are cute animals.</p>
+<p><em>Cats</em> are cute animals.</p>
+<p>Cats <em>are</em> cute animals.</p>
+<p>Cats are <em>cute</em> animals.</p>
+<p>Cats are cute <em>animals</em>.</p>
+<p><em>Cats are cute animals!</em></p>
+<p><em>Cats are <em>cute</em> animals!</em></p>
+'></iframe>
+<figcaption> Example from <a href="https://www.w3.org/TR/html52/textlevel-semantics.html#the-em-element" target="">W3C Recommendation, 4.5.2 The em element</a></figcaption>
+</figure>
+<hr>	
+
+<figure>
+<pre class="html"><code>
+&lt;!-- importance -->
+&lt;p>
+  &lt;strong>Warning.&lt;/strong> 
+  This dungeon is dangerous.
+  &lt;strong>Avoid the ducks.&lt;/strong> 
+  Take any gold you find.
+  &lt;strong>
+    &lt;strong>
+      Do not take any of the diamonds
+    &lt;/strong>,
+    they are explosive and 
+    &lt;strong>
+      will destroy anything within ten meters.
+    &lt;/strong>
+  &lt;/strong> 
+  You have been warned.
+&lt;/p></code></pre>
+<iframe style="width:100%;height:120px;border:1px dotted blue;" srcdoc='
+<p><strong>Warning.</strong> This dungeon is dangerous.
+<strong>Avoid the ducks.</strong> Take any gold you find.
+<strong><strong>Do not take any of the diamonds</strong>,
+they are explosive and <strong>will destroy anything within
+ten meters.</strong></strong> You have been warned.</p>
+'></iframe>
+<figcaption> Example of importance.</figcaption>
+</figure>
+</section>
+    
+  
+	</section>
+
+
+</main>  
+
+
+
+
+<!-- 
+  ** *******************************************
+  ** Footer
+  ** *******************************************
+-->	
+<hr>
+<footer class="container">   
+    <div class="xsmall fa fa-copyright" style="padding:1% 13%;text-align:center;">
+        <em>This work is the intellectual property of Sheridan College. Any further copying 
+        and distribution outside of class must be within the copyright law. Posting to 
+        commercial sites for profit is prohibited.</em>
+    </div>   
+    <address style="text-align:center;">SYST10049 Web Development |&nbsp;Sheridan College</address> 					
+</footer> 
+  
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/htmlbars.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/xml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/markdown.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+  'use strict'
+
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement('style')
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.head.appendChild(msViewportStyle)
+  }
+
+}())    
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>

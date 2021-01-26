@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Unit 2.3.1.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
+<link href="css/short_pages.css" rel="stylesheet">  
+</head>
+<body>
+<main class="container">
+	
+	<section> <!-- 1.1.4.  Content (data) -->		
+    <h2>Development in web environment</h2>
+
+	<h3>Planning a simple web app</h3>
+	
+	<section><!-- •••••• 2.3.1. File naming conventions -->
+	<h4>File naming conventions</h4>
+	<ol>
+		<li>Do not use spaces in file and directory (folder) names</li>
+		<li>Use short filenames (seven-nine characters) that have meaning</li>
+		<li>Use lower case, but camel casing is OK; be consistent.</li>
+		<li>Use alphanumeric characters only: letters and numbers</li>
+		<li>Avoid special characters, such as * ! # $ % ^ & = + ; ,</li>
+		<li>Use underscores, avoid hyphens; be consistent.</li>
+		<li>Use either .html or .htm (pick one nd stick to it, do not mix); prefer .html</li>
+		<li>All filenames end in dot-three-letter, some dot-four-letter, extension.</li>
+	</ol>
+  <hr>
+	</section>
+  
+	<section><!-- •••••• 2.3.2. Typical (standard) file organization -->
+	<h4>Typical (standard) file organization</h4>
+	<p>Where should your website live on your computer? What structure should your website have?</p>
+ 
+ 	<figure>
+		<img src=" http://bajcar.dev.fast.sheridanc.on.ca/web_assets/images/sample_webspace_org.png" alt="sample webspace organization"  style="width:224px;">
+		<figcaption>Sample webspace organization</figcaption>
+	</figure> 
+  <p>Practice good file management! Use standard hierarchy structure, conceptual and physical diagrams.</p>
+  <p hidden>The most common structure used is the hierarchy, based on the Graphs and Trees [find file]</p>
+  <hr>
+  </section>
+
+	
+	<section><!-- •••••• 2.3.3. File paths  -->
+	<h4>File paths</h4>
+	<figure>
+		<img src="https://www.w3.org/community/webed/wiki/images/5/5d/Path.png" alt="relative path sub-tree" data-ref-link="https://www.w3.org/community/webed/wiki/HTML/Training" style="width:60%;">
+		<figcaption><strong>Syntax</strong> <code>&lt;a href="path/file.html">Link label&lt;/a></code>
+			<ul>
+				<li>Linking to file in a <strong>same directory</strong> (current directory is XXX): 
+					code in b.html, linking to c.html <br><code>&lt;a href="c.html">Link label&lt;/a></code></li>
+				<li>Linking to file in a <strong>parent directory</strong>: 
+					code in b.html, linking to a.html <br><code>&lt;a href="../a.html">Link label&lt;/a></code></li>
+				<li>Linking to file in a <strong>subdirectory</strong>:
+					code in a.html, linking to b.html <br><code>&lt;a href="XXX/b.html">Link label&lt;/a></code></li>
+				<li>absolute URL: 
+					<br><code>&lt;a href="http://www.apache.org/foundation/FAQ.html">Apache Software Foundation FAQ&lt;/a></code></li>
+			</ul>
+		</figcaption>
+	</figure>
+  <hr>
+	<h4>Navigating directory tree</h4>
+	<dl class="row">
+	  <dt class="col-sm-5">Path</dt>
+	  <dd class="col-sm-7"><strong>What it means&hellip;</strong></dd>	
+	  
+	  <dt class="col-sm-5"><code>&lt;a href="tips/page.html"></code></dt>
+	  <dd class="col-sm-7">page.html is located in a directory called <em>tips</em>. The directory is located in the current directory.</dd>	
+	  
+	  <dt class="col-sm-5"><code>&lt;a href="tips/other/page.html"></code></dt>
+	  <dd class="col-sm-7">page.html is located in a directory called otehr that is located in a folder called tips that is located in the current directory.</dd>
+	  
+	  <dt class="col-sm-5"><code>&lt;a href="../../page.html"></code></dt>
+	  <dd class="col-sm-7">page.html is located in a directory two levels up from the current directory.</dd>	  
+	</dl>
+
+	</section>    
+  
+	</section>
+
+
+</main>  
+
+
+
+
+<!-- 
+  ** *******************************************
+  ** Footer
+  ** *******************************************
+-->	
+<hr>
+<footer class="container">   
+    <div class="xsmall fa fa-copyright" style="padding:1% 13%;text-align:center;">
+        <em>This work is the intellectual property of Sheridan College. Any further copying 
+        and distribution outside of class must be within the copyright law. Posting to 
+        commercial sites for profit is prohibited.</em>
+    </div>   
+    <address style="text-align:center;">SYST10049 Web Development |&nbsp;Sheridan College</address> 					
+</footer> 
+  
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/htmlbars.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/xml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/markdown.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+  'use strict'
+
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement('style')
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.head.appendChild(msViewportStyle)
+  }
+
+}())    
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>
