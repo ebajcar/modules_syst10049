@@ -68,7 +68,7 @@ Why do we need semantics?
 * are the attributes global or element-specific?
 * add to your written code, as comments, all corrections and observations.
 
-#### C. Create your own version of the examples in  [Example Set 2](https://padlet.com/ellen_bajcar/tcq04gapbi9d) in directory `C:\public_html\syst10049\practice`, choosing an appropriate name.
+#### C. Create your own version of the examples in ~~[Example Set 2](https://padlet.com/ellen_bajcar/tcq04gapbi9d)~~ in directory `C:\public_html\syst10049\practice`, choosing an appropriate name. Broken link, instead use [padlet examples](https://padlet.com/ellen_bajcar/8o2z4lpg5j94) 
 -
 	 - [ ] start with minimal HTML5 document
 	 - [ ] copy the rendered content (right-hand side) into the body
