@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Unit 4.1.3.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
+<link href="css/short_pages.css" rel="stylesheet">  
+</head>
+<body>
+<main class="container">	
+  <h2>Marking up textual content</h2>
+ 
+  <section> <!-- 4.1.3. Figures and figure captions -->
+    <h3>Figures and figure captions</h3>
+	<dl class="row">
+	  <dt class="col-sm-3 text-info">element <samp>figure</samp> </dt>
+	  <dd class="col-sm-9">represents some flow content, optionally with a caption, that is self-contained (like a complete sentence) and is typically referenced as a single unit from the main flow of the document.
+      <ul>
+        <li>can be used to annotate illustrations, diagrams, photos, code listings, etc.</li> 
+        <li>when a figure is referred to from the main content of the document by identifying it by its caption (e.g., by figure number), it enables such content to be easily moved away from that primary content, e.g., to the side of the page, to dedicated pages, or to an appendix, without affecting the flow of the document.</li> 
+      </ul>
+      <footer class="blockquote-footer">Read further  
+        <cite title="[ about the figure element at W3C☍ ]">
+          <a href="https://www.w3.org/TR/html52/grouping-content.html#the-figure-element" 
+            target="_blank"> about the figure element at W3C☍</a>  
+          <!-- a href=" " 
+            target="_blank"> ☍MDN</a-->          
+        </cite>
+      </footer> 
+	  </dd>	
+    
+	  <dt class="col-sm-3 text-info">element <samp>figcaption</samp></dt>
+	  <dd class="col-sm-9"> <p>represents a caption or legend for the rest of the contents of the figcaption element’s parent figure element, if any.</p></dd>
+	</dl>	
+    <footer class="blockquote-footer">Read further  <cite title="[ ]"><a href="" target="_blank"> </a></cite></footer>
+
+    <figure>
+<pre class="html"><code>
+&lt;!-- image in a figure with description -->
+&lt;p>Content before...&lt;/p>
+&lt;figure>
+    &lt;img src="semElements.gif" alt="page regions">
+&lt;figcaption>Figure XVI: description here&lt;/figcaption>
+&lt;/figure>
+&lt;p>Content after...&lt;/p></code></pre>
+    <iframe style="width:100%;height:280px;border:1px dotted blue;" srcdoc='
+<p>Content before...</p>
+<figure>
+    <img src="http://bajcar.dev.fast.sheridanc.on.ca/web_assets/images/semElements.gif" alt="page regions" height="150">
+<figcaption>Figure XVI: description here</figcaption>
+</figure>
+<p>Content after...</p>
+    '></iframe>
+    <figcaption> A typical layout using page regions.</figcaption>
+    </figure>   
+  </section>  
+
+</main>  
+
+
+
+
+<!-- 
+  ** *******************************************
+  ** Footer
+  ** *******************************************
+-->	
+<hr>
+<footer class="container">   
+    <div class="xsmall fa fa-copyright" style="padding:1% 13%;text-align:center;">
+        <em>This work is the intellectual property of Sheridan College. Any further copying 
+        and distribution outside of class must be within the copyright law. Posting to 
+        commercial sites for profit is prohibited.</em>
+    </div>   
+    <address style="text-align:center;">SYST10049 Web Development |&nbsp;Sheridan College</address> 					
+</footer> 
+  
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/htmlbars.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/xml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/markdown.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+  'use strict'
+
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement('style')
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.head.appendChild(msViewportStyle)
+  }
+
+}())    
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>

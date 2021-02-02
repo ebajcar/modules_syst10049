@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Unit 4.2.1.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
+<link href="css/short_pages.css" rel="stylesheet">  
+</head>
+<body>
+<main class="container">
+  <h2>Marking up textual content</h2>
+  <h4>Grouping content</h4>    
+
+<!-- 4.2 Grouping content -->
+<section>
+	
+
+  <h3>Ordered and unordered lists</h3>
+	<dl  class="row">	
+	  <dt class="col-sm-2 text-info">element <samp>ol</samp></dt>
+	  <dd class="col-sm-10">The ol element represents a list of items, where the items have been intentionally ordered, such that changing the order would change the meaning of the document. The items of the list are the li element child nodes of the ol element, in tree order.
+      <ul>
+        <li>The <code>reversed</code> attribute is a boolean attribute. If present, it indicates that the list is a descending list (..., 3, 2, 1). If the attribute is omitted, the list is an ascending list (1, 2, 3, ...).</li>
+        <li>The <code>start</code> attribute, if present, must be a valid integer giving the ordinal value of the first list item.</li>
+        <li>The <code>type</code> attribute, can be used to specify the kind of marker to use in the list, in the cases where that matters. It must have a value that is a case-sensitive match for one of the characters <kbd>1</kbd> (decimal), <kbd>a</kbd> (lower-alpha),      <kbd>A</kbd> (upper-alpha), <kbd>i</kbd>  (lower-roman),  <kbd>I</kbd> (upper-roman). </li>
+      </ul>
+    </dd>	
+	  <dt class="col-sm-2 text-info">element <samp>ul</samp></dt>
+	  <dd class="col-sm-10">The ul element represents a list of items, where the order of the items is not important — that is, where changing the order would not materially change the meaning of the document. The items of the list are the li element child nodes of the ul element.</dd>	
+	  <dt class="col-sm-2 text-info">element <samp>li</samp></dt>
+	  <dd class="col-sm-10">The li element represents a list item. If its parent element is an ol, or ul, then the element is an item of the parent element’s list, as defined for those elements. Otherwise, the list item has no defined list-related relationship to any other li element.</dd> 
+	</dl>	
+  <footer class="blockquote-footer">Read further  <cite title="[ol, ul, li elements at W3C ]"><a href="https://www.w3.org/TR/html52/grouping-content.html#the-ol-element" target="_blank"> ol, ul, li elements at W3C</a></cite></footer>
+  <hr>
+  
+  <h5>Examples</h5>
+<figure>
+<pre class="html"><code>
+&lt;ol>
+  &lt;li>First item&lt;/li>
+  &lt;li>Second item&lt;/li>
+  &lt;li>Third item&lt;/li>
+&lt;/ol></code></pre>
+<iframe style="width:100%;height:100px;border:1px dotted blue;" srcdoc='
+  <ol>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+  </ol>
+'></iframe>
+<figcaption> A simple ordered list with three items. Note defaults.</figcaption>
+</figure>  
+
+<figure>
+<pre class="html"><code>
+&lt;ul>
+  &lt;li>First item&lt;/li>
+  &lt;li>Second item&lt;/li>
+  &lt;li>Third item&lt;/li>
+&lt;/ul></code></pre>
+<iframe style="width:100%;height:100px;border:1px dotted blue;" srcdoc='
+  <ul>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+  </ul>
+'></iframe>
+<figcaption> A simple unordered list with three items. Note defaults.</figcaption>
+</figure>
+
+<figure>
+<pre class="html"><code>
+&lt;figure>
+  &lt;figcaption>The top 10 movies of all time&lt;/figcaption>
+  &lt;ol reversed>
+    &lt;li>&lt;cite lang="sh">Црна мачка, бели мачор&lt;/cite>, 1998&lt;/li>
+    &lt;li>&lt;cite>A Bug’s Life&lt;/cite>, 1998&lt;/li>
+    &lt;li>&lt;cite>Toy Story&lt;/cite>, 1995&lt;/li>
+    &lt;li>&lt;cite>Monsters, Inc&lt;/cite>, 2001&lt;/li>
+    &lt;li>&lt;cite>Cars&lt;/cite>, 2006&lt;/li>
+    &lt;li>&lt;cite>Toy Story 2&lt;/cite>, 1999&lt;/li>
+    &lt;li>&lt;cite>Finding Nemo&lt;/cite>, 2003&lt;/li>
+    &lt;li>&lt;cite>The Incredibles&lt;/cite>, 2004&lt;/li>
+    &lt;li>&lt;cite>Ratatouille&lt;/cite>, 2007&lt;/li>
+  &lt;/ol>
+&lt;/figure></code></pre>
+<iframe style="width:100%;height:190px;border:1px dotted blue;" srcdoc='
+<figure>
+  <figcaption>The top 10 movies of all time</figcaption>
+  <ol reversed>
+    <li><cite lang="sh">Црна мачка, бели мачор</cite>, 1998</li>
+    <li><cite>A Bug’s Life</cite>, 1998</li>
+    <li><cite>Toy Story</cite>, 1995</li>
+    <li><cite>Monsters, Inc</cite>, 2001</li>
+    <li><cite>Cars</cite>, 2006</li>
+    <li><cite>Toy Story 2</cite>, 1999</li>
+    <li><cite>Finding Nemo</cite>, 2003</li>
+    <li><cite>The Incredibles</cite>, 2004</li>
+    <li><cite>Ratatouille</cite>, 2007</li>
+  </ol>
+</figure>
+'></iframe>
+<figcaption> Example from <cite><a  target="_blank" href="https://www.w3.org/TR/html52/grouping-content.html#the-li-element">W3C</a></cite> demonstrating a reversed ordered list, in a figure with figure caption, use of cite element and lang attribute.</figcaption>
+</figure>  
+ 
+  <h5>Description lists</h5>
+	<dl  class="row">	
+	  <dt class="col-sm-3 text-info">element <samp>dl</samp></dt>
+	  <dd class="col-sm-8">The dl element represents a description list of zero or more term-description groups. Each term-description group consists of one or more terms and one or more descriptions. Term-description groups may be names and definitions, questions and answers, categories and topics, or any other groups of term-description pairs.</dd>
+	  <dt class="col-sm-3 text-info">element <samp>dt</samp></dt>
+	  <dd class="col-sm-8">The dt element represents a term, part of a term-description group in a description list (dl element).</dd>
+	  <dt class="col-sm-3 text-info">element <samp>dd</samp></dt>
+	  <dd class="col-sm-8">The dd element represents a description, part of a term-description group in a description list (dl element).</dd>	  		  
+	</dl>	
+  
+
+<figure>
+<pre class="html"><code>
+&lt;dl>
+  &lt;dt>What is my favorite drink?&lt;/dt>
+  &lt;dd>Tea&lt;/dd>
+  &lt;dt>What is my favorite food?&lt;/dt>
+  &lt;dd>Sushi&lt;/dd>
+  &lt;dt>What is my favourite film?&lt;/dt>
+  &lt;dd>What a Wonderful Life&lt;/dd>
+&lt;/dl></code></pre>
+<iframe style="width:100%;height:140px;border:1px dotted blue;" srcdoc='
+<dl>
+  <dt>What is my favorite drink?</dt>
+  <dd>Tea</dd>
+  <dt>What is my favorite food?</dt>
+  <dd>Sushi</dd>
+  <dt>What is my favourite film?</dt>
+  <dd>What a Wonderful Life</dd>
+</dl>
+'></iframe>
+<figcaption> In this example the dt elements represent questions and the dd elements the answers. (from W3C) </figcaption>
+</figure>  
+  
+  <footer class="blockquote-footer">Read further  <cite title="[about dl, dt, dd on W3C. ]"><a href="https://www.w3.org/TR/html52/grouping-content.html#the-dl-element" target="_blank"> about dl, dt, dd on W3C.</a></cite></footer>
+	<hr>
+  
+</section>
+
+
+</main>  
+
+
+
+
+<!-- 
+  ** *******************************************
+  ** Footer
+  ** *******************************************
+-->	
+<hr>
+<footer class="container">   
+    <div class="xsmall fa fa-copyright" style="padding:1% 13%;text-align:center;">
+        <em>This work is the intellectual property of Sheridan College. Any further copying 
+        and distribution outside of class must be within the copyright law. Posting to 
+        commercial sites for profit is prohibited.</em>
+    </div>   
+    <address style="text-align:center;">SYST10049 Web Development |&nbsp;Sheridan College</address> 					
+</footer> 
+  
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/htmlbars.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/xml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/markdown.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+  'use strict'
+
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement('style')
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.head.appendChild(msViewportStyle)
+  }
+
+}())    
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>

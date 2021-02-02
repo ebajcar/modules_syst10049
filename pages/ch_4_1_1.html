@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Unit 4.1.1.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
+<link href="css/short_pages.css" rel="stylesheet">  
+</head>
+<body>
+<main class="container">
+  <h2>Marking up textual content</h2>
+ 
+  
+  <section> <!-- 4.1.1. Page regions -->
+    <h3>Page regions</h3>
+    <dl class="row">	  
+      <dt class="col-sm-3 text-info">element <samp>main</samp></dt>
+      <dd class="col-sm-9">  represents the main content of the body of a document or application. 	 
+      <ul>
+        <li>is not sectioning content and has no effect on the document outline.</li> 
+        <li>main content area of a document includes content that is unique to that document and excludes content that is repeated across a set of documents such as site navigation links, copyright information, site logos and banners and search forms (unless the document or application’s main function is that of a search form).</li> 
+        <li>must not be more than one visible main element in a document.</li> 
+        <li>authors must not include the main element as a descendant of an article, aside, footer, header or nav element.</li> 
+        <li>is not suitable for use to identify the main content areas of sub sections of a document or application.</li> 
+      </ul>
+      <footer class="blockquote-footer">Read further  
+        <cite title="[  ]">
+          <a href="https://www.w3.org/TR/html52/grouping-content.html#the-main-element" 
+            target="_blank"> about the main element at W3C☍</a>  
+          <!--a href=" " 
+            target="_blank"> ☍MDN</a-->          
+        </cite>
+      </footer> 
+      </dd>	    
+
+      <dt class="col-sm-3 text-info">element <samp>header</samp> </dt>
+      <dd class="col-sm-9"> usually contain Web page's/section's headers: logo, navigations, headers, search form, etc. <small style="word-break:keep-all"><a href="">☍MDN</a>&nbsp;&nbsp;<a href="">☍W3C</a></small></dd>	
+      
+      <dt class="col-sm-3 text-info">element <samp>footer</samp> </dt>
+      <dd class="col-sm-9"> typically contains information about its section: author, links to related documents, copyright info, etc. <small style="word-break:keep-all"><a href="">☍MDN</a>&nbsp;&nbsp;<a href="">☍W3C</a></small></dd>	 
+           
+      <dt class="col-sm-3 text-info">element <samp>aside</samp> </dt>
+      <dd class="col-sm-9"> represents a section of a page that consists of content that is tangentially related to the content around the aside element, and which could be considered separate from that content: pull quotes, sidebars, advertising, groups of nav elements, etc.  
+      <small style="word-break:keep-all"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside">☍MDN</a>&nbsp;&nbsp;<a href="https://www.w3.org/TR/html52/sections.html#the-aside-element">☍W3C</a></small></dd>		        
+    </dl>	
+    <footer class="blockquote-footer">Read further  <cite title="[ about page regions at W3C ]"><a href="https://www.w3.org/WAI/tutorials/page-structure/regions/#complementary-content" target="_blank"> about page regions at W3C</a></cite></footer>
+    
+    <figure>
+<pre class="html"><code>
+&lt;!-- a typical layout using page regions -->
+&lt;header>
+  &lt;h1>Page Heading&lt;/h1>
+&lt;header>
+&lt;nav>
+  links will appear here
+&lt;nav>
+&lt;main>
+  &lt;p>Main content goes here.&lt;/p>
+&lt;main>
+&lt;footer>
+  &lt;!-- contact info goes here -->
+  &lt;address>Web Development &copy; Sheridan College&lt;/address>
+&lt;/footer></code></pre>
+    <iframe style="width:100%;height:160px;border:1px dotted blue;" srcdoc='
+    <header><h1>Page Heading</h1>
+    <nav>links will appear here</nav>
+    <main>Main content goes here</main>
+    <footer><address>Web Development &copy; Sheridan College</address></footer>
+    '></iframe>
+    <figcaption> A typical layout using page regions.</figcaption>
+    </figure>   
+    <hr> 
+  </section>
+ 
+
+</main>  
+
+
+
+
+<!-- 
+  ** *******************************************
+  ** Footer
+  ** *******************************************
+-->	
+<hr>
+<footer class="container">   
+    <div class="xsmall fa fa-copyright" style="padding:1% 13%;text-align:center;">
+        <em>This work is the intellectual property of Sheridan College. Any further copying 
+        and distribution outside of class must be within the copyright law. Posting to 
+        commercial sites for profit is prohibited.</em>
+    </div>   
+    <address style="text-align:center;">SYST10049 Web Development |&nbsp;Sheridan College</address> 					
+</footer> 
+  
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/htmlbars.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/xml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/markdown.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+  'use strict'
+
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement('style')
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.head.appendChild(msViewportStyle)
+  }
+
+}())    
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>
