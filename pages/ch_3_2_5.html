@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Unit 3.2.5.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
+<link href="css/short_pages.css" rel="stylesheet">  
+</head>
+<body>
+<main class="container">
+  <h2>Marking up textual content</h2>
+  <h4>Inline text semantics</h4>
+
+	<section> <!-- 3.2.5. Computer code var pre samp  -->
+	<h3>Computer code</h3>
+	<dl class="row">
+	  <dt class="col-sm-3 text-info">element &lt;code> </dt>
+	  <dd class="col-sm-9">defines a fragment of computer code. does not preserve extra whitespace and line-breaks.</dd>	  
+	  <dt class="col-sm-3 text-info">element &lt;var> </dt>
+	  <dd class="col-sm-9">defines a variable. The variable could be a variable in a mathematical expression or a variable in programming context. </dd>
+
+	  <dt class="col-sm-3 text-info">element &lt;samp> </dt>
+	  <dd class="col-sm-9">represents output from a program or computing system.</dd>
+	  <dt class="col-sm-3 text-info">element &lt;kbd> </dt>
+	  <dd class="col-sm-9">represents user input, like keyboard input or voice commands</dd>	  	  
+	</dl>
+
+<figure>
+<pre class="language-html"><code>
+&lt;!-- var -->
+&lt;p>In physics, mass–energy equivalence is the principle that anything 
+having mass has an equivalent amount of energy and vice versa, with these 
+fundamental quantities directly relating to one another 
+by Albert Einstein's famous formula:&lt;p>
+&lt;p>&lt;var>E&lt;/var> = &lt;var>mc&lt;/var>&lt;sup>2&lt;/sup>.	
+&lt;/p></code></pre>
+<iframe style="width:100%;height:120px;border:1px dotted blue;" srcdoc='<p>Einstein wrote: <var>E</var> = <var>mc</var><sup>2</sup>.</p>'></iframe>
+<figcaption> Variable in a mathematical expression. Examples from w3schools</span></figcaption>
+</figure>	
+
+<figure>
+<pre class="language-html"><code>
+&lt;!-- code -->
+&lt;code>
+int x = 7;
+int y = 8;
+int z = x + y;
+&lt;/code>
+&lt;!-- kbd -->
+&lt;p>Save the document by pressing &lt;kbd>Ctrl + S&lt;/kbd>&lt;/p>
+&lt;!-- samp -->
+&lt;p>Message from my computer:
+&lt;br>
+  &lt;samp>File not found.
+  &lt;br>Press F1 to continue&lt;/samp>
+&lt;/p></code></pre>
+<iframe style="width:100%;height:120px;border:1px dotted blue;" srcdoc='<p>Save the document by pressing <kbd>Ctrl + S</kbd></p><p>Message from my computer:</p>
+<p><samp>File not found.<br>Press F1 to continue</samp></p>'></iframe>
+<figcaption> Computer code. Examples <span data-ref-link="https://www.w3schools.com/html/html_computercode_elements.asp">from w3schools</span></figcaption>
+</figure>	
+
+
+	</section>
+	
+
+
+
+</main>  
+
+
+
+
+<!-- 
+  ** *******************************************
+  ** Footer
+  ** *******************************************
+-->	
+<hr>
+<footer class="container">   
+    <div class="xsmall fa fa-copyright" style="padding:1% 13%;text-align:center;">
+        <em>This work is the intellectual property of Sheridan College. Any further copying 
+        and distribution outside of class must be within the copyright law. Posting to 
+        commercial sites for profit is prohibited.</em>
+    </div>   
+    <address style="text-align:center;">SYST10049 Web Development |&nbsp;Sheridan College</address> 					
+</footer> 
+  
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/htmlbars.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/xml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/markdown.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+  'use strict'
+
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement('style')
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.head.appendChild(msViewportStyle)
+  }
+
+}())    
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>
