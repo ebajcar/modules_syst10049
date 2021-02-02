@@ -30,7 +30,6 @@
 * [Design process and Progressive Enhancement](pages/ch_2_2_4.html)
 * [Semantic correctness](pages/ch_2_2_5.html)
 * [Planning a simple web app (file organization, file paths, navigating directory tree](pages/ch_2_3_1.html)
-
 * [Protecting a website (permissions)](pages/ch_2_3_2.html)
 * [Planning and designing a web app](pages/ch_2_4_1.html)
 * [Writing documentation and coding](pages/ch_2_4_2.html)
@@ -43,8 +42,12 @@
 * [Headings and paragraphs](pages/ch_3_1_1.html)
 * [Emphasis and importance](pages/ch_3_1_2.html)
 * [Italic, bold, and underline](pages/ch_3_1_3.html)
+* [Non-semantic wrappers ](pages/ch_3_3_2.html)
+* [Line breaks and horizontal rules](pages/ch_3_3_3.html)
+* [Empty elements](pages/ch_3_3_4.html)
+* [Nested elements](pages/ch_3_3_5.html)
 
-### Inline text semantics
+### Block and inline text semantics
 * [Quotations and citations](pages/ch_3_2_1.html)
 * [Abbreviation and definitions](pages/ch_3_2_2.html)
 * [Contact details](pages/ch_3_2_3.html)
@@ -52,8 +55,7 @@
 * [Computer code](pages/ch_3_2_5.html)
 * [Time and date](pages/ch_3_2_6.html)
 * [Demarcating edits](pages/ch_3_2_7.html)
-
-### Block text semantics
+* [Block quotes and poems](pages/ch_3_3_1.html)
 
 ### Sectioning content
 * [Page regions](pages/ch_4_1_1.html)
