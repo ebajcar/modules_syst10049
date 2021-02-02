@@ -43,6 +43,17 @@
 * [Emphasis and importance](pages/ch_3_1_2.html)
 * [Italic, bold, and underline](pages/ch_3_1_3.html)
 
+### Inline text semantics
+* [Quotations and citations](pages/ch_3_2_1.html)
+* [Abbreviation and definitions](pages/ch_3_2_2.html)
+* [Contact details](pages/ch_3_2_3.html)
+* [Superscript and subscript](pages/ch_3_2_4.html)
+* [Computer code](pages/ch_3_2_5.html)
+* [Time and date](pages/ch_3_2_6.html)
+* [Demarcating edits](pages/ch_3_2_7.html)
+
+### Block text semantics
+
 ### Sectioning content
 * [Page regions](pages/ch_4_1_1.html)
 * [Articles and sections](pages/ch_4_1_2.html)
