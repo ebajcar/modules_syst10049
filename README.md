@@ -52,7 +52,7 @@
 * [Ordered, unordered, and description lists](pages/ch_4_2_1.html)
 * [Table data structures](pages/ch_4_3_1.html)
 
-## Marking up Interactive content, images and multimedia
+## Marking up interactive content
 * [Navigation, bookmarks, and hyperlinks](pages/ch_5_1_1.html)
 * [Images and multimedia](pages/ch_5_2_1.html)
 
