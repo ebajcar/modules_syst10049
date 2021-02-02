@@ -2,18 +2,15 @@
 
 ## Hypertext Markup Language (HTML)
 
-
 * [What is HTML?](pages/ch_1_1_0.html)
 * [What is HTML Grammar, Syntax, Semantics](pages/ch_1_1_1.html)
 * [What are HTML Elements](pages/ch_1_1_2.html)
 * [What are HTML Attributes](pages/ch_1_1_3.html)
 
-
 ### HTML Document
 * [Defining document structure](pages/ch_1_2_1.html)
 * [What is Minimal HTML5 document](pages/ch_1_2_2.html)
 * [What is Document Object Model (DOM)](pages/ch_1_2_3.html)
-
 
 ### The HEAD section
 * [Children of the head element, Create good meta descriptions, Character encoding](pages/ch_1_3_1.html)
@@ -39,8 +36,12 @@
 * [Debugging, testing, and validating code](pages/ch_2_4_3.html)
 * [Publishing your website](pages/ch_2_5_1.html)
 
+---
+
 ## Marking up textual content
-* [x](pages/ch_2_5_1.html)
+* [Headings and paragraphs](pages/ch_3_1_1.html)
+* [Emphasis and importance](pages/ch_3_1_2.html)
+* [Italic, bold, and underline](pages/ch_3_1_3.html)
 
 ### Sectioning content
 * [Page regions](pages/ch_4_1_1.html)
