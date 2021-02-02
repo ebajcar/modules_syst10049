@@ -41,3 +41,18 @@
 
 ## Marking up textual content
 * [x](pages/ch_2_5_1.html)
+
+### Sectioning content
+* [Page regions](pages/ch_4_1_1.html)
+* [Articles and sections](pages/ch_4_1_2.html)
+* [Figures and figure captions](pages/ch_4_1_3.html)
+
+### Grouping content
+* [Ordered, unordered, and description lists](pages/ch_4_2_1.html)
+* [Table data structures](pages/ch_4_3_1.html)
+
+### Interactive content
+* [Navigation, bookmarks, and hyperlinks](pages/ch_5_1_1.html)
+* [Images and multimedia](pages/ch_5_2_1.html)
+
+
