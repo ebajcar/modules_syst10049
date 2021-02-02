@@ -16,14 +16,10 @@
 
 
 ### The HEAD section
-* [Children of the head element](url)
-* [Create good meta descriptions](url)
-* [Character encoding](url)
+* [Children of the head element, Create good meta descriptions, Character encoding](pages/ch_1_3_1.html)
 
 ### The BODY section
-* [Content organization](url)
-* [What is Content (data)](pages/ch_1_1_4.html)
-* [Block and inline flow](url)
+* [Content organization, What is Content (data), Block and inline flow](pages/ch_1_4_1.html)
 
 ---
 
