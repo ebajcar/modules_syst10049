@@ -24,6 +24,7 @@
 ---
 
 ## Web Development 
+
 * [How the web works (URL, web server)](pages/ch_2_1_1.html)
 * [Protocols (TCP/IP, HTTP, HTTPS, FTP)](pages/ch_2_1_2.html)
 * [Standards, conventions, best practices (W3C, WHATWG, WAI)](pages/ch_2_2_1.html)
@@ -38,4 +39,5 @@
 * [Debugging, testing, and validating code](pages/ch_2_4_3.html)
 * [Publishing your website](pages/ch_2_5_1.html)
 
-
+## Marking up textual content
+* [x](pages/ch_2_5_1.html)
