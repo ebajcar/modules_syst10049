@@ -30,6 +30,7 @@
 * [Design process and Progressive Enhancement](pages/ch_2_2_4.html)
 * [Semantic correctness](pages/ch_2_2_5.html)
 * [Planning a simple web app (file organization, file paths, navigating directory tree](pages/ch_2_3_1.html)
+
 * [Protecting a website (permissions)](pages/ch_2_3_2.html)
 * [Planning and designing a web app](pages/ch_2_4_1.html)
 * [Writing documentation and coding](pages/ch_2_4_2.html)
