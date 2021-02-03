@@ -65,7 +65,7 @@ For each of the following element, complete the tutorial on w3schools.  Note the
 		* are the attributes global or element-specific?
 		* add to your written code, as comments, all corrections and observations.
 
-#### D. Create your own version of the examples in  [Example Set 1](https://padlet.com/ellen_bajcar/xjwc36k6n45f) in directory `C:\public_html\syst10049\practice`, choosing an appropriate name.
+#### D. Create your own version of ~~the examples in  [Example Set 1](https://padlet.com/ellen_bajcar/xjwc36k6n45f)~~ any examples in directory `C:\public_html\syst10049\practice`, choosing an appropriate name.
 
 
 
