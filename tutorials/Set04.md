@@ -38,14 +38,14 @@ For each of the following element, complete the tutorial on w3schools.  Note the
 ---
 
 #### A. Create your own version of the following examples from  [HTML lists](https://padlet.com/ellen_bajcar/ofcrakue7fyy) in directory `C:\public_html\syst10049\lists`:
-- index.html (contains header with H1 "HTML Lists", common navigation, and common footer - nothing in main, no aside)
-- content\list07.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 7" and list 7 solution in main, no aside)
-- content\list08.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 8" and list 8 solution in main, no aside)
-- content\list09.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 9" and list 9 solution in main, no aside)
-- content\list10.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 10" and list 10 solution in main, no aside)
-- content\list11.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 11" and list 11 solution in main, no aside)
-- content\list12.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 12" and list 12 solution in main, no aside)
-- content\list13.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 13" and list 13 solution main, no aside)
+- `index.html` (contains header with H1 "HTML Lists", common navigation, and common footer - nothing in main, no aside)
+- `content\list07.html` (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 7" and list 7 solution in main, no aside)
+- `content\list08.html` (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 8" and list 8 solution in main, no aside)
+- `content\list09.html` (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 9" and list 9 solution in main, no aside)
+- `content\list10.html` (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 10" and list 10 solution in main, no aside)
+- `content\list11.html` (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 11" and list 11 solution in main, no aside)
+- `content\list12.html` (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 12" and list 12 solution in main, no aside)
+- `content\list13.html` (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 13" and list 13 solution main, no aside)
 
 	 - [ ] start with minimal HTML5 document
 	 - [ ] add standard content organization (as demonstrated in class)
@@ -62,7 +62,7 @@ For each of the following element, complete the tutorial on w3schools.  Note the
 * publish on dev.fast server webspace (same location as your local mirror).
 
 #### B. Create your own version of the following examples from  [HTML Tables](https://padlet.com/ellen_bajcar/bbpo9guhtfxs) in directory `C:\public_html\syst10049\tables`:
-- index.html (contains header with H1 "HTML Tables", navigation, and common footer, no aside)
+- `index.html` (contains header with H1 "HTML Tables", navigation, and common footer, no aside)
 - in the main element, create tables, with corresponding H3 headings: Table 03, Table 04, Table 05, Table 06, Table 07, and Table 09, and Table 12.
 - mark each each heading as a bookmark and use them to create the navigation.
 - follow the same process as in Exercise A.
