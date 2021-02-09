@@ -57,4 +57,15 @@ For each of the following element, complete the tutorial on w3schools.  Note the
 * explore deeper by looking up references for any unfamiliar elements and attributes; 
 * pay close attention to values that can be assigned to the attributes; 
 * are the attributes global or element-specific?
+* complete and test navigation; make sure you test all possible links (from each file to every other file, and back)
 * add to your written code, as comments, all corrections and observations.
+* publish on dev.fast server webspace (same location as your local mirror).
+
+#### B. Create your own version of the following examples from  [HTML Tables](https://padlet.com/ellen_bajcar/bbpo9guhtfxs) in directory `C:\public_html\syst10049\tables`:
+- index.html (contains header with H1 "HTML Tables", navigation, and common footer, no aside)
+- in the main element, create tables, with corresponding H3 headings: Table 03, Table 04, Table 05, Table 06, Table 07, and Table 09, and Table 12.
+- mark each each heading as a bookmark and use them to create the navigation.
+- follow the same process as in Exercise A.
+
+
+
