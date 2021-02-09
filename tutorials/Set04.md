@@ -38,10 +38,17 @@ For each of the following element, complete the tutorial on w3schools.  Note the
 ---
 
 #### A. Create your own version of the following examples from  [HTML lists](https://padlet.com/ellen_bajcar/ofcrakue7fyy) in directory `C:\public_html\syst10049\lists`:
+- index.html (contains header with H1 "HTML Lists", common navigation, and common footer - nothing in main, no aside)
+- \content\list07.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 7" and list 7 solution in main, no aside)
+- \content\list08.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 8" and list 8 solution in main, no aside)
+- \content\list09.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 9" and list 9 solution in main, no aside)
+- \content\list10.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 10" and list 10 solution in main, no aside)
+- \content\list11.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 11" and list 11 solution in main, no aside)
+- \content\list12.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 12" and list 12 solution in main, no aside)
+- \content\list13.html (contains header with H1 "HTML Lists", common navigation, and common footer - H3 "List 13" and list 13 solution main, no aside)
 
--
 	 - [ ] start with minimal HTML5 document
-	 - [ ] copy the rendered content (right-hand side) into the body
+	 - [ ] add standard content organization (as demonstrated in class)
 	 - [ ] try to mark it up without looking at the html code
 	 - [ ] if you have to look, document (in comments) why, dig deeper, make notes.
 * test the page by running it with Chrome (check that the title and the content display as expected).
