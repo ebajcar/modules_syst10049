@@ -34,3 +34,20 @@ For each of the following element, complete the tutorial on w3schools.  Note the
 14. ASIDE [https://www.w3schools.com/tags/tag_aside.asp](https://www.w3schools.com/tags/tag_aside.asp)
 15. DIV [https://www.w3schools.com/tags/tag_div.asp](https://www.w3schools.com/tags/tag_div.asp)
 16. STYLE [https://www.w3schools.com/tags/tag_style.asp](https://www.w3schools.com/tags/tag_style.asp)
+
+---
+
+#### A. Create your own version of the following examples from  [HTML lists](https://padlet.com/ellen_bajcar/ofcrakue7fyy) in directory `C:\public_html\syst10049\lists`:
+
+-
+	 - [ ] start with minimal HTML5 document
+	 - [ ] copy the rendered content (right-hand side) into the body
+	 - [ ] try to mark it up without looking at the html code
+	 - [ ] if you have to look, document (in comments) why, dig deeper, make notes.
+* test the page by running it with Chrome (check that the title and the content display as expected).
+* validate your code at [W3C Validation Markup Service](https://validator.w3.org) (remove all warnings and errors);
+* re-test and document your observations in the prologue's description;
+* explore deeper by looking up references for any unfamiliar elements and attributes; 
+* pay close attention to values that can be assigned to the attributes; 
+* are the attributes global or element-specific?
+* add to your written code, as comments, all corrections and observations.
