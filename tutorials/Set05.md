@@ -3,6 +3,9 @@
 : [next](Set06.md)
 
 
+### Key terms and concepts to understand
+> &bull;  attribute &bull; attribute minimization &bull; character encoding &bull; body section &bull; content (data) &bull;  content categories &bull; documentation &bull; document type &bull;  document structure &bull; DOM &bull;  element &bull;  empty element &bull; entities &bull; global attributes &bull; hierarchy root &bull; HTML document &bull; head section &bull; nesting &bull; object &bull; polyglot &bull; property &bull; semantics &bull; semantic correctness &bull; special characters &bull; validity &bull; well-formed code &bull; whitespace &bull;  
+
 ### Complete the following tutorials. Document what you have learned.
 For each of the following element, complete the tutorial on w3schools.  Note the definition, intended purpose, browser support, supported attributes, and possible attribute values.
 
