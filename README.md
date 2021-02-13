@@ -69,7 +69,6 @@
 ## Marking up interactive content
 * [Navigation, bookmarks, and hyperlinks](pages/ch_5_1_1.html)
 * [Images and multimedia](pages/ch_5_2_1.html)
-
 * [HTML forms](pages/ch_5_3_1.html)
 * [<input> element](pages/ch_5_3_2.html)
 * [Grouping controls](pages/ch_5_3_3.html)
@@ -77,5 +76,6 @@
 
 ---
 @ This work is the intellectual property of Sheridan College. Any further copying and distribution outside of class must be within the copyright law. Posting to commercial sites for profit is prohibited.
+
 Web Development | Sheridan College
 
