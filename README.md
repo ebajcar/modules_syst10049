@@ -69,8 +69,8 @@
 ## Marking up interactive content
 * [Navigation, bookmarks, and hyperlinks](pages/ch_5_1_1.html)
 * [Images and multimedia](pages/ch_5_2_1.html)
-* [HTML forms](pages/ch_5_3_1.html)
-* [&lt;input> element](pages/ch_5_3_2.html)
+* [HTML5 forms](pages/ch_5_3_1.html)
+* [INPUT element](pages/ch_5_3_2.html)
 * [Grouping controls](pages/ch_5_3_3.html)
 * [Other controls](pages/ch_5_3_4.html)
 
