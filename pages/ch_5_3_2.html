@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Unit 5.3.2.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
+<link href="css/short_pages.css" rel="stylesheet">  
+</head>
+<body>
+<main class="container">
+  <h2>Marking up interactive content</h2> 
+	
+<section>
+	<h2><samp>input</samp> element</h2>
+	<p>Each <samp>input</samp> element must include a <code>type</code> attribute to specify its component type, such as </p>
+	<p style="columns:3;">
+	<code>type="text"</code><br>
+  
+	<code>type="password"</code><br>
+	<code>type="checkbox"</code><br>
+	<code>type="date"</code><br>
+  <code>type="time"</code><br>
+	<code>type="color"</code><br> 
+	<code>type="button"</code><br>
+	<code>type="hidden"</code><br>
+	<code>type="image"</code><br>
+	<code>type="file"</code><br>
+	<code>type="url"</code><br>
+	<code>type="email"</code><br>
+  <code>type="number"</code><br>
+  
+	<code>type="radio"</code><br>
+	<code>type="range"</code><br>
+  
+  <code>type="search"</code><br>
+	<code>type="submit"</code><br>
+	<code>type="reset"</code><br>  
+  <code>type="tel"</code><br>
+	</p>
+	<p>The default is <code>type="text"</code>, omitting the type attribute.</p>
+
+<figure>
+<pre class="language-html"><code>
+&lt;!-- text type input -->
+&lt;form>
+  &lt;p>&lt;input>&lt;/p>
+  &lt;p>&lt;input type="text">&lt;/p>
+&lt;/form></code></pre>
+<iframe srcdoc='
+<form>
+  <p><input></p>
+  <p><input type="text"></p>
+</form>
+'></iframe>
+<figcaption> both controls appear to be the same; omitting the type defaults to text type. input element is an <strong>empty element</strong> and its default behaviour is <strong>inline</strong>. Paragraph container was used to place them on separate lines.</figcaption>
+</figure>
+
+<p>An <samp>input</samp> tag can include name and value attributes to specify data for submission as a <code>name=value</code> pair. Other attributes:</p>
+	<p style="columns:4;">
+		<code>checked</code><br>
+		<code>disabled</code><br>
+		<code>size</code><br>
+		<code>maxlength</code><br>
+		<code>readonly</code><br>
+		<code>spellcheck</code><br>
+	</p>
+<hr>
+
+
+	<h3>Labeling controls</h3>
+	<dl class="row">
+	  <dt class="col-sm-4 text-info"><samp>label</samp> element</dt>
+	  <dd class="col-sm-8"></dd>	 		  	  
+	</dl>
+	
+	<p>In left-to-right languages, it is customary to visually position labels to the right of radio buttons and checkboxes, and to the left or directly above other form fields. Maintaining this practice increases predictability and understandability of your form for all users. In general, placing labels above the form fields helps reduce horizontal scrolling for people with low vision and mobile device users. <a hidden href="" target="_blank">&hellip;W3C</a></p>
+		
+
+    <h6>Associating labels explicitly 
+		<br><small><a href="https://www.w3.org/WAI/tutorials/forms/labels/#associating-labels-explicitly" 
+		target="_blank">Read more&hellip; at W3C</a></small>
+	</h6>
+	<p>The objective of this technique is to use the label element to explicitly associate a form control with a label. A label is attached to a specific form control through the use of the for attribute. The value of the for attribute must be the same as the value of the id attribute of the form control. Elements that use explicitly associated labels are:</p>
+	<ul style="margin-top:0;padding-top:2px">
+		<li>input type="text"</li>
+		<li>input type="checkbox"</li>
+		<li>input type="radio"</li>
+		<li>input type="file"</li>
+		<li>input type="password"</li>
+		<li>textarea</li>
+		<li>select</li>
+	</ul>
+
+	<p>
+	<q cite="https://www.w3.org/WAI/GL/WCAG20/WD-WCAG20-TECHS-20071102/H44.html">The HTML specification allows both implicit and explicit labels. However, some assistive technologies do not correctly handle implicit labels.</q> <a class="w3-button" style="margin-right:25px" href="https://www.w3.org/TR/WCAG20-TECHS/H44.html" target="_blank">Read more...</a>
+	</p>
+
+    <h6>Associating labels implicitly 
+		<br><small><a href="https://www.w3.org/WAI/tutorials/forms/labels/#associating-labels-implicitly" 
+		target="_blank">Read more&hellip; at W3C</a></small>
+	</h6>
+	
+
+<figure>
+<pre class="language-html"><code>
+&lt;!-- explicit label -->
+&lt;form>
+  &lt;p>
+    &lt;label for="thisone">
+      My explicit label:
+    &lt;/label> 
+    &lt;input type="text" id="thisone"> 
+  &lt;/p>
+&lt;!-- implicit label -->
+  &lt;p>
+    &lt;label>
+      My implicit label: 
+      &lt;input type="text">
+    &lt;/label>  
+  &lt;/p>
+&lt;/form></code></pre>
+<iframe style="height:100px" srcdoc='
+<form>
+	<p>
+       <label for="thisone">My explicit label:</label> 
+       <input type="text" id="thisone">
+	</p>
+    <p><label>My implicit label: <input type="text"></label></p>
+</form>
+'></iframe>
+<figcaption> both controls appear to be the same; visually there is no difference; </figcaption>
+</figure>	
+	
+<figure>
+<pre class="language-html"><code>
+&lt;!-- provide descriptive labels -->
+&lt;form>
+  &lt;p>
+    &lt;label>
+      Last name: &lt;input type="text" name="lastname"> 
+    &lt;/label> 
+  &lt;/p>
+  &lt;p>
+    &lt;label>
+      First name: &lt;input type="text" name="firstname">
+    &lt;/label>  
+  &lt;/p>
+&lt;/form></code></pre>
+<iframe style="height:100px" srcdoc='
+<form>
+	<p><label>Last name: <input type="text" name="lastname"></label> </p>
+	<p><label>First name: <input type="text" name="firstname"></label> </p>
+</form>
+'></iframe>
+<figcaption> Providing descriptive labels. A form asks the name of the user. It consists of two input fields to ask for the first and last name. The first field is labeled "Last name", the second is labeled "First name". </figcaption>
+</figure>	
+	
+
+</section>
+
+
+
+
+</main>  
+
+
+
+
+<!-- 
+  ** *******************************************
+  ** Footer
+  ** *******************************************
+-->	
+<hr>
+<footer class="container">   
+    <div class="xsmall fa fa-copyright" style="padding:1% 13%;text-align:center;">
+        <em>This work is the intellectual property of Sheridan College. Any further copying 
+        and distribution outside of class must be within the copyright law. Posting to 
+        commercial sites for profit is prohibited.</em>
+    </div>   
+    <address style="text-align:center;">SYST10049 Web Development |&nbsp;Sheridan College</address> 					
+</footer> 
+  
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/htmlbars.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/xml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/markdown.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+  'use strict'
+
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement('style')
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.head.appendChild(msViewportStyle)
+  }
+
+}())    
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>
