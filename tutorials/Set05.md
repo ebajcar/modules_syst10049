@@ -36,7 +36,9 @@ For each of the following element, complete the tutorial on w3schools.  Note the
 12. OUTPUT [https://www.w3schools.com/tags/tag_output.asp](https://www.w3schools.com/tags/tag_output.asp)
 
 
-#### A. Create your own version of the following examples from  [HTML forms](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms`:
+
+
+#### A. Create your own version of the following examples (Form example 1 to Form example 8) from  [HTML forms](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms`:
 - `index.html` (contains header with H1 "HTML Forms", common navigation, and common footer, no main, no aside)
 - Instead of using the MAIN element, use the SECTION element for each form. Each section will start with H3 heading, followed by one of the froms, and end with a FOOTER element heighlighing the features of the form. Note: you are creating this content, so include your observations and research findings. 
 - Add navigation underneath the header, with bookmarks to each section.
@@ -52,5 +54,13 @@ Use the standard development process, including:
 * complete and test navigation; make sure you test all possible links (from each file to every other file, and back)
 * add to your written code, as comments, all corrections and observations.
 * publish on dev.fast server webspace (same location as your local mirror).
+
+#### B. Complete Exercise 5.1 from from  [HTML forms](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form51`.
+#### C. Complete Exercise 5.2 from from  [HTML forms](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form52`.
+#### D. Complete Exercise 5.3 from from  [HTML forms](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form53`.
+#### E. Complete Exercise 5.4 from from  [HTML forms](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form54`.
+#### F. Complete Exercise 5.5 from from  [HTML forms](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form55`.
+#### G. Add a navigation link to each page (B-F) in the index.html (created in A). Then add the entire navigation to each page (B-F).  
+Test the site navigation. Publish project.
 
 
