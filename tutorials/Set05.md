@@ -55,11 +55,25 @@ Use the standard development process, including:
 * add to your written code, as comments, all corrections and observations.
 * publish on dev.fast server webspace (same location as your local mirror).
 
-#### B. Complete Exercise 5.1 from from  [HTML forms](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form51`.
-#### C. Complete Exercise 5.2 from from  [HTML forms](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form52`.
-#### D. Complete Exercise 5.3 from from  [HTML forms](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form53`.
-#### E. Complete Exercise 5.4 from from  [HTML forms](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form54`.
-#### F. Complete Exercise 5.5 from from  [HTML forms](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form55`.
+#### B. Complete Exercise 5.1 
+* from  [HTML forms padlet](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form51`.
+* Use the standard development process. Do not publish yet.
+
+#### C. Complete Exercise 5.2 
+* from  [HTML forms padlet](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form52`.
+* Use the standard development process. Do not publish yet.
+
+#### D. Complete Exercise 5.3 
+* from  [HTML forms padlet](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form53`.
+* Use the standard development process. Do not publish yet.
+
+#### E. Complete Exercise 5.4 
+* from  [HTML forms padlet](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form54`.
+* Use the standard development process. Do not publish yet.
+
+#### F. Complete Exercise 5.5 
+* from  [HTML forms padlet](https://padlet.com/ellen_bajcar/r4tci0zka2m6gtjk) in directory `C:\public_html\syst10049\forms\content\form55`.
+
 #### G. Add a navigation link to each page (B-F) in the index.html (created in A). Then add the entire navigation to each page (B-F).  
 Test the site navigation. Publish project.
 
