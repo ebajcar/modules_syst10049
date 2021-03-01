@@ -102,7 +102,7 @@
 * CSS box model
 * HTML layout techniques
 * Styling tables
-* * Flexbox
+* Flexbox
 * Grid
 * Responsive design
 
