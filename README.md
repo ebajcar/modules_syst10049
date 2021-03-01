@@ -75,6 +75,46 @@
 * [Other controls](pages/ch_5_3_4.html)
 
 ---
+
+## Cascading Style Sheets (CSS)
+
+### [CSS Foundations](pages/ch_6_000_css.html)
+* CSS3 syntax
+* Selector syntax and structure
+* CSS rules
+* CSS3 specificty, inheritane and the cascade
+* CSS location
+* [Table data structures](pages/ch_4_3_1.html)
+
+### [Mastering CSS](pages/ch_7_000_dom.html)
+* Mastering CSS
+* Keep you CSS tidy
+* Understanding DOM and CSSOM
+
+### [CSS Selectors and properties](pages/ch_8_000_selectors.html)
+* CSS selectors
+* CSS3 values and units
+* CSS properties
+* CSS color and background properties
+* CSS font and text properties
+* Styling lists
+
+### [CSS Selectors and properties](pages/ch_9_000_boxmodel.html)
+* CSS box model
+* HTML layout techniques
+* Styling tables
+* * Flexbox
+* Grid
+* Responsive design
+
+### [Styling forms](pages/ch_a_000_forms.html)
+* Styling forms
+
+
+
+
+
+---
 @ This work is the intellectual property of Sheridan College. Any further copying and distribution outside of class must be within the copyright law. Posting to commercial sites for profit is prohibited.
 
 Web Development | Sheridan College
