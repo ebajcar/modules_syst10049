@@ -96,11 +96,12 @@
 * CSS properties
 * CSS color and background properties
 * CSS font and text properties
-* Styling lists
+
 
 ### [CSS Box Model](pages/ch_9_000_boxmodel.html)
 * CSS box model
 * HTML layout techniques
+* Styling lists
 * Styling tables
 * Flexbox
 * Grid
