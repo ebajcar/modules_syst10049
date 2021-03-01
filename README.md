@@ -87,7 +87,7 @@
 
 ### [Mastering CSS](pages/ch_7_000_dom.html)
 * Mastering CSS
-* Keep you CSS tidy
+* Keep your CSS code tidy
 * Understanding DOM and CSSOM
 
 ### [CSS Selectors and properties](pages/ch_8_000_selectors.html)
