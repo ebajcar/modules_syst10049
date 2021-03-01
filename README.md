@@ -84,7 +84,6 @@
 * CSS rules
 * CSS3 specificty, inheritane and the cascade
 * CSS location
-* [Table data structures](pages/ch_4_3_1.html)
 
 ### [Mastering CSS](pages/ch_7_000_dom.html)
 * Mastering CSS
@@ -99,7 +98,7 @@
 * CSS font and text properties
 * Styling lists
 
-### [CSS Selectors and properties](pages/ch_9_000_boxmodel.html)
+### [CSS Box Model](pages/ch_9_000_boxmodel.html)
 * CSS box model
 * HTML layout techniques
 * Styling tables
