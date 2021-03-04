@@ -12,7 +12,7 @@
 
 ---
 ## Explore class examples and related exercises
-[Worksheet 7](https://ebajcar.github.io/Exercises/worksheets/worksheet_06/instructions_ws07.html)
+[Worksheet 7](https://ebajcar.github.io/Exercises/worksheets/worksheet_07/instructions_ws07.html)
 
 ---
 
