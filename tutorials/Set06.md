@@ -32,6 +32,10 @@
 - Functions
 
 ---
+## Explore class examples and related exercises
+[Worksheet 6](https://ebajcar.github.io/Exercises/worksheets/worksheet_06/instructions_ws06.html)
+
+---
 
 ## Complete the following tutorials. Document what you have learned.
  #### A. For each of the following CSS properties, complete the tutorial on w3schools.  Note the definition, intended purpose, browser support, supported attributes, and possible attribute values. Example:
