@@ -9,3 +9,11 @@
 
 > &bull;  selector &bull; property &bull; property value &bull; cascade &bull; inheritance &bull;  browser defaults &bull; style sheet &bull; specificity &bull;  declaration &bull; DOM &bull;  CSSOM &bull;  external styles &bull; internal (embedded) styles &bull; inline styles &bull; 
 
+
+
+
+
+
+---
+> SYST10049 Web Development @ Sheridan College
+
