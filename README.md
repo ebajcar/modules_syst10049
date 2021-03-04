@@ -78,7 +78,7 @@
 
 ## Cascading Style Sheets (CSS)
 
-### [Mastering CSS](pages/ch_6_000_css.html)
+### 6. [Mastering CSS](pages/ch_6_000_css.html)
 * Mastering CSS
 * Following guidelines
 * Understanding the Document Object Model (DOM)
@@ -88,12 +88,7 @@
 * CSS3 specificty, inheritane and the cascade
 * CSS location
 
-### [Mastering CSS](pages/ch_7_000_dom.html)
-* Mastering CSS
-* Keep your CSS code tidy
-* Understanding DOM and CSSOM
-
-### [CSS Selectors and Declarations](pages/ch_8_000_selectors.html)
+### 7. [CSS Selectors and Declarations](pages/ch_8_000_selectors.html)
 * CSS selectors
 * CSS Declarations
 * CSS3 values and units
@@ -103,7 +98,7 @@
 * CSS font and text properties
 
 
-### [CSS Layout techniques](pages/ch_9_000_boxmodel.html)
+### 8. [CSS Layout techniques](pages/ch_9_000_boxmodel.html)
 * HTML layout techniques
 * Styling lists
 * Styling tables
@@ -111,7 +106,7 @@
 * Grid
 * Responsive design
 
-### [Styling forms](pages/ch_a_000_forms.html)
+### 9. [Styling forms](pages/ch_a_000_forms.html)
 * Styling forms
 
 
