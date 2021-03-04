@@ -9,7 +9,12 @@
 
 > &bull;  selector &bull; property &bull; property value &bull; cascade &bull; inheritance &bull;  browser defaults &bull; style sheet &bull; specificity &bull;  declaration &bull; DOM &bull;  CSSOM &bull;  external styles &bull; internal (embedded) styles &bull; inline styles &bull; 
 
+---
+## Explore class examples and related exercises
+[Worksheet 8](https://ebajcar.github.io/Exercises/worksheets/worksheet_06/instructions_ws08.html)
 
+---
+(being updated)
 
 
 
