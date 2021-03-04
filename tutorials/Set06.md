@@ -9,6 +9,11 @@
 
 > &bull;  selector &bull; property &bull; property value &bull; cascade &bull; inheritance &bull;  browser defaults &bull; style sheet &bull; specificity &bull;  declaration &bull; DOM &bull;  CSSOM &bull;  external styles &bull; internal (embedded) styles &bull; inline styles &bull; 
 
+---
+
+
+### Read and make notes: [General suggestions for ways to keep your stylesheets organised and tidy](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing#Tips_to_keep_your_CSS_tidy)
+
 - Keep it consistent
 - Formatting readable CSS
 - Comment your CSS
