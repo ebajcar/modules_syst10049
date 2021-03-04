@@ -24,7 +24,7 @@
 - Applying CSS to your HTML
 - Selectors
 - Specificity
-- @rules
+-at-rules
 - Properties and values
 - Shorthands
 - Comments
