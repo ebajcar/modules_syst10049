@@ -1,6 +1,6 @@
 # Table of Contents
 
-## Hypertext Markup Language (HTML)
+## 1. Hypertext Markup Language (HTML)
 
 * [What is HTML?](pages/ch_1_1_0.html)
 * [What is HTML Grammar, Syntax, Semantics](pages/ch_1_1_1.html)
@@ -20,7 +20,7 @@
 
 ---
 
-## Web Development 
+## 2. Web Development 
 
 * [How the web works (URL, web server)](pages/ch_2_1_1.html)
 * [Protocols (TCP/IP, HTTP, HTTPS, FTP)](pages/ch_2_1_2.html)
@@ -38,7 +38,7 @@
 
 ---
 
-## Marking up textual content
+## 3. Marking up textual content
 * [Headings and paragraphs](pages/ch_3_1_1.html)
 * [Emphasis and importance](pages/ch_3_1_2.html)
 * [Italic, bold, and underline](pages/ch_3_1_3.html)
@@ -57,7 +57,7 @@
 * [Demarcating edits](pages/ch_3_2_7.html)
 * [Block quotes and poems](pages/ch_3_3_1.html)
 
-### Sectioning content
+## 4. Sectioning content
 * [Page regions](pages/ch_4_1_1.html)
 * [Articles and sections](pages/ch_4_1_2.html)
 * [Figures and figure captions](pages/ch_4_1_3.html)
@@ -66,7 +66,7 @@
 * [Ordered, unordered, and description lists](pages/ch_4_2_1.html)
 * [Table data structures](pages/ch_4_3_1.html)
 
-## Marking up interactive content
+## 5. Marking up interactive content
 * [Navigation, bookmarks, and hyperlinks](pages/ch_5_1_1.html)
 * [Images and multimedia](pages/ch_5_2_1.html)
 * [HTML5 forms](pages/ch_5_3_1.html)
