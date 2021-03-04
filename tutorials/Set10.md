@@ -35,3 +35,9 @@ For each of the following CSS properties, complete the tutorial on w3schools.  N
 12. CSS pseudo-elements [https://www.w3schools.com/css/css_pseudo_elements.asp](https://www.w3schools.com/css/css_pseudo_elements.asp)
 13. CSS specificity [https://www.w3schools.com/css/css_specificity.asp](https://www.w3schools.com/css/css_specificity.asp)
  
+
+
+
+---
+> SYST10049 Web Development @ Sheridan College
+
