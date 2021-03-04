@@ -11,7 +11,7 @@
 
 ---
 ## Explore class examples and related exercises
-[Worksheet 8](https://ebajcar.github.io/Exercises/worksheets/worksheet_06/instructions_ws08.html)
+[Worksheet 9](https://ebajcar.github.io/Exercises/worksheets/worksheet_06/instructions_ws09.html)
 
 ---
 (being updated)
