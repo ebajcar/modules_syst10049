@@ -78,7 +78,10 @@
 
 ## Cascading Style Sheets (CSS)
 
-### [CSS Foundations](pages/ch_6_000_css.html)
+### [Mastering CSS](pages/ch_6_000_css.html)
+* Mastering CSS
+* Following guidelines
+* Understanding the Document Object Model (DOM)
 * CSS3 syntax
 * Selector syntax and structure
 * CSS rules
@@ -90,16 +93,17 @@
 * Keep your CSS code tidy
 * Understanding DOM and CSSOM
 
-### [CSS Selectors and properties](pages/ch_8_000_selectors.html)
+### [CSS Selectors and Declarations](pages/ch_8_000_selectors.html)
 * CSS selectors
+* CSS Declarations
 * CSS3 values and units
-* CSS properties
+* CSS Box model
+* Shorthand properties
 * CSS color and background properties
 * CSS font and text properties
 
 
-### [CSS Box Model](pages/ch_9_000_boxmodel.html)
-* CSS box model
+### [CSS Layout techniques](pages/ch_9_000_boxmodel.html)
 * HTML layout techniques
 * Styling lists
 * Styling tables
