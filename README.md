@@ -88,7 +88,7 @@
 * CSS3 specificty, inheritane and the cascade
 * CSS location
 
-### 7. [CSS Selectors and Declarations](pages/ch_8_000_selectors.html)
+### 7. [CSS Selectors and Declarations](pages/ch_7_000_selectors.html)
 * CSS selectors
 * CSS Declarations
 * CSS3 values and units
@@ -98,7 +98,7 @@
 * CSS font and text properties
 
 
-### 8. [CSS Layout techniques](pages/ch_9_000_boxmodel.html)
+### 8. [CSS Layout techniques](pages/ch_8_000_boxmodel.html)
 * HTML layout techniques
 * Styling lists
 * Styling tables
@@ -106,7 +106,7 @@
 * Grid
 * Responsive design
 
-### 9. [Styling forms](pages/ch_a_000_forms.html)
+### 9. [Styling forms](pages/ch_9_000_forms.html)
 * Styling forms
 
 
