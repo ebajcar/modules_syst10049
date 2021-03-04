@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>8.0 css SYST10049</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
+
+<style>
+.nine {
+  counter-reset: toc;
+  list-style-type: none;
+}
+.nine li::before {
+  counter-increment: toc;
+  content: "9." counters(toc,".") ". ";
+  color: orange;
+}
+body {
+  padding-top: 0.2em;
+}
+body {
+  /* Set "figure-counter" to 0 */
+  counter-reset: figure-counter;
+}
+figcaption::before {
+  /* Increment "figure-counter" by 1 */
+  counter-increment: figure-counter;
+  content: "FIGURE " counter(figure-counter) ". ";
+  font-weight: bold;
+}
+main {
+  counter-reset: section 7;
+}
+h2 {
+  counter-reset: subsection 0;
+}
+h2::before {
+  counter-increment: section;
+  content: counter(section) ". "; 
+}
+h3::before {
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) " "; 
+}
+h3 {
+  counter-reset: subsubsection;
+}
+h4::before {
+  counter-increment: subsubsection;
+  content: counter(section) "." counter(subsection) "." counter(subsubsection) ". ";
+}
+h2 { 
+  padding-top:20px; 
+  background-color: orange; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top right, orange, orange, white, white, white, white, white); /* Standard syntax (must be last) */
+  }
+h3 { 
+  padding-top:20px; 
+  background-color: orange; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top right, orange, white, white, white, white, white); /* Standard syntax (must be last) */
+  } 
+@media (max-width: 1200px) {
+  .container {
+    width: 100% !important;
+  }
+}
+.item {
+  box-sizing: border-box;
+  width: 100%;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+}
+code {
+  color: teal;
+  font-weight: bold;
+}
+nav > a {
+  display: block;
+}
+a {
+  color: #FF9900;
+  font-weight: 500;
+}
+.secondary {
+  color: gray;
+  margin: 0;
+  padding: 0 0 0 40px;
+  font-size: 0.9em;
+  display: block;
+  font-weight: 500;
+}
+.sub-menu-item {
+  color: gray;
+  margin: 0;
+  padding: 0 0 0 62px;
+  font-size: 0.8em;
+  display: block;
+  font-weight: 400;
+}
+hr {
+	border: 0;
+  padding: 0 auto;
+  margin: 33px auto 6px;
+	height: 3px;
+	background-image: -webkit-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0)); 
+	background-image:    -moz-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
+	background-image:     -ms-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
+	background-image:      -o-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+summary:before {
+  content: "\2b9e"; /* the new icon  ≡\2714*/
+  color: gray;
+  margin-right: 5px;
+}
+details[open] summary:before {
+  content: "\2b9f"; /* the new icon  "∧› ⚊ ⋮ " */
+	color: lightgray;
+}
+
+figure {
+  max-width: 800px;
+  padding-left: 5px;
+  border: 3px solid;
+  border-image-source: linear-gradient(70deg, lightblue, white, white, white);
+  border-image-slice: 1;
+}
+.eeb-border-quote { border-left: 3px solid darkorange;padding-left:6px; }
+.col3 {column-count: 3}
+
+iframe {
+  width:100%;
+  height:124px;
+  border: none;
+  border-bottom:1px dotted lightblue;
+  border-top: 1px dotted lightblue;
+}
+abbr { cursor: help; }
+samp:before {
+  content: '<';
+}
+samp:after {
+  content: '>';
+}
+samp {
+  font-family: monospace;
+  color: teal;
+  font-size: 1.2em;
+}
+[data-ref-link] {
+  color: darkred;
+}
+</style>    
+  </head>
+</head>
+<body>
+<main class="container">
+<h2>Cascading Style Sheets (CSS)</h2>
+	<blockquote class="blockquote">
+		<p class="mb-0">CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language. The separation of HTML from CSS makes it easier to maintain sites, share style sheets across pages, and tailor pages to different environments. This is referred to as the separation of structure (or: content) from presentation.</p>
+		<footer class="blockquote-footer">Read further  <cite title="[ www.w3.org/standards/webdesign/htmlcss#whatcss ]"><a href="http://www.w3.org/standards/webdesign/htmlcss#whatcss" target="_blank"> World Wide Web Consortium (W3C)</a></cite></footer>
+	</blockquote>	
+	<hr>
+  <nav>
+    <ol class="nine">
+      <li><a href="#page1">CSS Box model</a></li>
+      <li><a href="#page2">HTML Layout techniques</a></li>
+      <li><a href="#page3">Styling lists</a></li>
+      <li><a href="#page4">Styling tables</a></li>    
+      <li><a href="#page5">CSS Flexbox layout</a></li>
+      <li><a href="#page6">CSS Grid layout</a></li>
+      <li><a href="#page7">Responsive design</a></li>
+    </ol>
+  </nav>   
+<a target="_blank" href="https://www.w3schools.com/css/css_grid.asp"></a>
+
+<!-- HTML Layout Techniques -->
+<section id="page2">
+	<h3>HTML Layout Techniques</h3>
+	<p>There are different ways to create multi-column layouts. Each way has its pros and cons.</p>
+	<ul>
+		<li>HTML tables</li>
+		<li>CSS float property</li>
+		<li>CSS framework</li>
+		<li>CSS flexbox</li>
+		<li>CSS grid</li>
+	</ul>
+	<a class="btn btn-outline-secondary btn-block" style="cursor:pointer;"  target="_blank" role="button" 
+		href="https://www.w3schools.com/css/css_website_layout.asp">
+		Read more&mdash; CSS Website Layout @w3schools		 
+	</a>
+	<br>	
+	<p>Regardless of the chosen technique, follow the sequence of steps:</p>
+	<ol>
+		<li>Start with well-formed and valid HTML5 code with appropriate comments.</li>
+		<li>Consider the general CSS rules first.</li>
+		<li>Apply the desired values for positioning of the content.</li>
+		<li>Use a technique (flexbox, grid,...) to layout the page.</li>
+		<li>Add finishing touches...</li>
+	</ol>
+	<a class="btn btn-outline-warning btn-block" style="cursor:pointer;"  target="_blank" role="button" 
+		href="http://bajcar.dev.fast.sheridanc.on.ca/course_syst10049_examples/design_layouts.html">
+		Explore: example	 
+	</a>		
+
+</section>
+
+<!-- Styling lists -->
+<section id="page3">
+	<h3>Styling lists </h3>	
+	<ul>
+		<li>The <code>list-style-type</code> <em>property</em> specifies the type of list item marker.</li>
+		<li>The <code>list-style-image</code> <em>property</em> specifies an image as the list item marker</li>
+		<li>The <code>list-style-position</code> <em>property</em> specifies the position of the list-item markers (bullet points).</li>
+		<li>The <code>list-style-type:none</code> <em>property</em> can also be used to remove the markers/bullets. Note that the list also has default margin and padding. To remove this, add<br> margin:0 and padding:0 to &lt;ul> or &lt;ol>:</li>
+		<li>The <code>list-style</code> <em>property</em> is a <strong>shorthand property</strong>. It is used to set all the list properties in one declaration:</li>
+		<li>We can also style lists with colors, to make them look a little more interesting.</li>
+		
+	</ul>
+		<a class="btn btn-outline-secondary btn-block" style="cursor:pointer;"  target="_blank" role="button" 
+		href="https://www.w3schools.com/css/css_list.asp">
+		Explore the examples @w3schools	</a>	 
+</section>
+
+<!-- Styling tables -->
+<section id="page4">
+	<h3>Styling tables</h3>	
+	<ul>
+		<li>To specify table borders in CSS, use the <code>border</code> <em>property</em>.</li>
+		<li>The <code>border-collapse</code> <em>property</em> sets whether the table borders should be collapsed into a single border</li>
+		<li>Width and height of a table are defined by the <code>width</code> and <code>height</code> <em>properties</em>.</li>
+		<li>The <code>text-align</code> <em>property</em> sets the horizontal alignment (like left, right, or center) of the content in &lt;th> or &lt;td>.</li>
+		<li>The <code>vertical-align</code> <em>property</em> sets the vertical alignment (like top, bottom, or middle) of the content in &lt;th> or &lt;td>.</li>
+		<li>To control the space between the border and the content in a table, use the <code>padding</code> <em>property</em> on &lt;td> and &lt;th> elements.</li>
+		<li>Add the <code>border-bottom</code> <em>property</em> to &lt;th> and &lt;td> for horizontal dividers</li>
+		<li>Use the <code>:hover</code> <em>selector</em> on &lt;tr> to highlight table rows on mouse over</li>
+		<li>For zebra-striped tables, use the <code>nth-child()</code> <em>selector</em> and add a <code>background-color</code> <em>property</em> to all even (or odd) table rows</li>
+
+	</ul>
+		<a class="btn btn-outline-secondary btn-block" style="cursor:pointer;"  target="_blank" role="button" 
+		href="https://www.w3schools.com/css/css_table.asp">
+		Explore the examples @w3schools	</a>
+
+</section>
+
+
+<!-- CSS Flexbox layout -->
+<section id="page5">
+	<h3>CSS Flexbox layout</h3>	
+	<p>Before the Flexbox Layout module, there were four layout modes:</p>
+	<ol>
+		<li>Block, for sections in a webpage</li>
+		<li>Inline, for text</li>
+		<li>Table, for two-dimensional table data</li>
+		<li>Positioned, for explicit position of an element</li>
+	</ol>	
+	<p>The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning. To start using the Flexbox model, you need to first define a flex container. The flex container becomes flexible by setting the <code>display</code> <em>property</em> to flex.</p>
+	<p>The flex container properties are:<br>
+<code>flex-direction<br>
+&nbsp;flex-wrap<br>
+&nbsp;flex-flow<br>
+&nbsp;justify-content<br>
+&nbsp;align-items<br>
+&nbsp;align-content</code>
+</p>
+	<a class="btn btn-outline-secondary btn-block" style="cursor:pointer;"  target="_blank" role="button" 
+		href="https://www.w3schools.com/css/css3_flexbox.asp">
+		Explore the examples @w3schools	 
+	</a>	 
+</section>
+
+<!-- CSS Grid layout -->
+<section id="page6">
+	<h3>CSS Grid Layout</h3>	
+	<p>The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.</p>
+	<dl class="row">
+	  <dt class="col-sm-3">Grid Elements</dt>
+	  <dd class="col-sm-9">A grid layout consists of a parent element, with one or more child elements.</dd>
+	  <dt class="col-sm-3">Display Property</dt>
+	  <dd class="col-sm-9">An HTML element becomes a grid container when its display property is set to grid or inline-grid</dd>
+	  <dt class="col-sm-3">Grid Columns</dt>
+	  <dd class="col-sm-9">The vertical lines of grid items are called columns.</dd>	  
+	  <dt class="col-sm-3">Grid Rows</dt>
+	  <dd class="col-sm-9">The horizontal lines of grid items are called rows.</dd>
+	  <dt class="col-sm-3">Grid Gaps</dt>
+	  <dd class="col-sm-9">The spaces between each column/row are called gaps.</dd>
+	  <dt class="col-sm-3">Grid Lines</dt>
+	  <dd class="col-sm-9">The lines between columns are called column lines.<br>The lines between rows are called row lines.</dd>	  
+	</dl>	
+	<p>To make an HTML element behave as a grid container, you have to set the display property to grid or inline-grid. Grid containers consist of grid items, placed inside columns and rows.</p>
+	<p>The grid property is a shorthand property for the following properties:<br>
+<code>grid-template-rows<br>
+&nbsp;grid-template-columns<br>
+&nbsp;grid-template-areas<br>
+&nbsp;grid-auto-rows<br>
+&nbsp;grid-auto-columns<br>
+&nbsp;grid-auto-flow</code>
+</p>
+
+	
+	<a class="btn btn-outline-secondary btn-block" style="cursor:pointer;"  target="_blank" role="button" 
+		href="https://www.w3schools.com/css/css_grid.asp">
+		Explore the examples @w3schools	 
+	</a> 
+</section>
+
+
+<!-- CSS responsive-->
+<section id="page7">
+	<h3>Responsive design</h3>
+
+	<h5>At-rules</h5>	
+	
+  <details open>
+    <summary>| @import | <strong>@media</strong> | <del>@keyframes</del> | @font-face | @charset| </summary>
+    <p>At-rules are all different, but they have a basic structure in common. They start with an "@" symbol, followed by their name as a CSS keyword. Some at-rules are simple statements, with their name followed by more CSS values to specify their behavior, and finally ended by a semicolon. Others are blocks; they can have CSS values following their name, but they end with a {}-wrapped block, similar to a qualified rule. Even the contents of these blocks are specific to the given at-rule: sometimes they contain a sequence of declarations, like a qualified rule; other times, they may contain additional blocks, or at-rules, or other structures altogether.</p>
+    <footer class="blockquote-footer">Read further  <cite title="[ www.w3.org/standards/webdesign/htmlcss#whatcss ]"><a href="https://www.w3.org/TR/css-syntax-3/#syntax-description" target="_blank"> At-rules (W3C specification)	</a></cite></footer>  
+  </details>
+	
+
+  <hr>
+<h5> Media-specific style sheets: the @media rule</h5>
+<p>The <code>@media</code> at-rule begins with a media type and a list of optional media queries. Its block contains entire rules, which are only applied when the @media's conditions are fulfilled.
+</p>
+<pre class="language-css"><code>
+@media print {
+  body { font-size: 10pt }
+}
+</code></pre>
+
+<p>A media type is a broad category of user-agent devices on which a document may be displayed. The original set of media types were defined in HTML4, for the media attribute on &lt;link> elements.</p>
+
+<footer class="blockquote-footer">
+  Read further  <cite title="[ media types: all, print, speech, screen ]"><a href="https://www.w3.org/TR/mediaqueries-4/#media-type" target="_blank"> media types: all, print, speech, screen.</a></cite>
+</footer> 
+	<hr>
+
+<h5>The Viewport</h5>
+
+
+<p>The viewport is the user's visible area of a web page. HTML5 introduced a method to let web designers take control over the viewport, through the &lt;meta> tag. You should include the following &lt;meta> viewport element in all your web pages:</p>
+<pre class="language-html"><code>
+&lt;meta name="viewport"  
+      content="width=device-width,initial-scale=1.0">
+</code></pre>      
+
+<footer class="blockquote-footer">Read further  <cite title="[ https://www.w3schools.com/css/css_rwd_viewport.asp ]"><a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_blank"> https://www.w3schools.com/css/css_rwd_viewport.asp	</a></cite></footer>   
+   
+</section>
+
+<!-- 
+  ** *******************************************
+  ** Footer
+  ** *******************************************
+-->	
+<hr>
+<footer class="container">   
+    <div class="xsmall fa fa-copyright" style="padding:1% 13%;text-align:center;">
+        <em>This work is the intellectual property of Sheridan College. Any further copying 
+        and distribution outside of class must be within the copyright law. Posting to 
+        commercial sites for profit is prohibited.</em>
+    </div>   
+    <address style="text-align:center;">SYST10199 Web Programming |&nbsp;Sheridan College</address> 					
+</footer> 
+</main>    
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/htmlbars.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/xml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/markdown.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+  'use strict'
+
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement('style')
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.head.appendChild(msViewportStyle)
+  }
+
+}())    
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>6.0 css SYST10049</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
+
+<style>
+/* 
+  new colors 
+  color: var(--darkblue);
+*/
+:root {
+  --blue: #003767;
+  --white: #ffffff;
+  --lightblue: #00b2ce;
+  --darkblue: #0081a1;
+  --darkgray: #333940;
+  --lightgray: #d5d5d5;
+}
+body {
+  padding-top: 0.2em;
+}
+body {
+  /* Set "figure-counter" to 0 */
+  counter-reset: figure-counter;
+}
+figcaption::before {
+  /* Increment "figure-counter" by 1 */
+  counter-increment: figure-counter;
+  content: "FIGURE " counter(figure-counter) ". ";
+  font-weight: bold;
+}
+main {
+  counter-reset: section 5;
+}
+h2 {
+  counter-reset: subsection 0;
+}
+h2::before {
+  counter-increment: section;
+  content: counter(section) ". "; 
+}
+h3::before {
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) " "; 
+}
+h3 {
+  counter-reset: subsubsection;
+}
+h4::before {
+  counter-increment: subsubsection;
+  content: counter(section) "." counter(subsection) "." counter(subsubsection) ". ";
+}
+	
+h2 { 
+  padding-top:20px; 
+  background-color: var(--white); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top right, var(--lightblue), var(--lightgray), white, white, white, white, white); /* Standard syntax (must be last) */
+  color: var(--darkgray);
+  text-shadow: 1px 1px 1px var(--white), 2px 2px 4px var(--lightblue);
+  }
+  
+h3 { 
+  padding-top:20px; 
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top right,  var(--lightblue), white, white, white, white, white, white); /* Standard syntax (must be last) */
+  color: var(--darkgray);
+  text-shadow: 1px 1px 1px var(--white), 2px 2px 2px var(--lightblue);
+  } 
+@media (max-width: 1200px) {
+  .container {
+    width: 100% !important;
+  }
+}
+.item {
+  box-sizing: border-box;
+  width: 100%;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+}
+code {
+  color: teal;
+  font-weight: bold;
+}
+nav > a {
+  display: block;
+}
+a {
+  color: var(--darkblue);
+  font-weight: 500;
+}
+.secondary {
+  color: gray;
+  margin: 0;
+  padding: 0 0 0 40px;
+  font-size: 0.9em;
+  display: block;
+  font-weight: 500;
+}
+.sub-menu-item {
+  color: gray;
+  margin: 0;
+  padding: 0 0 0 62px;
+  font-size: 0.8em;
+  display: block;
+  font-weight: 400;
+}
+hr {
+	border: 0;
+  padding: 0 auto;
+  margin: 33px auto 6px;
+	height: 3px;
+	background-image: -webkit-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0)); 
+	background-image:    -moz-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
+	background-image:     -ms-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
+	background-image:      -o-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+summary:before {
+  content: "\2b9e"; /* the new icon  ≡\2714*/
+  color: gray;
+  margin-right: 5px;
+}
+details[open] summary:before {
+  content: "\2b9f"; /* the new icon  "∧› ⚊ ⋮ " */
+	color: lightgray;
+}
+
+figure {
+  max-width: 800px;
+  padding-left: 5px;
+  border: 3px solid;
+  border-image-source: linear-gradient(70deg, lightblue, white, white, white);
+  border-image-slice: 1;
+}
+.eeb-border-quote { border-left: 3px solid darkorange;padding-left:6px; }
+.col3 {column-count: 3}
+
+iframe {
+  width:100%;
+  height:124px;
+  border: none;
+  border-bottom:1px dotted lightblue;
+  border-top: 1px dotted lightblue;
+}
+abbr { cursor: help; }
+samp:before {
+  content: '<';
+}
+samp:after {
+  content: '>';
+}
+samp {
+  font-family: monospace;
+  color: teal;
+  font-size: 1.2em;
+}
+[data-ref-link] {
+  color: darkred;
+}
+</style>    
+  </head>
+</head>
+<body>
+<main class="container">
+  	<h2>Cascading Style Sheets (CSS)</h2>
+	<blockquote class="blockquote">
+		<p class="mb-0">CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language. The separation of HTML from CSS makes it easier to maintain sites, share style sheets across pages, and tailor pages to different environments. This is referred to as the separation of structure (or: content) from presentation.</p>
+		<footer class="blockquote-footer">Read further  <cite title="[ www.w3.org/standards/webdesign/htmlcss#whatcss ]"><a href="http://www.w3.org/standards/webdesign/htmlcss#whatcss" target="_blank"> World Wide Web Consortium (W3C)</a></cite></footer>
+	</blockquote>	
+	<hr>
+
+<nav>
+  <ol>
+    <li><a href="#page1">Mastering CSS</a></li>
+    <li><a href="#page2">Following guidelines</a></li>
+    <li><a href="#page3">Understanding the Document Object Model (DOM)</a></li>
+    <li><a href="#page4">CSS Syntax</a></li>
+    <li><a href="#page5">Selector Syntax and Structure</a></li>
+    <li><a href="#page6">CSS Rules</a></li>
+    <li><a href="#page7">CSS3 Specificity, Inheritance and the Cascade</a></li>
+    <li><a href="#page8">CSS Location</a></li>
+  </ol>
+</nav>  
+
+		
+<!-- Mastering CSS -->
+<section id="page1">
+	<h3>Mastering CSS</h3>	
+	<ol style="background-color:linen; padding-top: 1em;padding-bottom: 1em;font-weight: 600;">
+		<li>Learn about selectors: how they work? what is available? when to use each?</li>
+		<li>Learn about properties: how they work? what is available? when to use each?</li>
+		<li>Practice! practice a lot!
+			<ol>
+				<li>Start with valid HTML5 code. (<a href="http://bajcar.dev.fast.sheridanc.on.ca/www10049/checklists_pre2018/htmlSheet.html" target="_blank">Review HTML5 regularly</a>)</li>
+				<li>Identify and evaluate how each component of the content is to be presented. (<a href="http://bajcar.dev.fast.sheridanc.on.ca/www10049/checklists_pre2018/cssSheet2019.html" target="_blank">Overview of CSS3</a>)</li>		
+				<li>Create each CSS rule, starting with the general, start with the top of DOM, to achieve the desired presentation.</li>
+				<li>Test, experiment, make observations. Look for improvements. </li>
+				<li>Follow guidelines, document your code well, and keep your CSS tidy.</li>				
+			</ol>
+		</li>
+		<li>Repeat. Commit to 30-45 minutes a day for a month. Always push the boundaries to learn more. Practice to achieve higher level of mastery.</li>
+
+	</ol>
+	<hr>
+</section>
+
+
+<!-- Keep your CSS tidy -->
+<section id="page2">
+  <h3>Following guidelines</h3>	
+  <dl class="row">
+	  <dt class="col-sm-3"><h5>Organize your code</h5></dt>
+    <dd class="col-sm-9" style="border-bottom: 1px dotted teal">
+      <ul>
+        <li title='For example, a commonly used removal of default margins and padding on all elements: * { margin: 0; padding: 0; } '><strong>Resetting browser defaults</strong> Each browser has default values that will be applied to elements in the absence of CSS style rule. This can cause inconsistencies in the appeaarance of the page design across different browsers.  It is important to reset the browser's default values to ensure that your style sheet has total control of the design.</li>
+        <li title='For example, including the at-rule at the beginning of another CSS file: @import "reset.css";'><strong>Modularizing style sheets</strong> When styling large websites, it is ueful to make individual sheets for different purposes and then link them in a single mater style sheet. </li>
+        <li><strong>Describing sections</strong> Each style sheet should be separated into sections with commented headings, desribing the purpose of that section. This makes the code easier for others to understand and easier for you to understand when revisiting the code some time later.</li>
+        <li><strong>Keeping your code consistent</strong> List the rule declarations in alphabetical property order to more readily find a declaration. Give preference to including the terminating semi-colon after the final declaration. (although optional, easy to miss later when appending further declarations)</li>
+        <li><strong></strong> </li>      
+      </ul>
+    </dd>
+    
+	  <dt class="col-sm-3"><h5>Optimize style rules</h5></dt>
+    <dd class="col-sm-9" style="border-bottom: 1px dotted teal">
+      <ul>
+        <li><strong>Inheriting values</strong> It is important to recognize that many property values of a parent element are inherited by the child element it contains. Most commonly the font and color properties are inherited from the containing parent element. <em>If a style rule sets these properties for the parent element a further rule need not repeat them for the child element</em> (unless different values are desired).</li>
+        <li><strong>Sizing text</strong> When specifying text size, it is best practice to avoid absolute unit values in order to allow the user to enlarge text. The preferred method is to size text relative to the browser using <code>em</code> units. Standard browser font size is <code>1em</code>, which is equal to <code>16px</code>.</li>
+        <li><strong>Employing shorthand</strong> Always use CSS shorthand properties rather than individual properties to keep style sheet code concise.</li>   
+        <li><strong>Employing multiple classes</strong> The HTML element's class attribute can be assigned multiple values, each separated by a space.  This is a very powerful feature, allowing you to apply styles from more than one class to any element.</li>         
+      </ul>    
+    </dd>    
+ 
+    
+	  <dt class="col-sm-3"><h5>Validate style sheets</h5></dt>
+    <dd class="col-sm-9" style="border-bottom: 1px dotted teal">
+        Web broswers make no attempt to validate code, so it is important to verify every HTML document and CSS style sheet before the web page is published, even when the page looks fine in your browser.  When the browser encounters code errors, it makes a guess at what is intended, but different browsers may make different interpretations and so display the page incorrectly. W3C provides free online validator tools that check web page code for errors and warnings.
+      <ul>
+        <li><strong>W3C HTML Validator Tool</strong> at <a href="https://validator.w3.org/" target="_blank"> validator.w3.org/</a> </li>    
+        <li><strong>W3C CSS Validator Tool</strong> at <a href="https://jigsaw.w3.org/css-validator/" target="_blank"> jigsaw.w3.org/css-validator/</a> </li>         
+      </ul> 
+    </dd>    
+  
+  
+    <dt class="col-sm-3"><h5>Keep your CSS tidy</h5></dt>	
+    <dd class="col-sm-9">
+      <ul>
+        <li>Keep it consistent</li>
+        <li>Format readable CSS</li>
+        <li>Comment your CSS</li>
+        <li>Create logical sections in your stylesheet</li>
+        <li>Avoid overly-specific selectors</li>
+        <li>Break large stylesheets into multiple smaller ones</li>
+      </ul>
+      <a class="btn btn-outline-secondary btn-block" style="cursor:pointer;"  target="_blank" role="button" 
+        href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing#Tips_to_keep_your_CSS_tidy">
+        Read more @ MDN
+      </a>
+    </dd>
+    
+    <dt class="col-sm-3"><h5>Document with comments</h5></dt>
+    <dd class="col-sm-9">
+      <p>As with HTML, you are encouraged to make comments in your CSS, to help you understand how your code works when coming back to it after several months, and to help others coming to the code to work on it understand it.</p>
+      <p>Comments in CSS begin with /* and end with */. In the below code block I have used comments to mark the start of different distinct code sections. This is useful to help you navigate your codebase as it gets larger — you can search for the comments in your code editor.</p>
+    </dd>
+  </dl>
+	<hr>
+</section>	
+
+  
+ 
+ 
+<!-- Understand the Document Object Model (DOM)-->
+<section id="page3">
+    <h3>Understand the Document Object Model (DOM)</h3>
+    <h4>How it works </h4>
+    <footer class="blockquote-footer">Revisit earlier content  <cite title="[ Document Object Model (DOM) ]"><a href="https://ebajcar.github.io/modules_syst10049/pages/ch_1_2_3.html" target="_blank"> Document Object Model (DOM)</a></cite></footer>
+    <hr>
+   
+    <figure>
+      <img src="https://mdn.mozillademos.org/files/11781/rendering.svg">
+      <figcaption>Read further: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works" target="_blank"> How does CSS actually work?</a> </figcaption>
+    </figure>
+	
+    <hr>
+    <h4>DOM processing</h4>
+    <figure>
+      <img src="http://bajcar.dev.fast.sheridanc.on.ca/web_assets/images/full-process.png" alt="browser process" style="width:100%">	
+      <figcaption>Read further: <a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model" target="_blank"> Constructing the Object Model</a></figcaption>
+    </figure>
+    
+    <h4>DOM for minimal HTML5 document</h4>
+    <figure>
+      <img src="images/html03.png" alt="browser process" style="width:70%">	
+      <figcaption>Example</figcaption>
+    </figure>    
+</section>
+
+  
+<!-- 6.1. CSS3 Syntax Module   -->
+<section id="page4">
+	<h3>CSS3 Syntax</h3>
+	<p>CSS Level 3 delivers a wide range of styles and effects, enhancing a web app without sacrificing semantic structure or performance .</p>	
+	<h5>Style Rule (CSS Rule)</h5>
+
+<pre class="language-css"><code>
+selectors {    /* declaration start (open brace) */
+   property:value;  /* each ends with a semi-colon */
+   property:value;  
+}    /* declaration end (close brace) */</code></pre>
+	<p><strong>Selector</strong> specifies the target of styling.<br>
+	   <strong>Declaration</strong> specifies the property and value to be applied to the selector.</p>
+	<hr>	
+
+    <h3>Selector Syntax and Structure</h3>
+	<p>A <strong>selector</strong> represents a particular pattern of element(s) in a <strong>tree structure</strong>. The term selector can refer to a <em>simple selector</em>, <em>compound selector</em>, <em>complex selector</em>, or <em>selector list</em>. The subject of a selector is any element that selector is defined to be about; that is, any element matching that selector. A list of simple/compound/complex selectors is a comma-separated list of simple, compound, or complex selectors. This is also called just a <strong>selector list</strong>.</p>	
+
+  <footer class="blockquote-footer">Read further  <cite title="[ www.w3.org/standards/webdesign/htmlcss#whatcss ]"><a href="https://www.w3.org/TR/selectors-4/#syntax" target="_blank"> Selector syntax and structure (W3C specification)	</a></cite></footer>
+	<hr>
+
+	<h3>CSS Rules</h3>
+	<p>A CSS document is a series of style rules, which are</p>
+	<ul>
+		<li><strong>qualified rules</strong> that apply styles to elements in a document, and</li>
+		<li><strong>at-rules</strong>, which define special processing rules or values for the CSS document.</li>
+	</ul>
+	<h5>Qualified rules</h5>
+	<p>A <strong>qualified</strong> rule starts with a prelude then has a {}-wrapped block containing a sequence of declarations. The meaning of the prelude varies based on the context that the rule appears in—for style rules, it’s a selector which specifies what elements the declarations will apply to. Each declaration has a name, followed by a colon and the declaration value. Declarations are separated by semicolons.</p>
+	<p>A <strong>style rule</strong> is a qualified rule that associates a <strong>selector list</strong> with a list of <strong>property declarations</strong>. They are also called rule sets in [CSS2]. CSS Cascading and Inheritance [CSS-CASCADE-3] defines how the declarations inside of style rules participate in the cascade.</p>
+	<h5>At-rules</h5>	
+	<p>At-rules are all different, but they have a basic structure in common. They start with an "@" symbol, followed by their name as a CSS keyword. Some at-rules are simple statements, with their name followed by more CSS values to specify their behavior, and finally ended by a semicolon. Others are blocks; they can have CSS values following their name, but they end with a {}-wrapped block, similar to a qualified rule. Even the contents of these blocks are specific to the given at-rule: sometimes they contain a sequence of declarations, like a qualified rule; other times, they may contain additional blocks, or at-rules, or other structures altogether.<br>
+	| <strong>@import</strong> | <strong>@media</strong> | <strong>@keyframes</strong> | <strong>@font-face</strong> | <strong>@charset</strong> | </p>
+	
+  <footer class="blockquote-footer">Read further  <cite title="[ www.w3.org/standards/webdesign/htmlcss#whatcss ]"><a href="https://www.w3.org/TR/css-syntax-3/#syntax-description" target="_blank"> At-rules (W3C specification)	</a></cite></footer>
+  
+</section>
+
+
+
+<!-- 6.2. CSS3 Cascading and Inheritance  --> 
+<section id="page14">
+	<h3>CSS3 Specificity, Inheritance, and the Cascade </h3>
+ 
+	<p>Conflicting rules &mdash;cascade, specificity, inheritance&mdash; these three concepts together control which CSS applies to what element.</p>
+  
+  <footer class="blockquote-footer">Read further  <cite title="[ www.w3.org/standards/webdesign/htmlcss#whatcss ]"><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance" target="_blank"> Understanding how the concepts work together (MDN)		</a></cite></footer>
+  <hr>
+
+  <h5>The Cascade and Inheritance</h5>	
+	<p>One of the fundamental design principles of CSS is <strong>cascading</strong>, which allows several style sheets to influence the presentation of a document. When different declarations try to set a value for the same element/property combination, the conflicts must somehow be resolved.</p>
+	<p>The opposite problem arises when no declarations try to set a value for an element/property combination. In this case, a value is found by way of <strong>inheritance</strong> or by looking at the property’s <strong>initial value</strong>.</p>
+	<p>The <strong>cascading</strong> and <strong>defaulting</strong> process takes a set of declarations as input, and outputs a <strong>specified value</strong> for each property on each element.</p>	
+  <figure> 
+  <img src="images/cascade0.jpg">
+    <figcaption>The Cascade  <footer class="blockquote-footer">Read further  <cite title="[ www.w3.org/standards/webdesign/htmlcss#whatcss ]"><a href="https://www.w3.org/TR/css-cascade-3/" target="_blank"> Cascading and defaulting (W3C specification)	</a></cite></footer>
+ </figcaption>
+  </figure> 
+
+ <hr>
+  
+	<h5>Specificity</h5>	
+
+	<blockquote class="blockquote">
+		<p class="mb-0">Specificity is a measure of how specific a selector is — how many elements it could match. Element selectors have low specificity. Class selectors have a higher specificity, so will win against element selectors. ID selectors have an even higher specificity, so will win against class selectors. The only way to win against an ID selector is to use !important.</p>
+		<footer class="blockquote-footer">Read further  <cite title="[ www.w3.org/TR/selectors-3/#specificity ]"><a href="https://www.w3.org/TR/selectors-3/#specificity" target="_blank"> World Wide Web Consortium (W3C)</a></cite></footer>
+	</blockquote>	
+  
+
+<iframe style="height: 800px; width: 80%;" scrolling="no" title="Specificity calculator" src="https://codepen.io/ebajcar/embed/yQLmmm?height=549&theme-id=light&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/ebajcar/pen/yQLmmm'>Specificity calculator</a> by Ellen Bajcar
+  (<a href='https://codepen.io/ebajcar'>@ebajcar</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+	<hr>
+</section>
+
+ 
+
+<!-- 6.3. CSS Location -->
+<section id="page16">
+<h3>CSS Location</h3>	
+
+<h5>External Style Sheets</h5> 
+
+<figure>  
+<pre class="language-html"><code>&lt;link rel="stylesheet" href="css/style.css"></code></pre>
+<figcaption><strong class="text-danger">Scope</strong> is web-app wide, can be used on multiple pages.</figcaption>
+</figure>
+
+
+<h5>Internal (Embedded) Styles</h5>
+
+<figure>
+<pre class="language-html"><code>
+&lt;style> selector {property: value;} &lt;/style> &lt;/head></code></pre>
+<figcaption><strong class="text-danger">Scope</strong> is the HTML document, can be used on multiple times of the page.</figcaption>
+</figure>
+
+<h5>Inline Styles</h5>
+
+<figure>
+<pre class="language-html"><code>
+&lt;tag style="property:value;property:value;"> content &lt;/tag></code></pre>
+<figcaption><strong class="text-danger">Scope</strong> is the element containing the attribute, cannot be reused, good only for that one element.</figcaption>
+</figure>
+
+<h5>Browser</h5>
+  
+	<p>Normal flow (defaults). Each browser sets the properties to default values. Refer to individual vendor's documentation and to W3C specifications; vendor's conform to industry standards, but will have variations. It is important to understand how browser applications construct the DOM	and CSSOM to gain insight how CSS rules are applied.</p>
+  	<a class="btn btn-outline-secondary btn-block" style="cursor:pointer;"  target="_blank" role="button" 
+		href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured">
+		Read more&mdash; How CSS is structured (MDN)
+	</a>
+<hr>
+	
+	<h5>Moving from inline to internal stylesheets</h5>
+  
+  <p>Limit the user of inline style only to temporary usage during development and move to internal styles quickly. You can create a class for the element, replace the style attribute with the class attribute, and move all declarations to the newly-created class.</p>
+  
+<figure>
+<pre class="language-html"><code>&lt;!-- Let's say you developed the following 
+     somewhere in the body section of your document-->
+&lt;p style="color:yellow;background-color:navy;"> content &lt;/p>
+
+&lt;!-- to convert it to internal, add a new class in the style element 
+     inside the head section of the document -->
+&lt;style>
+.yellow-text {
+  color: yellow;
+  background-color: navy;
+}
+&lt;/style>
+&lt;/head>
+&lt;!-- now replace the style attribute with the class attribute -->
+&lt;p class="yellow-text"> content &lt;/p></code></pre>
+<figcaption>Convert inline styles to internal styles.</figcaption>
+</figure>
+<hr>
+  
+	<h5>Moving from internal to external stylesheets</h5>
+  
+	<p>Using external stylesheets allows you to make all pages look the same and to reduce duplication of the same code from file to file. To move from internal (<em>scope</em> is the document) to external (<em>scope</em> is the web app), follow the guidelines:</p>
+  
+  <ol>
+    <li>Create an empty external file with <code>.css</code> extension.</li>
+    <li>Cut and paste CSS rules from the <code>&lt;style></code> element to the newly created file.
+      <ul>
+      <li>You can create multiple files to organize the CSS code.</li>
+      <li>The CSS file contains only CSS rules.</li>
+      <li>Include the same header (prologue) in each CSS file as the HTML document, with appropriate adjustements.</li>
+      </ul>
+    </li>
+    <li>Save the new file in the project's <code>css</code> sub-directory.
+      <ul>
+      <li>All external stylesheets have the extension <code>.css</code>.</li>
+      <li>All external stylesheets are stored in the <code>css</code> sub-directory.</li>
+      </ul>
+    </li>
+    <li>To create the link to the external file, replace the <code>&lt;style></code> element with <code>&lt;link></code> element to link in the external style sheets.
+      <ul>
+      <li>Create a link for each CSS file that you want to include.</li>
+      <li>The order of the links matters when <strong>re-defining property values</strong> for the same element/property combination.</li>
+      </ul>
+    </li>
+  </ol>
+</section>
+
+
+
+
+<!-- 
+  ** *******************************************
+  ** Footer
+  ** *******************************************
+-->	
+<hr>
+<footer class="container">   
+    <div class="xsmall fa fa-copyright" style="padding:1% 13%;text-align:center;">
+        <em>This work is the intellectual property of Sheridan College. Any further copying 
+        and distribution outside of class must be within the copyright law. Posting to 
+        commercial sites for profit is prohibited.</em>
+    </div>   
+    <address style="text-align:center;">SYST10199 Web Programming |&nbsp;Sheridan College</address> 					
+</footer> 
+</main>    
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/htmlbars.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/xml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/markdown.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+  'use strict'
+
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement('style')
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.head.appendChild(msViewportStyle)
+  }
+
+}())    
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>
