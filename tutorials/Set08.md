@@ -57,3 +57,9 @@
  #### C. Complete [Using your new knowledge (MDN)](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Using_your_new_knowledge)  in directory `C:\public_html\syst10049\css_practice`, choosing an appropriate name.
  
   #### D. Complete [Typesetting a community school homepage (MDN)](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Typesetting_a_homepage)  in directory `C:\public_html\syst10049\community_school`, choosing an appropriate name.
+
+
+
+---
+> SYST10049 Web Development @ Sheridan College
+
