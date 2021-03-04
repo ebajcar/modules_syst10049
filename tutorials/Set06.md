@@ -7,6 +7,32 @@
 
 > &bull;  selector &bull; property &bull; property value &bull; cascade &bull; inheritance &bull;  browser defaults &bull; style sheet &bull; specificity &bull;  declaration &bull; DOM &bull;  CSSOM &bull;  external styles &bull; internal (embedded) styles &bull; inline styles &bull; 
 
+### Read and make notes: [General suggestions for ways to keep your stylesheets organised and tidy](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing#Tips_to_keep_your_CSS_tidy)
+
+- Keep it consistent
+- Formatting readable CSS
+- Comment your CSS
+- Create logical sections in your stylesheet
+- Avoid overly-specific selectors
+- Break large stylesheets into multiple smaller ones
+
+### Read and make notes: [Cascade and inheritance (MDN)](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
+- Conflicting rules &mdash;cascade, specificity, inheritance (these three concepts together control which CSS applies to what element)
+- The effect of CSS location
+
+### Read and make notes: [How CSS is structured](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
+- Applying CSS to your HTML
+- Selectors
+- Specificity
+- @rules
+- Properties and values
+- Shorthands
+- Comments
+- Whitespace
+- Functions
+
+---
+
 ## Complete the following tutorials. Document what you have learned.
  #### A. For each of the following CSS properties, complete the tutorial on w3schools.  Note the definition, intended purpose, browser support, supported attributes, and possible attribute values. Example:
 0. COLOR [https://www.w3schools.com/cssref/pr_text_color.asp](https://www.w3schools.com/cssref/pr_text_color.asp)
