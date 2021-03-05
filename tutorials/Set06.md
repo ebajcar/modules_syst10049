@@ -38,7 +38,7 @@
 
 ---
 ## Explore class examples and related exercises
-[Worksheet 6](examples_06/instructions_ws06.html)
+[Class examples - worksheet 6](examples_06/instructions_ws06.html)
 
 ---
 
