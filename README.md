@@ -109,15 +109,7 @@
 ### 9. [Styling forms](pages/ch_9_000_forms.html)
 * Styling forms
 
----
 
-# Tutorials
-* [Set 1](tutorials/Set01.md)
-* [Set 2](tutorials/Set02.md)
-* [Set 3](tutorials/Set03.md)
-* [Set 4](tutorials/Set04.md)
-* [Set 5](tutorials/Set05.md)
-* [Set 6](tutorials/Set06.md)
 
 
 ---
