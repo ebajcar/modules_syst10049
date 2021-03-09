@@ -22,6 +22,12 @@
 3. With the validator examine the document outline and structural outline (as demonstrated in class).
 4. Make corrections to ensure that outline is correct and consistent.
 5. Make a copy of the file. To the new copy only, add the reset link.
+ 
+```html
+<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+</head>
+```
+
 6. Compare how the two files render. Analyze and annotate with your obserations.
 7. Note: the mark element has not been reset.  Find the default.  How would you reset it?  (ok to leave as is, just ponder!)
 8. Copy the original file again.  With this version, create an internal stylesheet (as demonstrated in class).
