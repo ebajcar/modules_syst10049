@@ -1,7 +1,7 @@
 # Worksheet 6
 #### SYST10049 Web Development
 
-1. Work through the material in [Exercise Set 6]()
+1. Work though Class example 50. 
 2. Work through Class example 51. Test and document observations for each potential solution.
 3. Test, observe, document, try to recreate yourself; dig deeper and research properties and values used...
    * [example06_001.html](example06_001.html) - explore text properties
@@ -13,6 +13,21 @@
    * [example07_010.html](example07_010.html) - explore box model
    * [explore_font.html](explore_font.html) - explore font properties
 4. Practice!
+
+---
+
+## Class Example 50
+1. Start with the file [exploring_articles.html](exploring_articles.html). Download to your local project "learnCSS".
+2. Test and validate.  Correct to remove all errors and warnings.
+3. With the validator examine the document outline and structural outline (as demonstrated in class).
+4. Make corrections to ensure that outline is correct and consistent.
+5. Make a copy of the file. To the new copy only, add the reset link.
+6. Compare how the two files render. Analyze and annotate with your obserations.
+7. Note: the mark element has not been reset.  Find the default.  How would you reset it?  (ok to leave as is, just ponder!)
+8. Copy the original file again.  With this version, create an internal stylesheet (as demonstrated in class).
+
+
+---
 
 ## Class Example 51
 - [example51.html]()
