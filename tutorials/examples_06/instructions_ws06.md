@@ -35,7 +35,7 @@
 ### Description
 
 This example has HEADER with H1 content, followed by four (4) paragraphs of Latin text, and FOOTER content in the body of an HTML5 document.
-- [DOM for Example 51](dom_example51.html)
+- [DOM for Example 51](example51_dom.png)
 
 ### Process
 
