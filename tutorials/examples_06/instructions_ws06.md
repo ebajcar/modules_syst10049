@@ -31,7 +31,11 @@
 6. Compare how the two files render. Analyze and annotate with your obserations.
 7. Note: the mark element has not been reset.  Find the default.  How would you reset it?  (ok to leave as is, just ponder!)
 8. Copy the original file again.  With this version, create an internal stylesheet (as demonstrated in class).
+9. Examine the structure of the document and create its DOM.  This will help with choosing the best *selectors* for your CSS rules.  Like with HTML, keep your code organized, clean, and as short as possible (more code = more processing time = harder code maintenance) 
 
+![Partial DOM diagram](dom_example50.png)
+
+## Styling your page: Add CSS rules
 
 ### STEP 1: Start with well-formed and valid HTML5 code appropriately annotated (comments).
 In the head section, add STYLE element with the following:
