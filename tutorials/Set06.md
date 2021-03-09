@@ -78,7 +78,7 @@
  #### C. Complete [Typesetting a community school homepage (MDN)](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Typesetting_a_homepage)  in directory `C:\public_html\syst10049\community_school`, choosing an appropriate name.
 
 
-
+ #### #. Complete [Structuring a page of content (MDN)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content)  in directory `C:\public_html\syst10049\community_school`, choosing an appropriate name. As a class, collaborate on coming up with a single solution. Identify differences among your solutions, discuss, and agree on the best solution.
 
  
 ---
