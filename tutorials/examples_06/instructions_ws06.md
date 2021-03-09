@@ -33,7 +33,7 @@
 8. Copy the original file again.  With this version, create an internal stylesheet (as demonstrated in class).
 
 
-### Start with well-formed and valid HTML5 code appropriately annotated (comments).
+### STEP 1: Start with well-formed and valid HTML5 code appropriately annotated (comments).
 In the head section, add STYLE element with the following:
 ```html
 <style>
@@ -50,7 +50,7 @@ In the head section, add STYLE element with the following:
 ```
 As the comment suggests, all elements are outlined so that we can see the positioning of the content and the effects of browser default properties. THIS IS ONLY TEMPORARY CSS rule during development!
 
-### Consider the general CSS rules first.
+### STEP 2: Consider the general CSS rules first.
 Review the [box mode](https://www.w3schools.com/css/css_boxmodel.asp) and related properties. Note the browser defaults. Create CSS3 rules for type selectors and group the selectors that share the same set of declarations.
 
 The property [box-sizing]() is one of many properties that you may need to apply to all, or a majority of the elements on the page. The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not.
@@ -71,13 +71,13 @@ html, body, header, main, footer, nav, ul, li, article, h1, h2, h3, h4, h5, h6, 
 
 We remove all default padding and margin. The block display allows older browsers to deal with the new HTML5 elements. Note the details:
 
-### Apply the desired values for positioning of the content.
+### STEP 3: Apply the desired values for positioning of the content.
 We are leaving colours, fonts, etc. to later. Relative length units scales better between different rendering mediums.
 
 > We will return to this section later.
 
 
-### Add finishing touches
+### STEP 4: Add finishing touches
 Remove the temporary outline and apply properties for color, font, text, and the rest of the declarations for put finishing touches to the page.
 
 > Explore these properties 
