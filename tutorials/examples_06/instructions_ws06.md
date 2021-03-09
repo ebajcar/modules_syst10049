@@ -30,7 +30,7 @@
 ---
 
 ## Class Example 51
-- [example51.html]()
+- [example51.html](example51.html)
 
 ### Description
 
