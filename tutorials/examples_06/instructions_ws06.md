@@ -1,4 +1,4 @@
-# Worksheet 6
+# Class examples for Worksheet 6
 #### SYST10049 Web Development
 
 1. Work though Class example 50. 
