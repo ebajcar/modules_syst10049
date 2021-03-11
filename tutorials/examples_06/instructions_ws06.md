@@ -55,7 +55,7 @@ In the head section, add STYLE element with the following:
 As the comment suggests, all elements are outlined so that we can see the positioning of the content and the effects of browser default properties. THIS IS ONLY TEMPORARY CSS rule during development!
 
 ### STEP 2: Consider the general CSS rules first.
-Review the [box mode](https://www.w3schools.com/css/css_boxmodel.asp) and related properties. Note the browser defaults. Create CSS3 rules for type selectors and group the selectors that share the same set of declarations.
+Review the [box model](https://www.w3schools.com/css/css_boxmodel.asp) and related properties. Note the browser defaults. Create CSS3 rules for type selectors and group the selectors that share the same set of declarations.
 
 The property [box-sizing]() is one of many properties that you may need to apply to all, or a majority of the elements on the page. The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not.
 
