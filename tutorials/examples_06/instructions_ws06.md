@@ -33,7 +33,7 @@
 8. Copy the original file again.  With this version, create an internal stylesheet (as demonstrated in class).
 9. Examine the structure of the document and create its DOM.  This will help with choosing the best *selectors* for your CSS rules.  Like with HTML, keep your code organized, clean, and as short as possible (more code = more processing time = harder code maintenance) 
 
-![Partial DOM diagram](../../pages/images/DOMdiagram_forExample50.png)
+![Partial DOM diagram](DOMdiagram_forExample50.png)
 
 ## Styling your page: Add CSS rules
 
