@@ -33,7 +33,7 @@
 8. Copy the original file again.  With this version, create an internal stylesheet (as demonstrated in class).
 9. Examine the structure of the document and create its DOM.  This will help with choosing the best *selectors* for your CSS rules.  Like with HTML, keep your code organized, clean, and as short as possible (more code = more processing time = harder code maintenance) 
 
-![Partial DOM diagram](dom_example50.png)
+![Partial DOM diagram](DOMdiagram_forExample50.png)
 
 ## Styling your page: Add CSS rules
 
@@ -95,7 +95,7 @@ Remove the temporary outline and apply properties for color, font, text, and the
 ### Description
 
 This example has HEADER with H1 content, followed by four (4) paragraphs of Latin text, and FOOTER content in the body of an HTML5 document.
-![DOM for Example 51](DOMdiagram_forExample51.png)
+![DOM for Example 51](example51_dom.png)
 
 ### Process
 
