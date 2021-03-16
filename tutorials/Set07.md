@@ -93,7 +93,8 @@ Uses type selectors; border, outline, position, left, top properties
 - properties: color, font-family, font-size, font-style, font-variant, font-weight, line-height, font
 - selectors: :first-of-type, :nth-child(N), id, class
 
-
+CSS lists examples [padlet](https://padlet.com/ellen_bajcar/jz6f0xcieb8uqed8)
+CSS tables examples [padlet](https://padlet.com/ellen_bajcar/cjawqzftgxfe72yi)
 
 ---
 > SYST10049 Web Development @ Sheridan College
