@@ -55,12 +55,14 @@ For each of the following CSS properties, complete the tutorial on w3schools.  N
 - [background-size](https://www.w3schools.com/cssref/css3_pr_background-size.asp) Specifies the size of the background image(s) 
 
 
- #### A. For each of the following examples, create your own local copy, observe, experiment, research, and document the selectors and properties used:
-- [Colour, Color, Units](https://codepen.io/ebajcar/pen/xYybyZ)
-- [Combinators example](https://codepen.io/ebajcar/pen/peMBXP)
-- [Font, color, padding, margin](https://codepen.io/ebajcar/pen/KVBJGy)
-- [colour names and values](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)
-- [styling headings and paragraphs](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)
+For each of the following examples, create your own local copy, observe, experiment, research, and document the selectors and properties used:
+#### [Colour, Color, Units (codepen) ](https://codepen.io/ebajcar/pen/xYybyZ)
+
+#### [Combinators example](https://codepen.io/ebajcar/pen/peMBXP)
+Small, but complex table example; explore scope attribute, TH, THEAD, TFOOT, TBODY elements, in addition to TABLE, TR, and TD. Select (target) using combinators, pseudo-elements, and type selectors.
+#### [Font, color, padding, margin (codepen)](https://codepen.io/ebajcar/pen/KVBJGy)
+#### [colour names and values (codepen)](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)
+#### [styling headings and paragraphs (codepen)](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)
 
 
 ---
