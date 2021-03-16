@@ -10,9 +10,7 @@
 
 > &bull;  selector &bull; property &bull; property value &bull; cascade &bull; inheritance &bull;  browser defaults &bull; style sheet &bull; specificity &bull;  declaration &bull; DOM &bull;  CSSOM &bull;  external styles &bull; internal (embedded) styles &bull; inline styles &bull; 
 
----
-## Explore class examples and related exercises
-[Worksheet 7](https://ebajcar.github.io/Exercises/worksheets/worksheet_07/instructions_ws07.html)
+
 
 ---
 
@@ -93,8 +91,12 @@ Uses type selectors; border, outline, position, left, top properties
 - properties: color, font-family, font-size, font-style, font-variant, font-weight, line-height, font
 - selectors: :first-of-type, :nth-child(N), id, class
 
-CSS lists examples [padlet](https://padlet.com/ellen_bajcar/jz6f0xcieb8uqed8)
-CSS tables examples [padlet](https://padlet.com/ellen_bajcar/cjawqzftgxfe72yi)
+---
+*More examples (some may be repeats)*
+- [Worksheet 7](https://ebajcar.github.io/Exercises/worksheets/worksheet_07/instructions_ws07.html)
+- CSS lists examples [padlet](https://padlet.com/ellen_bajcar/jz6f0xcieb8uqed8)
+- CSS tables examples [padlet](https://padlet.com/ellen_bajcar/cjawqzftgxfe72yi)
+
 
 ---
 > SYST10049 Web Development @ Sheridan College
