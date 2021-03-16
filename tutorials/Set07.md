@@ -55,16 +55,18 @@ For each of the following CSS properties, complete the tutorial on w3schools.  N
 - [background-size](https://www.w3schools.com/cssref/css3_pr_background-size.asp) Specifies the size of the background image(s) 
 
 
-For each of the following examples, create your own local copy, observe, experiment, research, and document the selectors and properties used:
-#### [Containing blocks](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example08_007.html)
+#### For each of the following examples, create your own local copy, observe, experiment, research, and document the selectors and properties used:
+**[Containing blocks (8.007)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example08_007.html)**
 Illustration of containing blocks [read more on w3.org](https://www.w3.org/TR/CSS22/visudet.html#containing-block-details )
 Uses type selectors; border, outline, position, left, top properties
 
-#### [Colour, Color, Units (codepen) ](https://codepen.io/ebajcar/pen/xYybyZ)
+#### [Colour, Color, Units (codepen)](https://codepen.io/ebajcar/pen/xYybyZ)
 
-#### [Combinators example](https://codepen.io/ebajcar/pen/peMBXP)
+**[Combinators example (codepen)](https://codepen.io/ebajcar/pen/peMBXP)**
 Small, but complex table example; explore scope attribute, TH, THEAD, TFOOT, TBODY elements, in addition to TABLE, TR, and TD. Select (target) using combinators, pseudo-elements, and type selectors.
-#### [Font, color, padding, margin (codepen)](https://codepen.io/ebajcar/pen/KVBJGy)
+
+**[Font, color, padding, margin (codepen)](https://codepen.io/ebajcar/pen/KVBJGy)**
+
 #### [colour names and values (codepen)](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)
 #### [styling headings and paragraphs (codepen)](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)
 
