@@ -80,6 +80,7 @@ Uses type selectors; border, outline, position, left, top properties
 
 **[Box model (7.010)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example07_010.html)**
 - margin, padding, outline, border properties
+- [same example on codepen](https://codepen.io/ebajcar/pen/KVBJGy)
 
 **[Selectors (6.021)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example06_021.html)**
 - Using id and class selectors; explore :first-leter, :first-line, and ::selection selectors
@@ -87,10 +88,11 @@ Uses type selectors; border, outline, position, left, top properties
 **[Combinators example (codepen)](https://codepen.io/ebajcar/pen/peMBXP)**
 - Small, but complex table example; explore scope attribute, TH, THEAD, TFOOT, TBODY elements, in addition to TABLE, TR, and TD. Select (target) using combinators, pseudo-elements, and type selectors.
 
-**[Font, color, padding, margin (codepen)](https://codepen.io/ebajcar/pen/KVBJGy)**
+**[styling headings and paragraphs (codepen)](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)**
+
 
 #### [colour names and values (codepen)](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)
-#### [styling headings and paragraphs (codepen)](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)
+
 
 
 ---
