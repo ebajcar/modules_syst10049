@@ -89,7 +89,10 @@ Uses type selectors; border, outline, position, left, top properties
 **[colour names and values (codepen)](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)**
 - includes a bit of Javascript to control DIALOG element (you can ignore for now)
 
-explore_font.html - explore font properties
+**[explore_font.html](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/explore_font.html)**
+- properties: color, font-family, font-size, font-style, font-variant, font-weight, line-height, font
+- selectors: :first-of-type, :nth-child(N), id, class
+
 
 
 ---
