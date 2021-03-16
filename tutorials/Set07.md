@@ -56,6 +56,10 @@ For each of the following CSS properties, complete the tutorial on w3schools.  N
 
 
 For each of the following examples, create your own local copy, observe, experiment, research, and document the selectors and properties used:
+#### [Containing blocks](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example08_007.html)
+Illustration of containing blocks [read more on w3.org](https://www.w3.org/TR/CSS22/visudet.html#containing-block-details )
+Uses type selectors; border, outline, position, left, top properties
+
 #### [Colour, Color, Units (codepen) ](https://codepen.io/ebajcar/pen/xYybyZ)
 
 #### [Combinators example](https://codepen.io/ebajcar/pen/peMBXP)
