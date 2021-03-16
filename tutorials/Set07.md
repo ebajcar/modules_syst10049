@@ -56,11 +56,6 @@ For each of the following CSS properties, complete the tutorial on w3schools.  N
 
 
 #### For each of the following examples, create your own local copy, observe, experiment, research, and document the selectors and properties used:
-example06_001.html - explore text properties
-example06_002.html - explore text properties
-example06_021.html - explore different selectors
-
-explore_font.html - explore font properties
 
 
 **[Background properties (7.001)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example07_001.html)**
@@ -89,10 +84,12 @@ Uses type selectors; border, outline, position, left, top properties
 - Small, but complex table example; explore scope attribute, TH, THEAD, TFOOT, TBODY elements, in addition to TABLE, TR, and TD. Select (target) using combinators, pseudo-elements, and type selectors.
 
 **[styling headings and paragraphs (codepen)](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)**
+- explore more font properties...
 
+**[colour names and values (codepen)](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)**
+- includes a bit of Javascript to control DIALOG element (you can ignore for now)
 
-#### [colour names and values (codepen)](https://codepen.io/ebajcar/pen/b9c31f9d9806ff81b605011ffa8d4979)
-
+explore_font.html - explore font properties
 
 
 ---
