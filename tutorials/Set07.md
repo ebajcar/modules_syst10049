@@ -60,8 +60,6 @@ example06_001.html - explore text properties
 example06_002.html - explore text properties
 example06_021.html - explore different selectors
 
-example07_003.html - explore color values and units
-example07_010.html - explore box model
 explore_font.html - explore font properties
 
 
@@ -70,15 +68,21 @@ explore_font.html - explore font properties
 
 **[Color values and units (7.002)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example07_002.html)**
 - Multiple tables, each exploring different color units for background-color property; font-family, margin, padding, border, text-align, vertical align properties, type, class, and pseudo-class selectors
+- [Colour, Color, Units (on codepen)](https://codepen.io/ebajcar/pen/xYybyZ)
 
-**[HSL color values and units (7.003)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example07_003.html)
-- explore HSL color units; uses inline styles. **Rewrite code to move from inline to internal styles.**
+**[HSL color values and units (7.003)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example07_003.html)**
+- explore HSL color units; uses inline styles. 
+- **Rewrite code to move from inline to internal styles.**
 
 **[Containing blocks (8.007)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example08_007.html)**
 - Illustration of containing blocks [read more on w3.org](https://www.w3.org/TR/CSS22/visudet.html#containing-block-details )
 Uses type selectors; border, outline, position, left, top properties
 
-#### [Colour, Color, Units (codepen)](https://codepen.io/ebajcar/pen/xYybyZ)
+**[Box model (7.010)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example07_010.html)**
+- margin, padding, outline, border properties
+
+**[Selectors (6.021)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example06_021.html)**
+- Using id and class selectors; explore :first-leter, :first-line, and ::selection selectors
 
 **[Combinators example (codepen)](https://codepen.io/ebajcar/pen/peMBXP)**
 - Small, but complex table example; explore scope attribute, TH, THEAD, TFOOT, TBODY elements, in addition to TABLE, TR, and TD. Select (target) using combinators, pseudo-elements, and type selectors.
