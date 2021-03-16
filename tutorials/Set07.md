@@ -76,7 +76,7 @@ Uses type selectors; border, outline, position, left, top properties
 - [same example on codepen](https://codepen.io/ebajcar/pen/KVBJGy)
 
 **[Selectors (6.021)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example06_021.html)**
-- Using id and class selectors; explore :first-leter, :first-line, and ::selection selectors
+- Using id and class selectors; select using ::first-leter, ::first-line, and ::selection pseudo-elements
 
 **[Combinators example (codepen)](https://codepen.io/ebajcar/pen/peMBXP)**
 - Small, but complex table example; explore scope attribute, TH, THEAD, TFOOT, TBODY elements, in addition to TABLE, TR, and TD. Select (target) using combinators, pseudo-elements, and type selectors.
