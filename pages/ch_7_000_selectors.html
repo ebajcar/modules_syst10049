@@ -17,6 +17,18 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
 
 <style>
+/* 
+  new colors 
+  color: var(--darkblue);
+*/
+:root {
+  --blue: #003767;
+  --white: #ffffff;
+  --lightblue: #00b2ce;
+  --darkblue: #0081a1;
+  --darkgray: #333940;
+  --lightgray: #d5d5d5;
+}
 body {
   padding-top: 0.2em;
 }
@@ -51,16 +63,21 @@ h4::before {
   counter-increment: subsubsection;
   content: counter(section) "." counter(subsection) "." counter(subsubsection) ". ";
 }
+	
 h2 { 
   padding-top:20px; 
-  background-color: orange; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to top right, orange, orange, white, white, white, white, white); /* Standard syntax (must be last) */
+  background-color: var(--white); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top right, var(--lightblue), var(--lightgray), white, white, white, white, white); /* Standard syntax (must be last) */
+  color: var(--darkgray);
+  text-shadow: 1px 1px 1px var(--white), 2px 2px 4px var(--lightblue);
   }
 h3 { 
   padding-top:20px; 
-  background-color: orange; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to top right, orange, white, white, white, white, white); /* Standard syntax (must be last) */
-  } 
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top right,  var(--lightblue), white, white, white, white, white, white); /* Standard syntax (must be last) */
+  color: var(--darkgray);
+  text-shadow: 1px 1px 1px var(--white), 2px 2px 2px var(--lightblue);
+  }  
 @media (max-width: 1200px) {
   .container {
     width: 100% !important;
@@ -80,8 +97,17 @@ nav > a {
   display: block;
 }
 a {
-  color: #FF9900;
+  color: var(--darkblue);
   font-weight: 500;
+}
+.nine {
+  counter-reset: toc;
+  list-style-type: none;
+}
+.nine li::before {
+  counter-increment: toc;
+  content: "7." counters(toc,".") ". ";
+  color: var(--darkblue);
 }
 .secondary {
   color: gray;
@@ -167,7 +193,7 @@ samp {
 	</blockquote>	
 	<hr>
   <nav>
-    <ol>
+    <ol class="nine">
       <li><a href="#page1">CSS Selectors</a></li>
       <li><a href="#page2">CSS Declarations</a></li>       
       <li><a href="#page3">CSS3 Values and Units</a></li>

@@ -103,6 +103,15 @@ a {
   color: var(--darkblue);
   font-weight: 500;
 }
+.nine {
+  counter-reset: toc;
+  list-style-type: none;
+}
+.nine li::before {
+  counter-increment: toc;
+  content: "6." counters(toc,".") ". ";
+  color: var(--darkblue);
+}
 .secondary {
   color: gray;
   margin: 0;
@@ -188,7 +197,7 @@ samp {
 	<hr>
 
 <nav>
-  <ol>
+  <ol class="nine">
     <li><a href="#page1">Mastering CSS</a></li>
     <li><a href="#page2">Following guidelines</a></li>
     <li><a href="#page3">Understanding the Document Object Model (DOM)</a></li>

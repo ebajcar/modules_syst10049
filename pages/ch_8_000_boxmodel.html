@@ -17,6 +17,18 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
 
 <style>
+/* 
+  new colors 
+  color: var(--darkblue);
+*/
+:root {
+  --blue: #003767;
+  --white: #ffffff;
+  --lightblue: #00b2ce;
+  --darkblue: #0081a1;
+  --darkgray: #333940;
+  --lightgray: #d5d5d5;
+}
 .nine {
   counter-reset: toc;
   list-style-type: none;
@@ -24,7 +36,7 @@
 .nine li::before {
   counter-increment: toc;
   content: "9." counters(toc,".") ". ";
-  color: orange;
+  color: var(--darkblue);
 }
 body {
   padding-top: 0.2em;
@@ -62,14 +74,19 @@ h4::before {
 }
 h2 { 
   padding-top:20px; 
-  background-color: orange; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to top right, orange, orange, white, white, white, white, white); /* Standard syntax (must be last) */
+  background-color: var(--white); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top right, var(--lightblue), var(--lightgray), white, white, white, white, white); /* Standard syntax (must be last) */
+  color: var(--darkgray);
+  text-shadow: 1px 1px 1px var(--white), 2px 2px 4px var(--lightblue);
   }
+  
 h3 { 
   padding-top:20px; 
-  background-color: orange; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to top right, orange, white, white, white, white, white); /* Standard syntax (must be last) */
-  } 
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top right,  var(--lightblue), white, white, white, white, white, white); /* Standard syntax (must be last) */
+  color: var(--darkgray);
+  text-shadow: 1px 1px 1px var(--white), 2px 2px 2px var(--lightblue);
+  }  
 @media (max-width: 1200px) {
   .container {
     width: 100% !important;
@@ -89,7 +106,7 @@ nav > a {
   display: block;
 }
 a {
-  color: #FF9900;
+  color: var(--darkblue);
   font-weight: 500;
 }
 .secondary {
@@ -177,7 +194,6 @@ samp {
 	<hr>
   <nav>
     <ol class="nine">
-      <li><a href="#page1">CSS Box model</a></li>
       <li><a href="#page2">HTML Layout techniques</a></li>
       <li><a href="#page3">Styling lists</a></li>
       <li><a href="#page4">Styling tables</a></li>    
