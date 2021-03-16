@@ -56,6 +56,24 @@ For each of the following CSS properties, complete the tutorial on w3schools.  N
 
 
 #### For each of the following examples, create your own local copy, observe, experiment, research, and document the selectors and properties used:
+example06_001.html - explore text properties
+example06_002.html - explore text properties
+example06_021.html - explore different selectors
+
+example07_003.html - explore color values and units
+example07_010.html - explore box model
+explore_font.html - explore font properties
+
+
+**[Background properties (7.001)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example07_001.html)**
+- A simple table; explores background propperties background-image, background-size, background-repeat, background-position; uses inline styles
+
+**[Color values and units (7.002)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example07_002.html)**
+- Multiple tables, each exploring different color units for background-color property; font-family, margin, padding, border, text-align, vertical align properties, type, class, and pseudo-class selectors
+
+**[HSL color values and units (7.003)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example07_003.html)
+- explore HSL color units; uses inline styles. **Rewrite code to move from inline to internal styles.**
+
 **[Containing blocks (8.007)](http://bajcar.dev.fast.sheridanc.on.ca/10049/codeMirrorExamples/example08_007.html)**
 - Illustration of containing blocks [read more on w3.org](https://www.w3.org/TR/CSS22/visudet.html#containing-block-details )
 Uses type selectors; border, outline, position, left, top properties
