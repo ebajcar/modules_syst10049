@@ -12,17 +12,10 @@
 
 ---
 ## Explore class examples and related exercises
-[Worksheet 8](https://ebajcar.github.io/Exercises/worksheets/worksheet_08/instructions_ws08.html)
+[Explore examples](https://ebajcar.github.io/Exercises/worksheets/worksheet_07/instructions_ws07.html)
 
 ---
 
-## Complete the following tutorials. Document what you have learned.
- #### A. For each of the following CSS properties, complete the tutorial on w3schools.  Note the definition, intended purpose, browser support, supported attributes, and possible attribute values. Example:
-0. COLOR [https://www.w3schools.com/cssref/pr_text_color.asp](https://www.w3schools.com/cssref/pr_text_color.asp)
-> &bull; **color property** specifies the color of text.<br> &bull; **note:** a background color combined with a text color that makes the text easy to read.<br> &bull; SYNTAX: _`color_|initial|inherit;`<br> &bull; Look at CSS Color Values for a complete list of possible color values. (hex, rgb, rgba, hsl, hsla)<br> &bull; HTML DOM reference: [color property](https://www.w3schools.com/jsref/prop_style_color.asp) 
-
-#### Your turn:
-(being updated)
 
 
 ---
