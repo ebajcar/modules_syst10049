@@ -25,6 +25,7 @@
 ```
 
 ![Figure 82](flex82.png)
+Figure 82.
 
 ### Styling
 
@@ -40,7 +41,7 @@
 
 
 ![](flex84.png)
-
+Figure 84.
 
 
 * set margin to 0.5 em, background color to #33b5e5, text color #fff, and box shadow for A when descendant of NAV
