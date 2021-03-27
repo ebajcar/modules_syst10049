@@ -23,14 +23,15 @@
   <footer><address>SYST10049 Web Development © Sheridan College</address></footer>
 </body>
 ```
-Figure 82. ![Figure 82](flex82.png)
+Figure 82. ![](flex82.png)
 
 
 ### Styling
 
 * change the value of box-sizing and set outline for all elements.  (at the end remove the outline declaration)
 
-![Figure 83](flex83.png)
+Figure 83. ![](flex83.png)
+
 
 * set font-family to "Lucida Sans",sans-serif for HTML selector
 * set padding to 0, margin to 0, and display to block for BODY, HEADER, FOOTER, NAV, ARTICLE, ASIDE, and A
@@ -38,9 +39,7 @@ Figure 82. ![Figure 82](flex82.png)
 * set the background color to #93c and foreground color to #fff for HEADER (note that we are trying to reduce the number of declarations)
 * set padding to 0.5em for ARTICLE, ASIDE, and A when descendant of NAV
 
-
-![](flex84.png)
-Figure 84.
+Figure 84. ![](flex84.png)
 
 
 * set margin to 0.5 em, background color to #33b5e5, text color #fff, and box shadow for A when descendant of NAV
@@ -52,11 +51,11 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
 
 * set background color to #09c for A when descendant of NAV, when the hover event occurs
 
-![](flex85.png)
+Figure 85. ![](flex85.png)
 
 ## Flexbox
 
-![](flex86.png)
+Figure 86. ![](flex86.png)
 
 ## Media Query
 * All rules nested inside the media query will be applied when all conditions are met, in this case, it can be any media ( ) and the width of the screen is at least 799 pixels
@@ -67,12 +66,12 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
 }
 ```
 
-![](flex87.png)
+Figure 87. ![](flex87.png)
 
 * When the above conditions are not met (showing width of screen less than 799 pixels), the flexbox declarations are not applied.
 
 
-![](flex88.png)
+Figure 88. ![](flex88.png)
 
 ---
 > SYST10049 Web Development @ Sheridan College
