@@ -75,9 +75,9 @@ Figure 86. ![](flex86.png)
 
 ```css
 body > header  { order: 1; width: 100%; }
-body > nav     { order: 2; width: 20%; }
+body > nav     { order: 4; width: 20%; }
 body > article { order: 3; min-width: 12em; flex:1; }
-body > aside   { order: 4; width: 30%; }
+body > aside   { order: 2; width: 30%; }
 body > footer  { order: 5; width: 100%; }
 ```
 Figure 87. ![](flex89.png)
