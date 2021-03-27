@@ -45,22 +45,14 @@
 [Demarcating edits](pages/ch_3_2_7.html)  &bull; 
 [Block quotes and poems](pages/ch_3_3_1.html)
 
-## 4. Sectioning content
-* [Page regions](pages/ch_4_1_1.html)
-* [Articles and sections](pages/ch_4_1_2.html)
-* [Figures and figure captions](pages/ch_4_1_3.html)
+### 4. Sectioning content
+* [Page regions](pages/ch_4_1_1.html)  &bull; [Articles and sections](pages/ch_4_1_2.html)  &bull;  [Figures and figure captions](pages/ch_4_1_3.html)
 
-### Grouping content
-* [Ordered, unordered, and description lists](pages/ch_4_2_1.html)
-* [Table data structures](pages/ch_4_3_1.html)
+* Grouping content**&mdash;  [Ordered, unordered, and description lists](pages/ch_4_2_1.html)  &bull;  [Table data structures](pages/ch_4_3_1.html)
 
-## 5. Marking up interactive content
-* [Navigation, bookmarks, and hyperlinks](pages/ch_5_1_1.html)
-* [Images and multimedia](pages/ch_5_2_1.html)
-* [HTML5 forms](pages/ch_5_3_1.html)
-* [INPUT element](pages/ch_5_3_2.html)
-* [Grouping controls](pages/ch_5_3_3.html)
-* [Other controls](pages/ch_5_3_4.html)
+### 5. Marking up interactive content
+* [Navigation, bookmarks, and hyperlinks](pages/ch_5_1_1.html)  &bull;   [Images and multimedia](pages/ch_5_2_1.html)  &bull;  [HTML5 forms](pages/ch_5_3_1.html)
+ &bull;  [INPUT element](pages/ch_5_3_2.html)  &bull;  [Grouping controls](pages/ch_5_3_3.html)  &bull;  [Other controls](pages/ch_5_3_4.html)
 
 ---
 
