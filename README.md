@@ -36,15 +36,15 @@
 [Empty elements](pages/ch_3_3_4.html) &mdash; 
 [Nested elements](pages/ch_3_3_5.html)
 
-### Block and inline text semantics
-* [Quotations and citations](pages/ch_3_2_1.html)
-* [Abbreviation and definitions](pages/ch_3_2_2.html)
-* [Contact details](pages/ch_3_2_3.html)
-* [Superscript and subscript](pages/ch_3_2_4.html)
-* [Computer code](pages/ch_3_2_5.html)
-* [Time and date](pages/ch_3_2_6.html)
-* [Demarcating edits](pages/ch_3_2_7.html)
-* [Block quotes and poems](pages/ch_3_3_1.html)
+* **Block and inline text semantics**&mdash;  
+[Quotations and citations](pages/ch_3_2_1.html)  &bull; 
+[Abbreviation and definitions](pages/ch_3_2_2.html)  &bull; 
+[Contact details](pages/ch_3_2_3.html)  &bull; 
+[Superscript and subscript](pages/ch_3_2_4.html)  &bull; 
+[Computer code](pages/ch_3_2_5.html)  &bull; 
+[Time and date](pages/ch_3_2_6.html) v
+[Demarcating edits](pages/ch_3_2_7.html)  &bull; 
+[Block quotes and poems](pages/ch_3_3_1.html)
 
 ## 4. Sectioning content
 * [Page regions](pages/ch_4_1_1.html)
