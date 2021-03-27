@@ -1,6 +1,6 @@
 # Table of Contents
 
-## [1. Hypertext Markup Language (HTML) ](pages/ch_1_000_html.html)
+### [1. Hypertext Markup Language (HTML) ](pages/ch_1_000_html.html)
 
 * What is HTML?  &bull; What is HTML Grammar, Syntax, Semantics  &bull; What are HTML Elements  &bull; What are HTML Attributes
 
