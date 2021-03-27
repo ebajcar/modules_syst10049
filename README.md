@@ -9,7 +9,7 @@
 
 ---
 
-## 2. Web Development 
+### 2. Web Development 
 
 * [How the web works (URL, web server)](pages/ch_2_1_1.html) &mdash; 
 [Protocols (TCP/IP, HTTP, HTTPS, FTP)](pages/ch_2_1_2.html) &mdash; 
@@ -27,14 +27,14 @@
 
 ---
 
-## 3. Marking up textual content
-* [Headings and paragraphs](pages/ch_3_1_1.html)
-* [Emphasis and importance](pages/ch_3_1_2.html)
-* [Italic, bold, and underline](pages/ch_3_1_3.html)
-* [Non-semantic wrappers ](pages/ch_3_3_2.html)
-* [Line breaks and horizontal rules](pages/ch_3_3_3.html)
-* [Empty elements](pages/ch_3_3_4.html)
-* [Nested elements](pages/ch_3_3_5.html)
+### 3. Marking up textual content
+* [Headings and paragraphs](pages/ch_3_1_1.html) &mdash; 
+[Emphasis and importance](pages/ch_3_1_2.html) &mdash; 
+[Italic, bold, and underline](pages/ch_3_1_3.html) &mdash; 
+[Non-semantic wrappers ](pages/ch_3_3_2.html) &mdash; 
+[Line breaks and horizontal rules](pages/ch_3_3_3.html) &mdash; 
+[Empty elements](pages/ch_3_3_4.html) &mdash; 
+[Nested elements](pages/ch_3_3_5.html)
 
 ### Block and inline text semantics
 * [Quotations and citations](pages/ch_3_2_1.html)
