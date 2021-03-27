@@ -71,6 +71,18 @@ body {
 
 Figure 86. ![](flex86.png)
 
+* you can easily change change the order of the elements; for example, if you want the navigation on the right and aside on the left:
+
+```css
+body > header  { order: 1; width: 100%; }
+body > nav     { order: 2; width: 20%; }
+body > article { order: 3; min-width: 12em; flex:1; }
+body > aside   { order: 4; width: 30%; }
+body > footer  { order: 5; width: 100%; }
+```
+Figure 87. ![](flex89.png)
+
+
 ## Media Query
 * All rules nested inside the media query will be applied when all conditions are met, in this case, it can be any media ( ) and the width of the screen is at least 799 pixels
 
