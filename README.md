@@ -11,19 +11,19 @@
 
 ## 2. Web Development 
 
-* [How the web works (URL, web server)](pages/ch_2_1_1.html)
-* [Protocols (TCP/IP, HTTP, HTTPS, FTP)](pages/ch_2_1_2.html)
-* [Standards, conventions, best practices (W3C, WHATWG, WAI)](pages/ch_2_2_1.html)
-* [User agents (browsers, SEO)](pages/ch_2_2_2.html)
-* [Accessibility](pages/ch_2_2_3.html)
-* [Design process and Progressive Enhancement](pages/ch_2_2_4.html)
-* [Semantic correctness](pages/ch_2_2_5.html)
-* [Planning a simple web app (file organization, file paths, navigating directory tree](pages/ch_2_3_1.html)
-* [Protecting a website (permissions)](pages/ch_2_3_2.html)
-* [Planning and designing a web app](pages/ch_2_4_1.html)
-* [Writing documentation and coding](pages/ch_2_4_2.html)
-* [Debugging, testing, and validating code](pages/ch_2_4_3.html)
-* [Publishing your website](pages/ch_2_5_1.html)
+* [How the web works (URL, web server)](pages/ch_2_1_1.html) &mdash; 
+[Protocols (TCP/IP, HTTP, HTTPS, FTP)](pages/ch_2_1_2.html) &mdash; 
+[Standards, conventions, best practices (W3C, WHATWG, WAI)](pages/ch_2_2_1.html) &mdash; 
+[User agents (browsers, SEO)](pages/ch_2_2_2.html) &mdash; 
+[Accessibility](pages/ch_2_2_3.html) &mdash; 
+[Design process and Progressive Enhancement](pages/ch_2_2_4.html) &mdash; 
+[Semantic correctness](pages/ch_2_2_5.html) &mdash; 
+[Planning a simple web app (file organization, file paths, navigating directory tree](pages/ch_2_3_1.html) &mdash; 
+[Protecting a website (permissions)](pages/ch_2_3_2.html) &mdash; 
+[Planning and designing a web app](pages/ch_2_4_1.html) &mdash; 
+[Writing documentation and coding](pages/ch_2_4_2.html) &mdash; 
+[Debugging, testing, and validating code](pages/ch_2_4_3.html) &mdash; 
+[Publishing your website](pages/ch_2_5_1.html) &mdash; 
 
 ---
 
