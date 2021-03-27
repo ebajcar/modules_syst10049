@@ -24,13 +24,13 @@
 </body>
 ```
 
-![](flex82.png)
+![Figure 82](flex82.png)
 
 ### Styling
 
 * change the value of box-sizing and set outline for all elements.  (at the end remove the outline declaration)
 
-![](flex83.png)
+![Figure 83](flex83.png)
 
 * set font-family to "Lucida Sans",sans-serif for HTML selector
 * set padding to 0, margin to 0, and display to block for BODY, HEADER, FOOTER, NAV, ARTICLE, ASIDE, and A
