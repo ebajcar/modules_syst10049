@@ -26,4 +26,24 @@
 
 ![](flex82.png)
 
-### Styling the page
+## Step 1:  change the value of box-sizing and set outline for all elements.  (at the end remove the outline declaration)
+
+![](flex84.png)
+
+## Step 2:
+* set font-family to "Lucida Sans",sans-serif for HTML selector
+* set padding to 0, margin to 0, and display to block for BODY, HEADER, FOOTER, NAV, ARTICLE, ASIDE, and A
+* set padding to 1em for HEADER and FOOTER (this is redefinition)
+* set the background color to #93c and foreground color to #fff for HEADER (note that we are trying to reduce the number of declarations)
+* set padding to 0.5em for ARTICLE, ASIDE, and A when descendant of NAV
+* set margin to 0.5 em, background color to #33b5e5, text color #fff, and box shadow for A when descendant of NAV
+
+```css
+/* note that there are two shadows declared, separated by a comma */
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+```
+
+* set background color to #09c for A when descendant of NAV, when the hover event occurs
+
+![](flex85.png)
+
