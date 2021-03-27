@@ -7,7 +7,6 @@
 * **The HEAD section**&mdash;  Children of the head element  &bull; Create good meta descriptions &bull; Character encoding
 * **The BODY section**&mdash;  Content organization &bull; What is Content (data) &bull; Block and inline flow
 
----
 
 ### 2. Web Development 
 
@@ -25,7 +24,7 @@
 [Debugging, testing, and validating code](pages/ch_2_4_3.html) &mdash; 
 [Publishing your website](pages/ch_2_5_1.html) &mdash; 
 
----
+
 
 ### 3. Marking up textual content
 * [Headings and paragraphs](pages/ch_3_1_1.html) &mdash; 
@@ -36,7 +35,7 @@
 [Empty elements](pages/ch_3_3_4.html) &mdash; 
 [Nested elements](pages/ch_3_3_5.html)
 
-* **Block and inline text semantics**&mdash;  [Quotations and citations](pages/ch_3_2_1.html)  &bull; 
+*  **Block and inline text semantics**&mdash;  [Quotations and citations](pages/ch_3_2_1.html)  &bull; 
 [Abbreviation and definitions](pages/ch_3_2_2.html)  &bull; 
 [Contact details](pages/ch_3_2_3.html)  &bull; 
 [Superscript and subscript](pages/ch_3_2_4.html)  &bull; 
@@ -48,13 +47,13 @@
 ### 4. Sectioning content
 * [Page regions](pages/ch_4_1_1.html)  &bull; [Articles and sections](pages/ch_4_1_2.html)  &bull;  [Figures and figure captions](pages/ch_4_1_3.html)
 
-* Grouping content**&mdash;  [Ordered, unordered, and description lists](pages/ch_4_2_1.html)  &bull;  [Table data structures](pages/ch_4_3_1.html)
+* **Grouping content**&mdash;  [Ordered, unordered, and description lists](pages/ch_4_2_1.html)  &bull;  [Table data structures](pages/ch_4_3_1.html)
 
 ### 5. Marking up interactive content
 * [Navigation, bookmarks, and hyperlinks](pages/ch_5_1_1.html)  &bull;   [Images and multimedia](pages/ch_5_2_1.html)  &bull;  [HTML5 forms](pages/ch_5_3_1.html)
  &bull;  [INPUT element](pages/ch_5_3_2.html)  &bull;  [Grouping controls](pages/ch_5_3_3.html)  &bull;  [Other controls](pages/ch_5_3_4.html)
 
----
+
 
 ## Cascading Style Sheets (CSS)
 
@@ -90,7 +89,8 @@
 * Styling forms
 
 
-
+## Tutorials
+[Tutorial 9](tutorials/tutorial.md)
 
 ---
 @ This work is the intellectual property of Sheridan College. Any further copying and distribution outside of class must be within the copyright law. Posting to commercial sites for profit is prohibited.
