@@ -2,12 +2,10 @@
 
 ### [1. Hypertext Markup Language (HTML) ](pages/ch_1_000_html.html)
 
-* **What is HTML?**  What is HTML Grammar, Syntax, Semantics  &bull; What are HTML Elements  &bull; What are HTML Attributes
+* **What is HTML?**&mdash;  What is HTML Grammar, Syntax, Semantics  &bull; What are HTML Elements  &bull; What are HTML Attributes
 * **HTML5 document** Defining document structure  &bull;  What is Minimal HTML5 document  &bull;   What is Document Object Model (DOM)  &bull;
 * **The HEAD section** Children of the head element  &bull; Create good meta descriptions &bull; Character encoding
-
-### The BODY section
-* [Content organization, What is Content (data), Block and inline flow](pages/ch_1_4_1.html)
+* **The BODY section** Content organization &bull; What is Content (data) &bull; Block and inline flow
 
 ---
 
