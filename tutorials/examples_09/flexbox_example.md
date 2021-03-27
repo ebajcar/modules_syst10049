@@ -1,5 +1,8 @@
 # Flexbox example explained
 
+[w3schools CSS3 flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
+Explore `display: flex` declaration, `flex-wrap` property, `order` property
+
 ### Start with valid HTML5 document.  This is a standard content layout, with header, footer, navigation, article and aside.
 
 ```html
@@ -54,6 +57,17 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
 Figure 85. ![](flex85.png)
 
 ## Flexbox
+
+* BODY is the parent container of HEADER, FOOTER, NAV, ARTICLE, and ASIDE. Add the rule
+
+```css
+body { 
+  /* body container allowing flex properties */
+  display: flex;  
+  /* The wrap value specifies that the flex items will wrap */
+  flex-wrap: wrap;
+}
+```
 
 Figure 86. ![](flex86.png)
 
