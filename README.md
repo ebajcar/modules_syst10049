@@ -36,8 +36,7 @@
 [Empty elements](pages/ch_3_3_4.html) &mdash; 
 [Nested elements](pages/ch_3_3_5.html)
 
-* **Block and inline text semantics**&mdash;  
-[Quotations and citations](pages/ch_3_2_1.html)  &bull; 
+* **Block and inline text semantics**&mdash;  [Quotations and citations](pages/ch_3_2_1.html)  &bull; 
 [Abbreviation and definitions](pages/ch_3_2_2.html)  &bull; 
 [Contact details](pages/ch_3_2_3.html)  &bull; 
 [Superscript and subscript](pages/ch_3_2_4.html)  &bull; 
