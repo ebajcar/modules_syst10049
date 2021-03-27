@@ -60,31 +60,31 @@
 
 ### 6. [Mastering CSS](pages/ch_6_000_css.html)
 * Mastering CSS
-* Following guidelines
-* Understanding the Document Object Model (DOM)
-* CSS3 syntax
-* Selector syntax and structure
-* CSS rules
-* CSS3 specificty, inheritane and the cascade
-* CSS location
+ &bull; Following guidelines
+ &bull;  Understanding the Document Object Model (DOM)
+ &bull;  CSS3 syntax
+ &bull;  Selector syntax and structure
+ &bull;  CSS rules
+ &bull;  CSS3 specificty, inheritane and the cascade
+ &bull;  CSS location
 
 ### 7. [CSS Selectors and Declarations](pages/ch_7_000_selectors.html)
 * CSS selectors
-* CSS Declarations
-* CSS3 values and units
-* CSS Box model
-* Shorthand properties
-* CSS color and background properties
-* CSS font and text properties
+ &bull; CSS Declarations
+ &bull; CSS3 values and units
+ &bull; CSS Box model
+ &bull; Shorthand properties
+ &bull; CSS color and background properties
+ &bull; CSS font and text properties
 
 
 ### 8. [CSS Layout techniques](pages/ch_8_000_boxmodel.html)
 * HTML layout techniques
-* Styling lists
-* Styling tables
-* Flexbox
-* Grid
-* Responsive design
+ &bull;  Styling lists
+ &bull;  Styling tables
+ &bull; Flexbox
+ &bull; Grid
+ &bull; Responsive design
 
 ### 9. [Styling forms](pages/ch_9_000_forms.html)
 * Styling forms
