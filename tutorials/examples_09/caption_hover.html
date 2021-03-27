@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Styling captions</title>
+<meta charset="UTF-8">
+<!-- 
+Author: 	Ellen Bajcar
+Program: 	caption_hover.html
+Date: 		Fall 2016
+Updated: 	Winter 2021 
+Version: 	7.0
+Purpose: 	explore css selectors and properties
+Copyright: 
+  This work is the intellectual property of Sheridan College. 
+  Any further copying and distribution outside of class must be within 
+  the copyright law. Posting to commercial sites for profit is prohibited.
+Citations:
+  http://meyerweb.com/ v2.0 | 20110126 License: none (public domain)
+Dependencies:
+	images/jungle.jpg
+Description:
+	How to style figure and figcaption
+-->  
+<style>
+/* 
+ *
+ * general resets (known to be slow) 
+ *
+ */
+ 
+* {
+	border: 0;
+  font: inherit;
+	font-size: 100%;
+  margin: 0;
+	padding: 0;  
+	vertical-align: baseline;
+}
+
+/* 
+ *
+ * HTML5 display-role reset for older browsers  
+ *
+ */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block; 
+}
+
+/* 
+ *
+ * general rules 
+ *
+ */
+html { 
+	background-color: #eaeaea; 
+}
+body {
+	line-height: 1;
+}
+h2, h3 {
+	font-size:138.5%;  /* 18px */
+	font-weight: bold;
+}
+ol, ul, dl {
+	margin-left: 2em;
+}
+ul li {
+	list-style: disc outside;
+}
+p, table, h3 {
+	margin-bottom: 1em; /*so things don't run into each other*/
+	margin-top:1em;
+  text-align: left;
+}
+tr, td {
+	margin: 10px;
+}
+td {
+	border: yellow solid 1px;
+	padding: 5px;
+}
+caption {
+	margin-bottom: .5em; /*coordinated marking to match cell's padding*/
+	text-align: center; /*centered so it doesn't blend in to other content*/
+}
+a {
+  
+}
+
+/* 
+ *
+ * Style the caption overlay 
+ *
+ */
+.mainwrapper {
+	font: 8pt normal Arial, sans-serif;
+	height: auto;
+	margin: 80px auto 0 auto;
+	text-align: center;
+	width: 700px;
+}
+.mainwrapper .box {  /*Image Box Style*/
+	border: 5px solid #fff;
+  box-shadow: 1px 1px 1px 1px #ccc;
+	cursor: pointer;
+	float: left;
+  height: 220px;
+	margin: 5px;
+	position: relative;
+	overflow: hidden;
+	width: 350px;
+}
+.mainwrapper .box img {
+  left: 0;
+	position: absolute;
+ 	transition: all 300ms ease-out;
+}
+.mainwrapper .box .caption {  /* Caption Common Style */
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+  left: 0;
+  position: absolute;
+	transition: all 300ms ease-out;
+	z-index: 100;
+}
+.mainwrapper .box .fade-caption {  /** Caption: Fade **/
+	opacity: 0;
+	width: 350px;
+	height: 240px;
+	text-align: left;
+	padding: 15px;
+}
+.mainwrapper .box:hover .fade-caption  {  /** Fade Caption :hover Behaviour **/
+	opacity: 1;
+}
+</style>
+</head>
+
+<body>
+	<section class="mainwrapper">
+		<h2>Hover over the image to see the styled figure caption.</h2>
+		<figure class="box">
+			<img src="jungle.jpg" width="350" alt="jungle" />
+			<figcaption class="caption fade-caption">
+				<h3>Figure 1: Styling Captions</h3>
+				<p> Use class attribute to classify elements, applying particular class to many different elements.</p>
+				<ul>
+					<li>border</li> 
+					<li>padding</li>
+					<li>width</li>
+					<li>color</li>
+				</ul>
+				<p> The figure and figure caption has been styled by <br> <a href="http://meyerweb.com/">http://meyerweb.com/<br>v2.0 | 20110126 License: none (public domain)</a>.</p>
+			</figcaption>
+		</figure>	
+	</section>
+  </body>
+ </html>
