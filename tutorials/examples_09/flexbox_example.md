@@ -30,6 +30,7 @@
 
 * change the value of box-sizing and set outline for all elements.  (at the end remove the outline declaration)
 
+![](flex83.png)
 
 * set font-family to "Lucida Sans",sans-serif for HTML selector
 * set padding to 0, margin to 0, and display to block for BODY, HEADER, FOOTER, NAV, ARTICLE, ASIDE, and A
@@ -56,6 +57,22 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
 ## Flexbox
 
 ![](flex86.png)
+
+## Media Query
+* All rules nested inside the media query will be applied when all conditions are met, in this case, it can be any media ( ) and the width of the screen is at least 799 pixels
+
+
+```css
+@media all and (min-width: 799px) {
+}
+```
+
+![](flex87.png)
+
+* When the above conditions are not met (showing width of screen less than 799 pixels), the flexbox declarations are not applied.
+
+
+![](flex88.png)
 
 ---
 > SYST10049 Web Development @ Sheridan College
