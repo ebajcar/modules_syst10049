@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Unit 1.1.0</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs.min.css">
+<link href="css/short_pages.css" rel="stylesheet">  
+</head>
+<body>
+<main class="container">
+
+<section  id="page11"> <!-- 1.1. What is HTML? -->
+	<h2>What is Hypertext Markup Language (HTML)?</h2>
+	
+	<blockquote class="blockquote eeb-border-quote">
+		<p class="mb-0">Historically, the desire to have text printed in specific formats meant that original manuscripts were  "marked up" with annotation to indicate to the book-printer how the author would like sections of text laid out...</p>
+		<footer class="blockquote-footer">Read further  <cite title="[ www.w3.org/standards/webdesign/htmlcss#whatcss ]"><a href="http://bajcar.dev.fast.sheridanc.on.ca/project_assets/pdf/WhatisHTML5.pdf" target="_blank"> What is HTML5 (pdf)</a></cite></footer>
+	</blockquote>
+
+	<hr>
+	
+  <p>HTML is the World Wide Web's core markup language. Originally, HTML was primarily designed as a language for semantically describing scientific documents. Its general design, however, has enabled it to be adapted, over the subsequent years, to describe a number of other types of documents and even applications. Today, HTML is used to organize the text and other forms of information, that we want to present on the web.</p>
+  
+	<p>HTML is not a programming language; it is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.</p>	
+
+
+</section>
+
+
+	<section> <!-- 1.1.1.  Grammar, Syntax, Semantics -->	
+	<h3>Grammar, Syntax, Semantics</h3>	
+	
+  	<figure>
+<pre class="html"><code>
+&lt;!-- HTML comment -->
+&lt;tag attribute="value">Content&lt;/tag></code></pre>
+		<figcaption>Elements, attributes, and attribute values in HTML are defined, in the specification, to have certain meanings (semantics). These definitions allow HTML processors, like web browsers and search engines, to present documents and applications consistently in different contexts.</figcaption>
+	</figure>	
+
+<footer class="blockquote-footer">HTML5.2 Specifications can be found at  <cite title="[ https://www.w3.org/TR/html52/ ]"><a href="https://www.w3.org/TR/html52/" target="_blank">W3 Consortium (W3C)</a></cite></footer>
+  
+	<p></p>
+	
+	<h5>Semantic correctness</h5>	
+	
+	<p>Semantic correctness means that all elements are chosen well. <strong>Semantics are front and center with HTML5</strong>, giving meaning to structure of web apps and dynamic web content. This semantic information is critical to assistive technologies. In some cases assistive technologies use semantic information to provide additional functionality. A speech recognition tool might provide a voice command for moving focus to the start of the main element for example. When the appropriate HTML element or attribute is not used, it deprives HTML processors of valuable semantic information. <a href="https://www.w3.org/TR/html52/dom.html#elements">W3C</a></p>
+	
+	<h5>Well-formed and valid code</h5>
+	
+	<dl class="row">
+	  <dt class="col-sm-3">Well-formed code</dt>
+	  <dd class="col-sm-8">refers to compliance to standards, including
+      <ol>
+        <li>closing all elements;</li>
+        <li>nesting elements properly;</li>
+        <li>using correct syntax for attributes;</li>
+      </ol>
+
+	  </dd>	
+	  <dt class="col-sm-3">Validity</dt>
+	  <dd class="col-sm-8">refers to eliminating all syntax and semantic errors. This can be done by using the validation tool at <a href="https://validator.w3.org/" target="_blank">validator.w3.org</a>
+	  </dd>	
+	</dl>
+  
+  <p hidden>A good discussion can be found on stackoverflow https://stackoverflow.com/questions/3583332/html5-and-well-formedness </p> 	
+  
+
+	</section>
+
+	
+	<section> <!-- 1.1.2.  Elements -->	
+	<h3>Elements</h3>	
+	<p>HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on. Each element has a definition that includes the following information: categories, contexts in which this element can be used, content model, ... content attributes, ... <abbr title="Document Object Model">DOM</abbr> interface, ...;</p>
+	
+	<figure>
+		<img src="http://bajcar.dev.fast.sheridanc.on.ca/web_assets/images/htmlSyntax_diagram.png" alt="web process" style="width:90%;">
+		<figcaption>Anatomy of an HTML Element
+			<ul>
+				<li><strong>The opening tag</strong> This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins or starts to take effect — in this case where the paragraph begins.</li>
+				<li><strong>The closing tag</strong> This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends — in this case where the paragraph ends. Failing to add a closing tag is one of the standard beginner errors and can lead to strange results.</li>
+				<li><strong>The content</strong> This is the content of the element, which in this case, is just text.</li>
+				<li><strong>The element</strong> The opening tag, the closing tag and the content together comprise the element.</li>
+			</ul>
+		</figcaption>
+	</figure>
+		
+	<h5>Empty Elements</h5>	
+	<p>Some elements <strong>never contain content</strong>; for example <samp>br</samp>, <samp>hr</samp>, <samp>img</samp>, <samp>meta</samp>. In HTML5 specifically, we do not close empty elements (no end tag). In other markup languages, including HTML5, you can use the shorthand form, combining the start tag and end tag; for example, <samp>br /</samp> or <samp>hr /</samp></p>
+	
+
+
+	<figure>
+<pre class="html"><code>
+&lt;!-- empty elements never take any content -->
+&lt;hr>
+&lt;br>
+&lt;img src="file.png" alt="image description">
+
+&lt;!-- not putting any content in an element does not make it empty -->
+&lt;p>&lt;/p></code></pre>
+		<figcaption>Empty elements</figcaption>
+	</figure>
+  
+	<h5>Nesting Elements</h5>
+	<p>You can put elements inside other elements too — this is called nesting. You do however need to make sure that your elements are properly nested. The elements have to open and close correctly so that they are clearly inside or outside one another. If they overlap, your web browser will try to make the best guess at what you were trying to say, which can lead to unexpected results. So don't do it!</p>	
+
+	</section>
+	
+
+	
+	<section> <!-- 1.1.3.  Attributes -->		
+	<h3>Attributes</h3>
+	<p>Attributes are properties that allow additional information about each elements. All attributes have a quoted value assigned.</p>
+	
+	<h5>Attribute minimization</h5>
+	<p>☛ <strong>HTML5 ONLY</strong> Single-valued attributes are minimized.</p>
+	
+	<h5>Global attributes</h5>
+	<p>Global attributes are common to and may be specified on all HTML elements: <code>accesskey</code>, <code>class</code>, <code>contenteditable</code>, <code>dir</code>, <code>draggable</code>, <code>hidden</code>, <code>id</code>, <code>lang</code>, <code>spellcheck</code>, <code>style</code>, <code>tabindex</code>, <code>title</code>, <code>translate</code></p>
+
+  <footer class="blockquote-footer">Read further  <cite title="[ https://www.w3.org/TR/html52/dom.html#global-attributes ]"><a href="https://www.w3.org/TR/html52/dom.html#global-attributes" target="_blank"> Global attributes (W3C)</a></cite></footer>
+  <hr>
+
+	<h5>Element-specific attributes</h5>
+	<p>Some elements have attributes that are specific to the element. For example <samp data-toggle="tooltip" data-placement="top" title="Ordered list" data-ref-link="https://www.w3schools.com/tags/tag_ol.asp">ol</samp> element, by default starts with integer number 1; you can change the start value with the attribute <code>start</code> and change the kind of marker to use with attribute <code>type</code>.</p>
+
+	</section>
+	
+	
+	<section> <!-- 1.1.4.  Content (data) -->		
+	<h3>Content (data)</h3>	
+	<p>All data and information presented to the user as <strong>information artefacts</strong>&mdash;review, monograph, book, letter, memo, blog, manual, story, report, news article, in all forms—audio, video, text, braille.</p>
+	<p>Each element defined in the specification has a content model: a description of the element’s expected contents. An HTML element must have contents that match the requirements described in the element’s content model. The contents of an element are its children in the DOM.</p>
+
+	<figure>
+<img src="images/artefacts.png" height="400" alt="">
+		<figcaption>Common information artefacts examples</figcaption>
+	</figure>
+  
+	</section>
+
+	
+
+<section  id="page12"> <!-- 1.2. HTML Document and DOM -->
+	<h2>Defining document structure</h2>
+  
+
+	
+	<h3>HTML Document</h3>
+	
+	<p>HTML Document is a text file containing hypertext markup language; interpreted and rendered on the screen by a browser. Various components and concepts are important to understand and keep in mind as you develop web applications. Both web sites and web applications use web pages or, more formally, HTML Documents.</p>
+	
+	<h3>Document Type</h3>
+	
+	<p>Every HTML document we create should declare its document type (doctype) in the first line. This will identify which specification of HTML is included so the browser knows how to interpret the markup. With HTML5, the general doctype declaration is
+	<br><code>&lt;!DOCTYPE html></code><br>
+	This is the very first line of code in any HTML page you create. Keep in mind that code examples you find online may contain older outdated or irrelevant approaches.</p>
+
+	<h3>Document Structure</h3>
+	
+	<p>Each HTML document has a single root element, <code>&lt;html></code>, and is divided into two sections: <code>&lt;head></code> and <code>&lt;body></code>.</p>
+
+	<h3>Head Section</h3>
+	
+	<p>The purpose of the <code>&lt;head></code> section is to describe the document itself. The children of head element include <code>&lt;meta></code> to describe the document, <code>&lt;link></code> to include stylesheet files and other assets, <code>&lt;styles></code> to embed styles, <code>&lt;script></code> to include scripts, and <code>&lt;title></code> in window tab.</p>
+
+	<h3>Body Section</h3>	
+	
+	<p>The purpose of the <code>&lt;body></code> section is to organize content for presentation by marking it up with HTML elements. The body element contains all marked up content that is presented to the user.</p>	
+	
+	<footer class="blockquote-footer">Read further  <cite title="[ How to define Document Structure in HTML5 (pdf) ]"><a href="http://bajcar.dev.fast.sheridanc.on.ca/project_assets/pdf/HowtoDefineDocumentStructureinHTML5.pdf" target="_blank"> How to define Document Structure in HTML5 (pdf)</a></cite></footer>
+
+  </section>
+
+	
+
+<section  id="page12"> <!-- 1.2. HTML Document and DOM -->
+
+	<h2>Minimal HTML5 document</h2>
+
+	<figure>
+<pre class="html"><code>
+&lt;!DOCTYPE html>
+&lt;html lang="en">
+  &lt;head>
+    &lt;title>Meaningful title&lt;/title>
+    &lt;meta charset="UTF-8">
+  &lt;/head>
+  &lt;body>
+  &lt;/body>
+&lt;html></code></pre>
+		<figcaption>Minimal HTML5 document code</figcaption>
+	</figure>
+
+
+	<p>Every HTML document we create should declare its document type (doctype) in the first line. This will identify which specification of HTML is included so the browser knows how to interpret the markup. With HTML5, the general doctype declaration is<br>
+	<samp>!DOCTYPE html</samp><br>
+	This is the very first line of code in any HTML page you create. Keep in mind that code examples you find online may contain older outdated or irrelevant approaches.</p>
+    <footer class="blockquote-footer">Read further  <cite title="[ Creating an HTML5 document (pdf) ]"><a href="http://bajcar.dev.fast.sheridanc.on.ca/project_assets/pdf/HowtoCreateanHTML5document.pdf" target="_blank"> Creating an HTML5 document (pdf)</a></cite></footer>
+
+	</section>
+
+
+
+<section  id="page12"> <!-- 1.2. HTML Document and DOM -->
+  
+  <section> <!-- 1.2.3.  Document Object Model (DOM) -->
+    <h2>Document Object Model (DOM)</h2>
+    <p>The Document Object Model is a platform- and language-neutral interface that will allow programs and scripts to dynamically access and update the content, structure and style of documents. The document can be further processed and the results of that processing can be incorporated back into the presented page.</p>
+    <p>Elements in the DOM represent things &mdash; objects; that is, they have intrinsic meaning, also known as semantics. The HTMLElement interface holds the object's methods and attributes (properties).  </p>
+    
+    <footer class="blockquote-footer">Read further  <cite title="[ about DOM at WHATWG ]"><a href="https://dom.spec.whatwg.org/#trees" target="_blank"> about DOM at WHATWG</a></cite></footer>
+    <hr>
+		
+
+  <h5>Thinking in Objects</h5>
+  <p>The procedural paradigm focuses on designing methods. The object-oriented paradigm couples data and methods together into objects. Software design using the object-priented paradigm focuses on objects and operations on objects.</p>
+  <p>Objects are the fundamental building blocks of applications from an object-oriented perspective. An object is a self-contained component that contains properties and methods needed to make a certain type of data useful. An object’s properties are what it knows and its methods are what it can do.</p>
+  <p>An object represents an entity in the real world that can be distinctly identified. An object has a unique identity, state, and behaviour. The state of an object, also known as its properties or attributes, is represented by data fields with their current values. The behaviour of an object, also known as its actions, is defined by methods. To invoke a method on an object is to ask the object to perform an action. Reference your Java textbook.</p>
+   <p>To design classes, you need to explore the relationships among classes. The common relationships among classes are association, aggregation, composition, and inheritance Inheritance enables you to define a general class and extend it to more specialized classes, called subclass, child class, or extended class. The existing class is called a superclass, parent class, or base class. Inheritance is a powerful feature for reusing software.</p>
+   
+   <h5>The Document Object</h5>
+    <p>When an HTML document is loaded into a web browser, it becomes a document object. The document object is the root node of the HTML document and the "owner" of all other nodes.</p>
+    <p>The HTML DOM defines a standard way for accessing and manipulating HTML documents. It presents an HTML document as a <dfn>tree structure</dfn> or a <dfn>hierarchy</dfn>.</p>
+    <p>The DOM is a representation of the structure of our HTML page that you can interact with programmatically. An HTML document is a hierarchy of elements (objects). The browser produces an outline based on this hierarchy and displays it to the visitor (user). The browser constructs a DOM that can be used by the developer. The DOM's application programming interface (API) is exposed as objects with properties and methods, enabling you to write Javascript code to interact with HTML elements rendered to the page.</p>
+    <p>Our ability to manipulate and create web pages consistently across formats comes from the document object model API. This API defines the order and structure of document files as well as how the file is manipulated to create, edit, or remove contents.</p>
+    <footer class="blockquote-footer">Read further  <cite title="[ Introduction to the DOM at MDN]"><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" target="_blank"> Introduction to the DOM at MDN</a></cite></footer>    
+    <hr>
+    <h5>DOM Nodes</h5>
+    <p>DOM is a collection of nodes arranged in a tree. All nodes are related to each other - a family tree of children, parents, siblings, grandparents, etc.  </p>
+    
+    <p>In the HTML DOM, everything is a node:</p>
+    <ul>
+     <li>The document itself is a document node.</li>
+     <li>All HTML elements are element nodes.</li>
+     <li>All HTML attributes are attribute nodes.</li>
+     <li>Text inside HTML elements are text nodes.</li>
+     <li>Comments are comment nodes.</li>
+   </ul>
+     <p>Each element in this tree has exactly one parent, with the exception of the root element, which has none.</p>
+     
+    <figure>
+      <img style="width:100%;height:390px;border:none;margin-bottom:1em;" 
+          src="http://bajcar.dev.fast.sheridanc.on.ca/web_assets/images/min_html_chart.png">	
+      <figcaption>Hierarchical representation of the minimal HTML5 document: a tree of elements encoded in the source document. </figcaption>
+    </figure>
+    
+    <p>Practice identifying the relationships in a DOM structure and representing web page structure in a hierarchy diagram.</p> 
+	
+    <h5>DOM processing</h5>
+    <figure>
+      <img src="http://bajcar.dev.fast.sheridanc.on.ca/web_assets/images/full-process.png" alt="browser process" style="width:100%">	
+      <figcaption>DOM processing</figcaption>
+    </figure>
+    
+    <footer class="blockquote-footer">Read further  <cite title="[ Constructing the Object Model (Google)]"><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model" target="_blank"> Constructing the Object Model</a></cite></footer> 
+    <hr>
+    <p></p> 
+    <h5>CSS Object Model (CSSOM)</h5>
+    <p>The CSSOM is a map of all CSS selectors and relevant properties for each selector in the form of a tree, with a root node, sibling, descendant, child, and other relationship. The CSSOM is very similar to the DOM. Both of them are part of the critical rendering path which is a series of steps that must happen to properly render a website.</p>
+
+
+  </section>
+
+</section>
+
+
+
+<section  id="page13"> <!-- 1.3 The HEAD section -->
+	<h2>The HEAD section</h2>
+  
+  <section> <!-- 1.3.1. children of the head element -->
+	<h4>Children of the <samp>head</samp> element </h4>
+  
+	<p>The children of head element include <samp>meta</samp> to describe the document, &lt;link> to include stylesheet files and other assets, <samp>styles</samp> to embed styles, <samp>script</samp> to include scripts, and <samp>title</samp> in the window tab.</p>
+	
+	<dl class="row">
+	  <dt class="col-sm-2">element <samp>base</samp></dt>
+	  <dd class="col-sm-9">allows authors to specify the document base URL for the purposes of parsing URLs, and the name of the default browsing context for the purposes of following hyperlinks. The element does not represent any content beyond this information. There must be no more than one base element per document. It must have either an href attribute, a target attribute, or both.</dd>
+	  
+	  <dt class="col-sm-2">element <samp>title</samp></dt>
+	  <dd class="col-sm-9">The title element represents the document’s title or name. Authors should use titles that identify their documents even when they are used out of context, for example in a user’s history or bookmarks, or in search results. The document’s title is often different from its first heading, since the first heading does not have to stand alone when taken out of context. There must be no more than one title element per document.</dd>
+	  
+	  <dt class="col-sm-2">element <samp>meta</samp></dt>
+	  <dd class="col-sm-9">is typically used to specify character set, page description, 
+        keywords, author of the document, and viewport settings.
+		  <ul>
+        <li><code>name</code> attribute specifies a name for the metadata and can have values: application-name, author, description, generator, keywords, viewport.</li>
+        <li><code>content</code> attribute gives the value associated with the http-equiv or name attribute.</li>
+        <li><code>charset</code> attribute specifies the character encoding for the HTML document</li>
+        <li><code>http-equiv</code> attribute provides an HTTP header for the information/value of the content attribute</li>
+		  </ul>
+	  </dd>
+	  
+	  <dt class="col-sm-2">element <samp>link</samp></dt>
+	  <dd class="col-sm-9">The link element allows authors to link their document to other resources. The destination of the link(s) is given by the href attribute, which must be present and must contain a valid non-empty URL potentially surrounded by spaces. If the href attribute is absent, then the element does not define a link. A link element must have a rel attribute. The rel's supported tokens are the keywords defined in HTML link types which are allowed on link elements, impact the processing model, and are supported by the user agent. The possible supported tokens are alternate, dns-prefetch, icon, next, pingback, preconnect, prefetch, preload, prerender, search, serviceworker, and stylesheet.</dd>
+	  
+	  <dt class="col-sm-2">element <samp>style</samp></dt>
+	  <dd class="col-sm-9">The style element allows authors to embed style information in their documents. The style element is one of several inputs to the styling processing model. The element does not represent content for the user. The type attribute gives the styling language. If the attribute is present, its value must be a valid mime type that designates a styling language. The charset parameter must not be specified. The default value for the type attribute, which is used if the attribute is absent, is "text/css".</dd>
+	</dl>
+  
+    <footer class="blockquote-footer">Read further  <cite title="[ about Document metadta at W3C ]"><a href="https://www.w3.org/TR/html52/document-metadata.html#document-metadata" target="_blank"> about Document metadata at W3C</a></cite></footer> 
+    <hr>	
+  </section>
+  
+  <section> <!-- 1.3.2. create good meta descriptions -->
+    <h4>Create good <samp>meta</samp> descriptions</h4>
+    <span hidden>data-ref-link="https://support.google.com/webmasters/answer/35624"</span>
+
+    <p>Make sure that every page on your site has a meta description. Differentiate the descriptions for different pages. Identical or similar descriptions on every page are not helpful.</p>
+    <p>Include clearly tagged facts in the description. The meta description doesn't just have to be in sentence format; it's also a great place to include information about the page. For example, news or blog postings can list the author, date of publication, or byline information.</p> 
+    
+    <blockquote>Use quality descriptions. Finally, make sure your descriptions are truly descriptive. Because the meta descriptions aren't displayed in the pages the user sees, it's easy to let this content slide. But high-quality descriptions can be displayed in Google's search results, and can go a long way to improving the quality and quantity of your search traffic. </blockquote>	
+    
+    <p hidden>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+    This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling. Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones).    &#12296; left-angle bracket </p>	
+    
+    <figure>
+<pre class="html"><code>
+&lt;!-- meta element used to describe prologue info -->
+&lt;head>
+  &lt;meta name="Author" content="John Doe">
+  &lt;meta name="Description" content="Page created to satisfy 
+        requirements of an assignment X for course SYST10049.
+        The page contains a letter...
+        Date created: May 2, 20XX. 
+        Date updated: May 5, 20XX."> 
+&lt;/head></code></pre>
+    <figcaption> example of meta element used to describe the page for this course.</figcaption>
+    </figure>	
+    <hr>
+  </section>
+  
+  <section> <!-- 1.3.3. Character encoding -->
+    <h4>Character encoding</h4>	
+    <figure>
+       <img alt="" style="width:90%" src="images/character_encoding.png" >
+       <figcaption> character encoding …how symbols are stored. </figcaption>
+    </figure>  
+    <hr>
+    
+    <h5>Whitespace</h5>
+    <p><strong>Whitespace</strong> is any character or series of characters that represent horizontal or vertical space in typography...does not correspond to a visible mark, but typically does occupy an area on a page.</p>
+    <hr>
+  
+    <h5>Entities & Symbols</h5>
+    <p>Some symbols are interpreted in a special way,  such as space <kbd>&nbsp;</kbd>, comma <kbd>,</kbd>, less-than <kbd>&lt;</kbd> and greater-than <kbd>&gt;</kbd> symbols. Trying to use these symbols as part of content requires the use of entities.
+    Reference table at <a href="https://dev.w3.org/html5/html-author/charref">W3C</a></p>
+    
+    
+    <footer class="blockquote-footer">Read further  <cite title="[ W3C Handling character encodings in HTML and CSS (tutorial) ]"><a href="https://www.w3.org/International/tutorials/tutorial-char-enc/" target="_blank"> W3C Handling character encodings in HTML and CSS (tutorial)</a></cite></footer>
+
+    </section>
+    
+</section>
+
+
+
+<section  id="page14"> <!-- 1.4 The BODY section -->
+	<h2>The BODY section</h2>
+	
+	<section><!-- 1.5.1. Content organization -->
+    <h4>Content organization</h4>
+    <p>Well-structured content allows more efficient navigation and processing. Use HTML and WAI-ARIA to improve navigation and orientation on web pages and in applications.</p>
+    <dl class="row">
+      <dt class="col-sm-3">Page Regions</dt>
+      <dd class="col-sm-9">Identify and mark up regions on web pages using HTML5 and WAI-ARIA roles.</dd>	
+      <dt class="col-sm-3">Labeling Regions</dt>
+      <dd class="col-sm-9">Label regions to allow users to distinguish and access them.</dd>
+      <dt class="col-sm-3">Headings</dt>
+      <dd class="col-sm-9">Add headings and nest them logically to label sections of web pages according to their relationships and importance.</dd>
+      <dt class="col-sm-3">Content Structure</dt>
+      <dd class="col-sm-9">Mark up the content on a page in a way that uses appropriate and meaningful elements.</dd>
+    </dl>
+    <footer class="blockquote-footer">Read further  <cite title="[ Page Structure Concepts ]"><a href="https://www.w3.org/WAI/tutorials/page-structure/" target="_blank"> Page Structure Concepts and why is it important?</a></cite></footer>	
+    <hr>
+  </section>
+	
+	<section><!-- 1.5.2. Content Models-->
+    <h4>Content Models</h4>	
+    <p>A content model is a description of the element’s expected contents. An HTML element must have contents that match the requirements described in the element’s content model. The contents of an element are its children in the DOM (flow, interactive, embedded, phrasing, meta-data, sectioning, heading).</p>
+    <figure>
+     <object data="https://www.w3.org/TR/html52/images/content-venn.svg" height="188" width="720"><img alt="" height="168" src="https://www.w3.org/TR/html52/images/content-venn.svg" width="112"></object>
+     <figcaption>   Hover over the image to see the list of elements that fall into the category. <a href="https://www.w3.org/TR/html52/dom.html#content-models" target="blank">&mdash;from W3C (click to go to the specification document).</a> </figcaption> 
+     </figure>
+   </section>
+
+	<section><!-- 1.5.3. Block and inline behaviour-->
+    <h4>Block and inline flow</h4>
+    <ul>
+      <li>By default, block-level elements begin on new lines. Read more <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements">MDN web docs</a></li>
+      
+      <li>By default, inline elements stay in line of the parent element. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements">MDN web docs</a></li>
+      <li>To determine what content category a particular element belongs to, examine the specifications document.</li>
+    </ul>
+
+  </section>
+
+</section>
+
+
+
+</main>
+
+<!-- 
+  ** *******************************************
+  ** Footer
+  ** *******************************************
+-->	
+<hr>
+<footer class="container">   
+    <div class="xsmall fa fa-copyright" style="padding:1% 13%;text-align:center;">
+        <em>This work is the intellectual property of Sheridan College. Any further copying 
+        and distribution outside of class must be within the copyright law. Posting to 
+        commercial sites for profit is prohibited.</em>
+    </div>   
+    <address style="text-align:center;">SYST10049 Web Development |&nbsp;Sheridan College</address> 					
+</footer> 
+    
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/htmlbars.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/xml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/languages/markdown.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+  'use strict'
+
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement('style')
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.head.appendChild(msViewportStyle)
+  }
+
+}())    
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>
