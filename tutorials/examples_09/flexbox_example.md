@@ -23,9 +23,8 @@
   <footer><address>SYST10049 Web Development © Sheridan College</address></footer>
 </body>
 ```
+Figure 82. ![Figure 82](flex82.png)
 
-![Figure 82](flex82.png)
-Figure 82.
 
 ### Styling
 
