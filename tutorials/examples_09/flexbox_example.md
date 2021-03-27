@@ -26,6 +26,8 @@
 
 ![](flex82.png)
 
+### Styling
+
 * change the value of box-sizing and set outline for all elements.  (at the end remove the outline declaration)
 
 
@@ -33,11 +35,13 @@
 * set padding to 0, margin to 0, and display to block for BODY, HEADER, FOOTER, NAV, ARTICLE, ASIDE, and A
 * set padding to 1em for HEADER and FOOTER (this is redefinition)
 * set the background color to #93c and foreground color to #fff for HEADER (note that we are trying to reduce the number of declarations)
+* set padding to 0.5em for ARTICLE, ASIDE, and A when descendant of NAV
+
 
 ![](flex84.png)
 
-## Step 2:
-* set padding to 0.5em for ARTICLE, ASIDE, and A when descendant of NAV
+
+
 * set margin to 0.5 em, background color to #33b5e5, text color #fff, and box shadow for A when descendant of NAV
 
 ```css
@@ -49,8 +53,9 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
 
 ![](flex85.png)
 
+## Flexbox
 
-
+![](flex86.png)
 
 ---
 > SYST10049 Web Development @ Sheridan College
