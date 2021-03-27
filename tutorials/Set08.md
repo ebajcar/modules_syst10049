@@ -11,6 +11,24 @@
 > &bull;  selector &bull; property &bull; property value &bull; cascade &bull; inheritance &bull;  browser defaults &bull; style sheet &bull; specificity &bull;  declaration &bull; DOM &bull;  CSSOM &bull;  external styles &bull; internal (embedded) styles &bull; inline styles &bull; 
 
 ---
+
+### Complete the following tutorials. Document what you have learned.
+For each of the following CSS properties, complete the tutorial on w3schools.  Note the definition, intended purpose, browser support, supported attributes, and possible attribute values.
+#### Example
+0. BOX-SIZING [https://www.w3schools.com/cssref/css3_pr_box-sizing.asp](https://www.w3schools.com/cssref/css3_pr_box-sizing.asp)
+
+> **`box-sizing` property** defines how the width and height of an element are calculated: should they include padding and borders, or not.
+>  SYNTAX: `box-sizing: content-box|border-box|initial|inherit;`
+> `content-box` value -- **default**. The width and height properties (and min/max properties) includes only the content. Border and padding are not included.  
+> `border-box` value -- The width and height properties (and min/max properties) includes content, padding and border
+> HTML DOM reference: [boxSizing property](https://www.w3schools.com/jsref/prop_style_boxsizing.asp)
+
+#### Your turn:
+1.  CSS border [https://www.w3schools.com/css/css_border.asp](https://www.w3schools.com/css/css_list.asp)
+2.  c
+
+---
+
 ## Explore class examples and related exercises
 
 * [example06_045.html](https://ebajcar.github.io/Exercises/worksheets/worksheet_07/example06_045.html) - explore positioning, centering a page
