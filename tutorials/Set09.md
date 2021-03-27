@@ -21,7 +21,12 @@
 (being updated)
 
 
+#### For each of the following examples, create your own local copy, observe, experiment, research, and document the selectors and properties used:
 
+---
+
+**[Hoverable dropdown (9.100)](examples_09/dropdown_hover.html)**
+- Explore `position` property, `display` property, `z-index` property `:hover` action 
 
 
 ---
