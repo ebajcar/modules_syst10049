@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Navigation flexbox example</title>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 
+Author: 	Ellen Bajcar
+Program: 	caption_hover.html
+Date: 		Fall 2016
+Updated: 	Winter 2021 
+Version: 	9.14
+Purpose: 	explore css selectors and properties
+Copyright: 
+  This work is the intellectual property of Sheridan College. 
+  Any further copying and distribution outside of class must be within 
+  the copyright law. Posting to commercial sites for profit is prohibited.
+Citations:
+  w3schools
+Dependencies:
+	none
+Description:
+  explore flexbox, media queries, anchor pseudo-classes
+-->   
+<style>
+nav { 
+  background: #00b2ce;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 15px 0;
+}
+nav a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+}
+nav a.active {
+  background: #0081a1;
+}
+/*
+Note: a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective! a:active MUST come after a:hover in the CSS definition in order to be effective! Pseudo-class names are not case-sensitive. https://www.w3schools.com/css/css_pseudo_classes.asp
+*/
+nav a:link {  /* unvisited link */
+  color: white;
+}
+nav a:visited {  /* visited link */
+  color: lightgray;
+}
+nav a:hover {  /* mouse over link */
+  color: white;
+  background: #003767;
+}
+nav a:active { /* selected link */
+  color: white;
+  background: #0081a1;
+}
+
+/* mid-size devices such as a tablet */
+@media all and (max-width: 600px) {
+  nav {
+    justify-content: space-around;
+  }
+}
+
+/* small devices such as a phone */
+@media all and (max-width: 350px) {
+  nav {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  nav a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 2px solid rgba(255,255,255,0.3); 
+    border-bottom: 2px solid rgba(0,0,0,0.1); 
+  }
+  nav:last-of-type a {
+    border-bottom: none;
+  }
+}    
+</style>
+</head>
+
+<body>
+  <header><h1>Responsive Design</h1></header> 
+  <nav>
+    <a  class="active" href="#">home</a>
+    <a href="#">cognito</a>
+    <a href="#">ergo</a>
+    <a href="#">sum</a>
+    <a href="#">lorem</a>
+  </nav>
+  <main><h2>Responsive Navigation</h2></main>
+  <footer><address>SYST10049 Web Development @ Sheridan College</address></footer>
+</body>
+</html>
+
+
+
