@@ -1,7 +1,24 @@
 # Flexbox example explained
 
 [w3schools CSS3 flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
-Explore `display: flex` declaration, `flex-wrap` property, `order` property
+Explore 
+* `display: flex` declaration, `flex-wrap` property, `order` property, `flex` property
+* design flexible responsive layout structure without using float or positioning
+* * `flex-wrap`  property specifies whether the flex items should wrap or not. https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flex-wrap_wrap
+* * `flex-flow` property
+* flexbox elements: flex container (parent element), flex items
+
+
+|Property|Description|
+|========|===========|
+|align-content|	Modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines|
+
+align-items	Vertically aligns the flex items when the items do not use all available space on the cross-axis
+display	Specifies the type of box used for an HTML element
+flex-direction	Specifies the direction of the flexible items inside a flex container
+flex-flow	A shorthand property for flex-direction and flex-wrap
+flex-wrap	Specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line
+justify-content	Horizontally aligns the flex items when the items do not use all available space on the main-axis* 
 
 ### Start with valid HTML5 document.  This is a standard content layout, with header, footer, navigation, article and aside.
 
