@@ -2,7 +2,7 @@
 
 Flexbox components used in this example: * `display: flex` declaration, `flex-wrap` property, `order` property, `flex` property
 
-### CSS3 Flexbox [w3schools](https://www.w3schools.com/css/css3_flexbox.asp)
+### CSS3 Flexbox [explore deeper at w3schools](https://www.w3schools.com/css/css3_flexbox.asp)
 * design flexible responsive layout structure without using float or positioning
 
 Flex container (parent element)
