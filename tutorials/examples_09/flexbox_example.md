@@ -15,12 +15,12 @@ Flex container (parent element)
 * `justify-content`	Horizontally aligns the flex items when the items do not use all available space on the main-axis* 
 
 Flex item: (child element) &mdahs; direct child elements of a flex container automatically becomes flexible (flex) items.
-`align-self`	Specifies the alignment for a flex item (overrides the flex container's align-items property)
-`flex`	A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties
-`flex-basis`	Specifies the initial length of a flex item
-`flex-grow`	Specifies how much a flex item will grow relative to the rest of the flex items inside the same container
-`flex-shrink`	Specifies how much a flex item will shrink relative to the rest of the flex items inside the same container
-`order`	Specifies the order of the flex items inside the same container
+* `align-self`	Specifies the alignment for a flex item (overrides the flex container's align-items property)
+* `flex`	A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties
+* `flex-basis`	Specifies the initial length of a flex item
+* `flex-grow`	Specifies how much a flex item will grow relative to the rest of the flex items inside the same container
+* `flex-shrink`	Specifies how much a flex item will shrink relative to the rest of the flex items inside the same container
+* `order`	Specifies the order of the flex items inside the same container
 
 ### Start with valid HTML5 document.  This is a standard content layout, with header, footer, navigation, article and aside.
 
