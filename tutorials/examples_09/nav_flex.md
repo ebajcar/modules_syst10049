@@ -22,9 +22,24 @@ Flex item: (child element) &mdahs; direct child elements of a flex container aut
 * `flex-shrink`	Specifies how much a flex item will shrink relative to the rest of the flex items inside the same container
 * `order`	Specifies the order of the flex items inside the same container
 
-### Start with valid HTML5 document.  This is a standard content layout, with header, footer, navigation, article and aside.
-In this example,  BODY will be defined as the flex container; direct children then are HEADER, NAV, ARTICLE, ASIDE, and FOOTER.
+### Start with valid HTML5 document.  This is a standard content layout, with header, footer, navigation, and main.
+In this example,  NAV will be defined as the flex container; direct children then are the A elements.
 
+```html
+<body>
+  <header><h1>Responsive Design</h1></header> 
+  <nav>
+    <a  class="active" href="#">home</a>
+    <a href="#">cognito</a>
+    <a href="#">ergo</a>
+    <a href="#">sum</a>
+    <a href="#">lorem</a>
+  </nav>
+  <main><h2>Responsive Navigation</h2></main>
+  <footer><address>SYST10049 Web Development @ Sheridan College</address></footer>
+</body>
+</html>
+```
 
 
 
