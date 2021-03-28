@@ -23,6 +23,7 @@ Flex item: (child element) &mdahs; direct child elements of a flex container aut
 * `order`	Specifies the order of the flex items inside the same container
 
 ### Start with valid HTML5 document.  This is a standard content layout, with header, footer, navigation, article and aside.
+In this example,  BODY will be defined as the flex container; direct children then are HEADER, NAV, ARTICLE, ASIDE, and FOOTER.
 
 ```html
 <body>
