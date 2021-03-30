@@ -19,6 +19,9 @@
 
 #### Your turn:
 Revisit Worksheets 6, 7, and 8.
+
+---
+
 * [CSS @media Rule (media queryies)](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
 
 ```css
@@ -31,9 +34,9 @@ Revisit Worksheets 6, 7, and 8.
 ---
 
 * [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - design flexible responsive layout structure without using float or positioning
- * [CSS Flex Container](https://www.w3schools.com/css/css3_flexbox_container.asp) - flex container becomes flexible by setting `display: flex`, enables other properties.
- * [CSS Flex items](https://www.w3schools.com/css/css3_flexbox_items.asp) - direct child elements of a flex container automatically becomes flexible (flex) items.
- * [CSS Flex responsive](https://www.w3schools.com/css/css3_flexbox_responsive.asp) - using media queries to create different layouts for different screen sizes and devices
+  * [CSS Flex Container](https://www.w3schools.com/css/css3_flexbox_container.asp) - flex container becomes flexible by setting `display: flex`, enables other properties.
+  * [CSS Flex items](https://www.w3schools.com/css/css3_flexbox_items.asp) - direct child elements of a flex container automatically becomes flexible (flex) items.
+  * [CSS Flex responsive](https://www.w3schools.com/css/css3_flexbox_responsive.asp) - using media queries to create different layouts for different screen sizes and devices
 
 ---
 
