@@ -55,7 +55,8 @@ Revisit Worksheets 6, 7, and 8.
 
 
 **[Figure caption hover (9.100)](examples_09/caption_hover.html)**
-- Explore `position` property, `display` property, `z-index` property `:hover` action, `float` property, `cursor` property, `overflow` property, `opacity` property
+- Explore 
+`position` property | `display` property |  `z-index` property  | `:hover` action |  `float` property | `cursor` property | `overflow` property | `opacity` property
 
 ---
 
@@ -73,7 +74,9 @@ Revisit Worksheets 6, 7, and 8.
 
 **[Grid example](examples_09/grid_box.html)** - using the same HTML as flex_box.html to compare
 
-**[`grid-column` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-column_line)  |  [`grid-row` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-row1)  |  [`grid-area` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-area1)**
+Explore:
+
+[`grid-column` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-column_line)  |  [`grid-row` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-row1)  |  [`grid-area` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-area1)
 
 ---
 > SYST10049 Web Development @ Sheridan College
