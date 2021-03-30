@@ -51,11 +51,14 @@ Revisit Worksheets 6, 7, and 8.
 
 
 **[Hoverable dropdown (9.100)](examples_09/dropdown_hover.html)**
-- Explore `position` property, `display` property, `z-index` property `:hover` action 
+- Explore
+
+ `position` property |  `display` property |  `z-index` property  | `:hover` action 
 
 
 **[Figure caption hover (9.100)](examples_09/caption_hover.html)**
-- Explore 
+- Explore
+-  
 `position` property | `display` property |  `z-index` property  | `:hover` action |  `float` property | `cursor` property | `overflow` property | `opacity` property
 
 ---
