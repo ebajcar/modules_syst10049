@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+  /* 
+  https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-columns
+  https://www.w3schools.com/cssref/pr_grid-template-columns.asp
+  With CSS Grid Layout, we get a new flexible unit: the Fr unit. Fr is a fractional unit and 1fr is for 1 part of the available space. 
+  */
+.grid1 {
+  display: grid; 
+  
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 200px 100px;
+}
+
+ul > li {
+  background-color: #2196F3;
+  border: 1px solid lightblue;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px;
+  min-height: 100px;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid Container</h1>
+
+<p>List 1</p>
+
+<ul class="grid1">
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>  
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>0</li>  
+</ul>
+
+<p>List 2</p>
+<ul class="grid2">
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>  
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>0</li>
+</ul>
+
+</body>
+</html>
