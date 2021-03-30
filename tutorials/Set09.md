@@ -37,7 +37,8 @@ Revisit Worksheets 6, 7, and 8.
 - Explore the flexbox. Run [flex_box.html](examples_09/flex_box.html) 
 
 **[Navigation using flexbox and media at-rule](examples_09/nav_flex.md)**
-- Explore the flexbox, media queries, and styling anchors. Run [nva_flex_anchors.html](examples_09/nva_flex_anchors.html) 
+- Explore the flexbox, media queries, and styling anchors. 
+- Run [nav_flex_anchors.html](examples_09/nav_flex_anchors.html) 
 
 ---
 > SYST10049 Web Development @ Sheridan College
