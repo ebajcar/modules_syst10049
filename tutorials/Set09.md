@@ -65,6 +65,9 @@ Revisit Worksheets 6, 7, and 8.
 - Explore the flexbox, media queries, and styling anchors. 
 - Run [nav_flex_anchors.html](examples_09/nav_flex_anchors.html) 
 
+
+**[`grid-column` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-column_line)  |  [`grid-row` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-row1)  |  [`grid-area` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-area1)**
+
 ---
 > SYST10049 Web Development @ Sheridan College
 
