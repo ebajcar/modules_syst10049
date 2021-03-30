@@ -18,7 +18,7 @@
 > &bull; **color property** specifies the color of text.<br> &bull; **note:** a background color combined with a text color that makes the text easy to read.<br> &bull; SYNTAX: _`color_|initial|inherit;`<br> &bull; Look at CSS Color Values for a complete list of possible color values. (hex, rgb, rgba, hsl, hsla)<br> &bull; HTML DOM reference: [color property](https://www.w3schools.com/jsref/prop_style_color.asp) 
 
 #### Your turn:
-(being updated)
+Revisit Worksheets 6, 7, and 8.
 
 
 #### For each of the following examples, create your own local copy, observe, experiment, research, and document the selectors and properties used:
@@ -33,8 +33,11 @@
 - Explore `position` property, `display` property, `z-index` property `:hover` action, `float` property, `cursor` property, `overflow` property, `opacity` property
 
 
+**[Flexbox](examples_09/flexbox_example.md)**
+- Explore the flexbox.
 
-
+**[Navigation using flexbox and media at-rule](examples_09/nav_flex.md)**
+- Explore the flexbox, media queries, and styling anchors.
 
 ---
 > SYST10049 Web Development @ Sheridan College
