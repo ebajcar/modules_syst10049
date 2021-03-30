@@ -58,13 +58,17 @@ Revisit Worksheets 6, 7, and 8.
 - Explore `position` property, `display` property, `z-index` property `:hover` action, `float` property, `cursor` property, `overflow` property, `opacity` property
 
 
+
 **[Flexbox example](examples_09/flexbox_example.md)**
 - Explore the flexbox. Run [flex_box.html](examples_09/flex_box.html) 
+
 
 **[Navigation using flexbox and media at-rule](examples_09/nav_flex.md)**
 - Explore the flexbox, media queries, and styling anchors. 
 - Run [nav_flex_anchors.html](examples_09/nav_flex_anchors.html) 
 
+
+**[Grid example](examples_09/grid_example.html)**
 
 **[`grid-column` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-column_line)  |  [`grid-row` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-row1)  |  [`grid-area` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-area1)**
 
