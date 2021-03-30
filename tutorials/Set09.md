@@ -28,10 +28,10 @@ Revisit Worksheets 6, 7, and 8.
 }
 ```
 * [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - design flexible responsive layout structure without using float or positioning
-* [CSS Flex Container](https://www.w3schools.com/css/css3_flexbox_container.asp) - flex container becomes flexible by setting `display: flex`, enables other properties.
-* [CSS Flex items](https://www.w3schools.com/css/css3_flexbox_items.asp) - direct child elements of a flex container automatically becomes flexible (flex) items.
-* [CSS Flex responsive](https://www.w3schools.com/css/css3_flexbox_responsive.asp) - using media queries to create different layouts for different screen sizes and devices
-
+* * [CSS Flex Container](https://www.w3schools.com/css/css3_flexbox_container.asp) - flex container becomes flexible by setting `display: flex`, enables other properties.
+* * [CSS Flex items](https://www.w3schools.com/css/css3_flexbox_items.asp) - direct child elements of a flex container automatically becomes flexible (flex) items.
+* * [CSS Flex responsive](https://www.w3schools.com/css/css3_flexbox_responsive.asp) - using media queries to create different layouts for different screen sizes and devices
+-
 
 * [CSS Grid](https://www.w3schools.com/css/css_grid.asp) - The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
 
