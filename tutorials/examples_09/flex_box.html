@@ -56,7 +56,15 @@ nav a:hover {
   background-color: #09c;
 }
 
-@media all and (min-width: 799px) {
+/* mid-size devices such as a tablet */
+@media all and (max-width: 700px) {
+  aside {
+    display: none;
+  }
+}
+
+
+@media all and (min-width: 399px) {
   body { 
     /* body container allowing flex properties */
     display: flex;  
