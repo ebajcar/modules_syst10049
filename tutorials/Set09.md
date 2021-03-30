@@ -21,7 +21,7 @@
 Revisit Worksheets 6, 7, and 8.
 
 ---
-
+* [HTML Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp) - Setting The Viewport
 * [CSS @media Rule (media queryies)](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
 
 ```css
