@@ -58,8 +58,9 @@ Revisit Worksheets 6, 7, and 8.
 
 **[Figure caption hover (9.100)](examples_09/caption_hover.html)**
 - Explore
--  
-`position` property | `display` property |  `z-index` property  | `:hover` action |  `float` property | `cursor` property | `overflow` property | `opacity` property
+
+`position` property | `display` property |  `z-index` property  | `:hover` action 
+`float` property | `cursor` property | `overflow` property | `opacity` property
 
 ---
 
