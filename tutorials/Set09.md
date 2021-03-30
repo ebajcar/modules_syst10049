@@ -33,11 +33,11 @@ Revisit Worksheets 6, 7, and 8.
 - Explore `position` property, `display` property, `z-index` property `:hover` action, `float` property, `cursor` property, `overflow` property, `opacity` property
 
 
-**[Flexbox](examples_09/flexbox_example.md)**
-- Explore the flexbox.
+**[Flexbox example](examples_09/flexbox_example.md)**
+- Explore the flexbox. Run [flex_box.html](examples_09/flex_box.html) 
 
 **[Navigation using flexbox and media at-rule](examples_09/nav_flex.md)**
-- Explore the flexbox, media queries, and styling anchors.
+- Explore the flexbox, media queries, and styling anchors. Run [nva_flex_anchors.html](examples_09/nva_flex_anchors.html) 
 
 ---
 > SYST10049 Web Development @ Sheridan College
