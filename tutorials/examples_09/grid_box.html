@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Flexbox example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 
+Author: 	Ellen Bajcar
+Program: 	grid_box.html
+Date: 		Fall 2016
+Updated: 	Winter 2021 
+Version: 	21.3.30
+Purpose: 	explore css selectors and properties
+Copyright: 
+  This work is the intellectual property of Sheridan College. 
+  Any further copying and distribution outside of class must be within 
+  the copyright law. Posting to commercial sites for profit is prohibited.
+Citations:
+  www.w3schools.com/
+Dependencies:
+	none
+Description:
+  example of grid layout and responsive design
+  using same HTML as flex_box.html - to compare
+--> 
+<style>
+html {
+  font-family: "Lucida Sans",sans-serif;
+}
+body, header, footer, nav, article, aside, a {
+  padding: 0;
+  margin: 0;
+  display: block;
+  box-sizing: border-box;
+}
+header, footer {
+  padding: 1em;
+}
+header {
+  background-color: #93c;
+  color: #fff;  
+}
+article, aside, nav a {
+  padding: 0.5em;
+}
+nav a {
+  margin: 0.5em;
+  background-color: #33b5e5;
+  color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+}
+nav a:hover {
+  background-color: #09c;
+}
+
+/*
+ *  CSS rules implementing grid
+ */
+ 
+@media all and (min-width: 700px) {
+  header  { grid-area: header; }
+  nav     { grid-area: menu; }
+  article { grid-area: main; }
+  aside   { grid-area: right; }
+  footer  { grid-area: footer; }
+
+  body {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+}
+</style>
+</head>
+
+<body>
+  <header><h1>Page Heading</h1></header>  
+
+    <nav>
+        <a href="#">Article One</a>
+        <a href="#">Article Two</a>
+        <a href="#">Article Three</a>
+        <a href="#">Article Four</a>
+    </nav>
+    <article>
+      <h2>Article Heading</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum nunc vel arcu tincidunt pharetra. Duis vulputate quis elit in ultrices. Phasellus sit amet leo nibh. In hac habitasse platea dictumst. Suspendisse est elit, fermentum a ornare bibendum, faucibus et eros. Vivamus sit amet sapien semper, congue felis id, posuere eros. Vestibulum vestibulum, lectus quis euismod egestas, libero mauris malesuada ante, vulputate aliquam velit tellus et quam.</p>
+      <p>Sed aliquam id ligula ac bibendum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean auctor neque sed orci efficitur euismod. Maecenas facilisis imperdiet massa at pellentesque. Aliquam erat volutpat. Mauris maximus odio id erat vestibulum, quis consequat dolor eleifend. Integer fermentum et enim nec aliquet.</p>
+    </article>
+    <aside>
+      <h5>Aside Heading</h5>
+      <p>Vivamus in ex neque. Maecenas mauris nisl, consectetur a lacinia accumsan, suscipit vel urna. Praesent porta sem nec nulla auctor, sit amet fringilla justo auctor. Aliquam viverra dignissim orci a blandit. Sed quis ornare ante, non gravida lorem. Etiam id iaculis justo. Etiam id velit luctus, consectetur nunc vel, viverra nunc. Fusce dignissim varius lacus, vel euismod ante varius a. Mauris eu turpis a lacus accumsan pulvinar in sed elit.</p>
+    </aside>	
+ 
+  <footer><address>SYST10049 Web Development © Sheridan College</address></footer>
+</body>
+</html>
