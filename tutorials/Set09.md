@@ -68,7 +68,7 @@ Revisit Worksheets 6, 7, and 8.
 - Run [nav_flex_anchors.html](examples_09/nav_flex_anchors.html) 
 
 
-**[Grid example](examples_09/grid_example.html)**
+**[Grid example](examples_09/grid_box.html)** - using the same HTML as flex_box.html to compare
 
 **[`grid-column` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-column_line)  |  [`grid-row` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-row1)  |  [`grid-area` property](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-area1)**
 
