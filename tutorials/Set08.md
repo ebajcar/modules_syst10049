@@ -24,8 +24,7 @@ For each of the following CSS properties, complete the tutorial on w3schools.  N
 > HTML DOM reference: [boxSizing property](https://www.w3schools.com/jsref/prop_style_boxsizing.asp)
 
 #### Your turn:
-1.  CSS border [https://www.w3schools.com/css/css_border.asp](https://www.w3schools.com/css/css_list.asp)
-2.  c
+1. revisit the same ones from Worksheet 7
 
 ---
 
