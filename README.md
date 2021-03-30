@@ -90,7 +90,10 @@
 
 
 ## Tutorials
-[Tutorial 1](tutorials/Set01.md) &mdash; [Tutorial 9](tutorials/Set09.md)
+[Tutorial 1](tutorials/Set01.md)  &mdash; [Tutorial 2](tutorials/Set02.md)  &mdash; [Tutorial 3](tutorials/Set03.md) 
+&mdash; [Tutorial 4](tutorials/Set04.md) &mdash; [Tutorial 5](tutorials/Set05.md) 
+&mdash; [Tutorial 6](tutorials/Set06.md) &mdash; [Tutorial 7](tutorials/Set07.md) &mdash; [Tutorial 8](tutorials/Set08.md) 
+&mdash; [Tutorial 9](tutorials/Set09.md) &mdash; Tutorial 10 (not yet available)
 
 ---
 @ This work is the intellectual property of Sheridan College. Any further copying and distribution outside of class must be within the copyright law. Posting to commercial sites for profit is prohibited.
