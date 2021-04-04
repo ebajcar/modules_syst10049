@@ -37,7 +37,12 @@ More information and examples on
 
 
      
-- [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)     
+- [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)    
+     - Using built-in form validation &bull; `:invalid` &bull; `valid` &bull; `required`
+     - Validating against a regular expression  [Example](https://mdn.github.io/learning-area/html/forms/form-validation/fruit-pattern.html?i_like=banana)
+     - Constraining the length of your entries
+     - Constraining the value of your entries
+     -
 
 
 
