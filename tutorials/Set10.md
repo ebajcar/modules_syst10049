@@ -30,7 +30,8 @@ More information and examples on
   - [Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling)
   - [UI pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes)
       - [Selectors Level 3](https://www.w3.org/TR/selectors-3/)
-      - [CSS Basic User Interface Module Level 3 (CSS3 UI)](https://drafts.csswg.org/css-ui-3/#pseudo-classes)   
+      - [CSS Basic User Interface Module Level 3 (CSS3 UI)](https://drafts.csswg.org/css-ui-3/#pseudo-classes)  &bull; using BOX-SIZING to evenly share space  &bull;
+      - 
 
 
  
