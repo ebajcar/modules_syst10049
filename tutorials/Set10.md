@@ -11,10 +11,24 @@
 
 ---
 ## Explore class examples and related exercises
-[Class examples](https://paper.dropbox.com/doc/CSS-Styling-forms--BIM2d3fLDc7g4BflU49QjEAgAQ-n3OMvdY17SfPVS5UjrJx5)
+[Class examples include:](https://paper.dropbox.com/doc/CSS-Styling-forms--BIM2d3fLDc7g4BflU49QjEAgAQ-n3OMvdY17SfPVS5UjrJx5)
+1. 10-003: Styling forms and validating user input
+2. 10-004: Styling select, option, and optgroup elements
+3. 10-005:  Styling fieldset and legend
+4. 10-007: Styling range input type
+5. 10-017: Styling fieldsets, labels, legends, and options
+6. 10-021: Using attribute selectors to select form elements
+7. 10-022: Using pseudo-classes to select form elements
+8. 10-051: Validate forms with CSS3 Basic UI module pseudo-classes and HTML5 form attributes
 
+More information and examples on
+- [HTML Forms on w3schools](https://www.w3schools.com/html/html_forms.asp)
+- [CSS Forms on w3schools](https://www.w3schools.com/css/css_form.asp)
 
-
+- [Form styling guides on MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
+  - [Styling web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)
+  - [Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling)
+  - [UI pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes)
 
 
  
