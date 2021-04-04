@@ -11,7 +11,7 @@
 
 ---
 ## Explore class examples and related exercises
-[Worksheet 9](https://ebajcar.github.io/Exercises/worksheets/worksheet_09/instructions_ws09.html)
+[Class examples](https://paper.dropbox.com/doc/CSS-Styling-forms--BIM2d3fLDc7g4BflU49QjEAgAQ-n3OMvdY17SfPVS5UjrJx5)
 
 
 
