@@ -23,14 +23,16 @@
 
 More information and examples on
 - [HTML Forms on w3schools](https://www.w3schools.com/html/html_forms.asp)
+
 - [CSS Forms on w3schools](https://www.w3schools.com/css/css_form.asp)
+     - [Example: What can be done about the "ugly" elements?](https://mdn.github.io/learning-area/html/forms/styling-examples/ugly-controls.html)
 
 - [Form styling guides on MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
   - [Styling web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)
   - [Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling)
   - [UI pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes)
       - [Selectors Level 3](https://www.w3.org/TR/selectors-3/)
-      - [CSS Basic User Interface Module Level 3 (CSS3 UI)](https://drafts.csswg.org/css-ui-3/#pseudo-classes)  &bull; using BOX-SIZING to evenly share space  &bull;
+      - [CSS Basic User Interface Module Level 3 (CSS3 UI)](https://drafts.csswg.org/css-ui-3/#pseudo-classes)  &bull; using BOX-SIZING to evenly share space  &bull; Pointing devices and keyboards &bull; Outline &bull; 
       - 
 
 
