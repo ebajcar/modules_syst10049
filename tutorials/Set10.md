@@ -25,7 +25,7 @@ More information and examples on
 - [HTML Forms on w3schools](https://www.w3schools.com/html/html_forms.asp)
 
 - [CSS Forms on w3schools](https://www.w3schools.com/css/css_form.asp)
-     - [Example: What can be done about the "ugly" elements?](https://mdn.github.io/learning-area/html/forms/styling-examples/ugly-controls.html)
+     - What can be done about the "ugly" elements? [Example](https://mdn.github.io/learning-area/html/forms/styling-examples/ugly-controls.html)
 
 - [Form styling guides on MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
   - [Styling web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)
