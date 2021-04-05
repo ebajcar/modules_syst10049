@@ -25,11 +25,12 @@ More information and examples on
 - [HTML Forms on w3schools](https://www.w3schools.com/html/html_forms.asp)
 
 - [CSS Forms on w3schools](https://www.w3schools.com/css/css_form.asp)
-     - What can be done about the "ugly" elements? [Example](https://mdn.github.io/learning-area/html/forms/styling-examples/ugly-controls.html)
-     - Styled file picker [Example](https://mdn.github.io/learning-area/html/forms/styling-examples/styled-file-picker.html)
+
 
 - [Form styling guides on MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
   - [Styling web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)
+     - What can be done about the "ugly" elements? [Example](https://mdn.github.io/learning-area/html/forms/styling-examples/ugly-controls.html)
+     - Styled file picker [Example](https://mdn.github.io/learning-area/html/forms/styling-examples/styled-file-picker.html)
   - [Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling)
   - [UI pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes)
       - [Selectors Level 3](https://www.w3.org/TR/selectors-3/)
@@ -42,7 +43,10 @@ More information and examples on
      - Validating against a regular expression  [Example](https://mdn.github.io/learning-area/html/forms/form-validation/fruit-pattern.html?i_like=banana)
      - Constraining the length of your entries
      - Constraining the value of your entries
-     -
+     
+     
+- Example using the constraint validation API [codepen](https://codepen.io/ebajcar/pen/yOPKGd)
+- 
 
 
 
