@@ -46,10 +46,10 @@ More information and examples on
      - Constraining the value of your entries
      
      
-- Example using the constraint validation API [codepen](https://codepen.io/ebajcar/pen/yOPKGd)
+#### Example using the constraint validation API [codepen](https://codepen.io/ebajcar/pen/yOPKGd)
 
 
-- [CSS property compatibility table for form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Property_compatibility_table_for_form_controls)
+#### [CSS property compatibility table for form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Property_compatibility_table_for_form_controls)
 > Due to the complexity of CSS and HTML forms, these tables can't be considered a perfect reference. However, they will give you good insight into what can and can't be done, which will help you learn how to do things.
 
 
