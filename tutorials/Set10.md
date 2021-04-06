@@ -14,7 +14,6 @@
 
 - [Class examples include:](https://paper.dropbox.com/doc/CSS-Styling-forms--BIM2d3fLDc7g4BflU49QjEAgAQ-n3OMvdY17SfPVS5UjrJx5)
     1. 10-003: Styling forms and validating user input 
-            more here
     2. 10-004: Styling select, option, and optgroup elements
     4. 10-005:  Styling fieldset and legend
     5. 10-007: Styling range input type
@@ -23,8 +22,11 @@
     8. 10-022: Using pseudo-classes to select form elements
     9. 10-051: Validate forms with CSS3 Basic UI module pseudo-classes and HTML5 form attributes
   
- - Explore further: [HTML &lt;input> pattern Attribute](https://www.w3schools.com/tags/att_input_pattern.asp)
- - +
+ - [HTML &lt;input> pattern Attribute](https://www.w3schools.com/tags/att_input_pattern.asp)
+     - The pattern attribute specifies a regular expression that the <input> element's value is checked against on form submission.
+     - Note: The pattern attribute works with the following input types: text, date, search, url, tel, email, and password.
+     - Tip: Use the global title attribute to describe the pattern to help the user.
+     - Learn more about [regular expressions in our JavaScript tutorial](https://www.w3schools.com/tags/att_input_pattern.asp)
 
 
 More information and examples on
