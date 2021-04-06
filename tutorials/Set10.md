@@ -11,21 +11,23 @@
 
 ---
 ## Explore class examples and related exercises
-[Class examples include:](https://paper.dropbox.com/doc/CSS-Styling-forms--BIM2d3fLDc7g4BflU49QjEAgAQ-n3OMvdY17SfPVS5UjrJx5)
-1. 10-003: Styling forms and validating user input
-2. 10-004: Styling select, option, and optgroup elements
-3. 10-005:  Styling fieldset and legend
-4. 10-007: Styling range input type
-5. 10-017: Styling fieldsets, labels, legends, and options
-6. 10-021: Using attribute selectors to select form elements
-7. 10-022: Using pseudo-classes to select form elements
-8. 10-051: Validate forms with CSS3 Basic UI module pseudo-classes and HTML5 form attributes
+
+- [Class examples include:](https://paper.dropbox.com/doc/CSS-Styling-forms--BIM2d3fLDc7g4BflU49QjEAgAQ-n3OMvdY17SfPVS5UjrJx5)
+    1. 10-003: Styling forms and validating user input
+    2. 10-004: Styling select, option, and optgroup elements
+    3. 10-005:  Styling fieldset and legend
+    4. 10-007: Styling range input type
+    5. 10-017: Styling fieldsets, labels, legends, and options
+    6. 10-021: Using attribute selectors to select form elements
+    7. 10-022: Using pseudo-classes to select form elements
+    8. 10-051: Validate forms with CSS3 Basic UI module pseudo-classes and HTML5 form attributes
   
-  Explore further: [HTML &lt;input> pattern Attribute](https://www.w3schools.com/tags/att_input_pattern.asp)
+ - Explore further: [HTML &lt;input> pattern Attribute](https://www.w3schools.com/tags/att_input_pattern.asp)
+ - +
+
 
 More information and examples on
 - [HTML Forms on w3schools](https://www.w3schools.com/html/html_forms.asp)
-
 - [CSS Forms on w3schools](https://www.w3schools.com/css/css_form.asp)
 
 
