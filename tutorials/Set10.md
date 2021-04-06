@@ -64,7 +64,7 @@
 
 
  
-## [Ask questions and Show & Tell](https://github.com/ebajcar/modules_syst10049/discussions/2)
+## [Ask questions and Show & Tell](../discussions/2)
 
 
 ---
