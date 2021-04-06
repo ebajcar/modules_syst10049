@@ -13,9 +13,8 @@
 ## Explore class examples and related exercises
 
 - [Class examples include:](https://paper.dropbox.com/doc/CSS-Styling-forms--BIM2d3fLDc7g4BflU49QjEAgAQ-n3OMvdY17SfPVS5UjrJx5)
-    1. 10-003: Styling forms and validating user input
-        more here
-    
+    1. 10-003: Styling forms and validating user input 
+            more here
     2. 10-004: Styling select, option, and optgroup elements
     4. 10-005:  Styling fieldset and legend
     5. 10-007: Styling range input type
