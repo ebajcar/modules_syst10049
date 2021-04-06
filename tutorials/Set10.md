@@ -20,9 +20,8 @@
 6. 10-021: Using attribute selectors to select form elements
 7. 10-022: Using pseudo-classes to select form elements
 8. 10-051: Validate forms with CSS3 Basic UI module pseudo-classes and HTML5 form attributes
-+
-Explore further: 
-[HTML <input> pattern Attribute](https://www.w3schools.com/tags/att_input_pattern.asp)
+  +
+  Explore further: [HTML <input> pattern Attribute](https://www.w3schools.com/tags/att_input_pattern.asp)
 
 More information and examples on
 - [HTML Forms on w3schools](https://www.w3schools.com/html/html_forms.asp)
