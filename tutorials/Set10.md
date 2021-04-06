@@ -26,7 +26,7 @@
      - The pattern attribute specifies a regular expression that the <input> element's value is checked against on form submission.
      - Note: The pattern attribute works with the following input types: text, date, search, url, tel, email, and password.
      - Tip: Use the global title attribute to describe the pattern to help the user.
-     - Learn more about [regular expressions in our JavaScript tutorial](https://www.w3schools.com/tags/att_input_pattern.asp)
+     - Learn more about [regular expressions in our JavaScript tutorial](https://www.w3schools.com/js/js_regexp.asp)
 
 
 More information and examples on
