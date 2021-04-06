@@ -22,8 +22,8 @@
     8. 10-022: Using pseudo-classes to select form elements
     9. 10-051: Validate forms with CSS3 Basic UI module pseudo-classes and HTML5 form attributes (*attribute selectors*)
   
- - [HTML &lt;input> pattern Attribute](https://www.w3schools.com/tags/att_input_pattern.asp) - example 10-003
-     - The pattern attribute specifies a regular expression that the <input> element's value is checked against on form submission.
+ - [HTML INPUT pattern Attribute](https://www.w3schools.com/tags/att_input_pattern.asp) - example 10-003
+     - The pattern attribute specifies a regular expression that the &lt;input> element's value is checked against on form submission.
      - Note: The pattern attribute works with the following input types: text, date, search, url, tel, email, and password.
      - Tip: Use the global title attribute to describe the pattern to help the user.
      - Learn more about [regular expressions in our JavaScript tutorial](https://www.w3schools.com/js/js_regexp.asp)
