@@ -64,7 +64,7 @@
 
 
  
-## [Ask questions and Show & Tell](../discussions/2)
+## [Ask questions and Show & Tell](../discussions)
 
 
 ---
