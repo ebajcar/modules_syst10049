@@ -11,25 +11,60 @@
 
 ---
 ## Explore class examples and related exercises
-[Worksheet 9](https://ebajcar.github.io/Exercises/worksheets/worksheet_09/instructions_ws09.html)
+
+- [Class examples include:](https://paper.dropbox.com/doc/CSS-Styling-forms--BIM2d3fLDc7g4BflU49QjEAgAQ-n3OMvdY17SfPVS5UjrJx5)
+    1. 10-003: Styling forms and validating user input (`:valid`, `:invalid`, `:required`, *attribute selectors*, `:focus`, `out-of-range`, *regular expressions*)
+    2. 10-004: Styling select, option, and optgroup elements (`:disabled`, *attribute selectors*)
+    4. 10-005: Styling fieldset and legend ([Custom radio buttons](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio), `hover`)
+    5. 10-007: Styling range input type (*web kits*)
+    6. 10-017: Styling fieldsets, labels, legends, and options (*attribute selectors*)
+    7. 10-021: Using attribute selectors to select form elements
+    8. 10-022: Using pseudo-classes to select form elements
+    9. 10-051: Validate forms with CSS3 Basic UI module pseudo-classes and HTML5 form attributes (*attribute selectors*)
+  
+ - [HTML &lt;input>  pattern Attribute](https://www.w3schools.com/tags/att_input_pattern.asp) - example 10-003
+     - The pattern attribute specifies a regular expression that the INPUT element's value is checked against on form submission.
+     - Note: The pattern attribute works with the following input types: text, date, search, url, tel, email, and password.
+     - Tip: Use the global title attribute to describe the pattern to help the user.
+     - Learn more about [regular expressions in our JavaScript tutorial](https://www.w3schools.com/js/js_regexp.asp)
+
+- Example using the constraint validation API [codepen](https://codepen.io/ebajcar/pen/yOPKGd)
 
 
----
-### Complete the following tutorials. Document what you have learned.
-For each of the following CSS properties, complete the tutorial on w3schools.  Note the definition, intended purpose, browser support, supported attributes, and possible attribute values.
-#### Example
-0. BOX-SIZING [https://www.w3schools.com/cssref/css3_pr_box-sizing.asp](https://www.w3schools.com/cssref/css3_pr_box-sizing.asp)
+## More information and examples on
+- [HTML Forms on w3schools](https://www.w3schools.com/html/html_forms.asp)
+- [CSS Forms on w3schools](https://www.w3schools.com/css/css_form.asp)
 
-> **`box-sizing` property** defines how the width and height of an element are calculated: should they include padding and borders, or not.
->  SYNTAX: `box-sizing: content-box|border-box|initial|inherit;`
-> `content-box` value -- **default**. The width and height properties (and min/max properties) includes only the content. Border and padding are not included.  
-> `border-box` value -- The width and height properties (and min/max properties) includes content, padding and border
-> HTML DOM reference: [boxSizing property](https://www.w3schools.com/jsref/prop_style_boxsizing.asp)
 
-#### Your turn:
+- [Form styling guides on MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
+  - [Styling web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)
+     - What can be done about the "ugly" elements? [Example](https://mdn.github.io/learning-area/html/forms/styling-examples/ugly-controls.html)
+     - Styled file picker [Example](https://mdn.github.io/learning-area/html/forms/styling-examples/styled-file-picker.html)
+  - [Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling)
+  - [UI pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes)
+      - [Selectors Level 3](https://www.w3.org/TR/selectors-3/)
+      - [CSS Basic User Interface Module Level 3 (CSS3 UI)](https://drafts.csswg.org/css-ui-3/#pseudo-classes) 
+        &bull; using BOX-SIZING to evenly share space  &bull; Pointing devices and keyboards &bull; Outline
+
+     
+- [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)    
+     - Using built-in form validation &bull; `:invalid` &bull; `:valid` &bull; `:required`
+     - Validating against a regular expression  [Example](https://mdn.github.io/learning-area/html/forms/form-validation/fruit-pattern.html?i_like=banana)
+     - Constraining the length of your entries
+     - Constraining the value of your entries
+     
+     
+
+
+
+#### [CSS property compatibility table for form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Property_compatibility_table_for_form_controls)
+> Due to the complexity of CSS and HTML forms, these tables can't be considered a perfect reference. However, they will give you good insight into what can and can't be done, which will help you learn how to do things.
+
+
+
 
  
-
+## [Ask questions and Show & Tell](https://github.com/ebajcar/modules_syst10049/discussions)
 
 
 ---
