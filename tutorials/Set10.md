@@ -18,7 +18,7 @@
     4. 10-005: Styling fieldset and legend ([Custom radio buttons](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio), `hover`)
     5. 10-007: Styling range input type (*web kits*)
     6. 10-017: Styling fieldsets, labels, legends, and options (*attribute selectors*)
-    7. 10-021: Using attribute selectors to select form elements
+    7. 10-021: Using attribute selectors to select form elements - Added [comment](https://github.com/ebajcar/modules_syst10049/discussions/2#discussioncomment-586539)
     8. 10-022: Using pseudo-classes to select form elements
     9. 10-051: Validate forms with CSS3 Basic UI module pseudo-classes and HTML5 form attributes (*attribute selectors*)
   
