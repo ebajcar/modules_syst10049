@@ -60,7 +60,11 @@
 #### [CSS property compatibility table for form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Property_compatibility_table_for_form_controls)
 > Due to the complexity of CSS and HTML forms, these tables can't be considered a perfect reference. However, they will give you good insight into what can and can't be done, which will help you learn how to do things.
 
+---
 
+New (level 4) pseudo-element `::placeholder` See [comment](https://github.com/ebajcar/modules_syst10049/discussions/2#discussioncomment-586594)
+
+---
 
 
  
